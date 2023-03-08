@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1678236803082",
+      "type": "inlet",
+      "data": {
+        "label": "midi note"
+      },
+      "position": {
+        "x": 160,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 160,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1678236953752",
+      "type": "outlet",
+      "data": {
+        "label": "frequency"
+      },
+      "position": {
+        "x": 740,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 740,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1678236631981",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "values": {
+          "expression": "(B ? B : 440) * Math.pow(2, (A - 69) / 12)"
+        }
+      },
+      "position": {
+        "x": 380,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 318,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1678237351586",
+      "type": "parameter",
+      "data": {
+        "label": "tune",
+        "values": {
+          "value": 440
+        },
+        "config": {
+          "min": 0,
+          "max": 500,
+          "step": 1
+        }
+      },
+      "position": {
+        "x": 160,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 160,
+        "y": 40
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "inlet-1678236803082",
+      "sourceHandle": "out",
+      "target": "mathNode-1678236631981",
+      "targetHandle": "A",
+      "id": "reactflow__edge-inlet-1678236803082out-mathNode-1678236631981A"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1678236631981",
+      "sourceHandle": "out",
+      "target": "outlet-1678236953752",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1678236631981out-outlet-1678236953752in"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1678237351586",
+      "sourceHandle": "out",
+      "target": "mathNode-1678236631981",
+      "targetHandle": "B",
+      "id": "reactflow__edge-parameter-1678237351586out-mathNode-1678236631981B"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "parameter-1678237351586",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "show": true
+  }
+}
