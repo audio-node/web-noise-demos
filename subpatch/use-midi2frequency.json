@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1678237076505",
+      "type": "parameter",
+      "data": {
+        "label": "midi note",
+        "values": {
+          "value": 29
+        }
+      },
+      "position": {
+        "x": 620,
+        "y": 20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 88,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 620,
+        "y": 20
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1678237090069",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter"
+      },
+      "position": {
+        "x": 1180,
+        "y": 20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1180,
+        "y": 20
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1678237146588",
+      "type": "patch",
+      "data": {
+        "label": "midi to frequency",
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/subpatch/midi2frequency.json"
+        }
+      },
+      "position": {
+        "x": 880,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 85,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 880,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1678237165231",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "values": {
+          "frequency": 0,
+          "type": "sine"
+        }
+      },
+      "position": {
+        "x": 1180,
+        "y": 80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 223,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1180,
+        "y": 80
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1678237172107",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1480,
+        "y": 60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 265,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1480,
+        "y": 60
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "patch-1678237146588",
+      "sourceHandle": "frequency",
+      "target": "valueMeter-1678237090069",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-patch-1678237146588frequency-valueMeter-1678237090069input1"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1678237076505",
+      "sourceHandle": "out",
+      "target": "patch-1678237146588",
+      "targetHandle": "midi note",
+      "id": "reactflow__edge-parameter-1678237076505out-patch-1678237146588midi note"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1678237165231",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1678237172107",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-oscillator-1678237165231out-oscilloscope-1678237172107input1"
+    },
+    {
+      "type": "wire",
+      "source": "patch-1678237146588",
+      "sourceHandle": "frequency",
+      "target": "oscillator-1678237165231",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-patch-1678237146588frequency-oscillator-1678237165231frequency"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true
+  }
+}
