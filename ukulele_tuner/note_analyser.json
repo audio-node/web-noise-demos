@@ -1,0 +1,417 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1687962049761",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 640,
+        "y": -1500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 640,
+        "y": -1500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1687962140422",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": -1
+        }
+      },
+      "position": {
+        "x": 640,
+        "y": -1220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 640,
+        "y": -1220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "frequencyMeter-1687961141353",
+      "type": "frequencyMeter",
+      "data": {
+        "label": "frequencyMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": -1000
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -1000
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1687961955581",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "INPUT < X && INPUT > Y"
+        }
+      },
+      "position": {
+        "x": 1100,
+        "y": -1380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 186,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1100,
+        "y": -1380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1687961992144",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "1 note up",
+        "config": {}
+      },
+      "position": {
+        "x": 840,
+        "y": -1420
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 840,
+        "y": -1420
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1687965040233",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "X ? Math.round(A - INPUT) : 0"
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -1740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 232,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -1740
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1687962115984",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "1 note down",
+        "config": {}
+      },
+      "position": {
+        "x": 840,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 840,
+        "y": -1300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1687964985651",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "tuning freq",
+        "config": {}
+      },
+      "position": {
+        "x": 640,
+        "y": -1720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 640,
+        "y": -1720
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1687962686944",
+      "type": "outlet",
+      "data": {
+        "label": "gate",
+        "config": {}
+      },
+      "position": {
+        "x": 1340,
+        "y": -1380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -1380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1687962667560",
+      "type": "inlet",
+      "data": {
+        "label": "input",
+        "config": {}
+      },
+      "position": {
+        "x": 460,
+        "y": -1000
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 460,
+        "y": -1000
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1687964920793",
+      "type": "outlet",
+      "data": {
+        "label": "diff",
+        "config": {}
+      },
+      "position": {
+        "x": 1620,
+        "y": -1740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1620,
+        "y": -1740
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1687963821031",
+      "type": "inlet",
+      "data": {
+        "label": "midi-number",
+        "config": {}
+      },
+      "position": {
+        "x": 380,
+        "y": -1420
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": -1420
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "parameter-1687962049761",
+      "sourceHandle": "out",
+      "target": "midiToFrequency-1687961992144",
+      "targetHandle": "midi",
+      "id": "reactflow__edge-parameter-1687962049761out-midiToFrequency-1687961992144midi",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1687962140422",
+      "sourceHandle": "out",
+      "target": "midiToFrequency-1687962115984",
+      "targetHandle": "midi",
+      "id": "reactflow__edge-parameter-1687962140422out-midiToFrequency-1687962115984midi",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1687961141353",
+      "sourceHandle": "frequency",
+      "target": "mathNode-1687961955581",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-frequencyMeter-1687961141353frequency-mathNode-1687961955581INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiToFrequency-1687962115984",
+      "sourceHandle": "out",
+      "target": "mathNode-1687961955581",
+      "targetHandle": "Y",
+      "id": "reactflow__edge-midiToFrequency-1687962115984out-mathNode-1687961955581Y",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiToFrequency-1687961992144",
+      "sourceHandle": "out",
+      "target": "mathNode-1687961955581",
+      "targetHandle": "X",
+      "id": "reactflow__edge-midiToFrequency-1687961992144out-mathNode-1687961955581X",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1687962667560",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1687961141353",
+      "targetHandle": "input",
+      "id": "reactflow__edge-inlet-1687962667560out-frequencyMeter-1687961141353input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1687961955581",
+      "sourceHandle": "out",
+      "target": "outlet-1687962686944",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1687961955581out-outlet-1687962686944in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1687963821031",
+      "sourceHandle": "out",
+      "target": "midiToFrequency-1687961992144",
+      "targetHandle": "midi",
+      "id": "reactflow__edge-inlet-1687963821031out-midiToFrequency-1687961992144midi"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1687963821031",
+      "sourceHandle": "out",
+      "target": "midiToFrequency-1687962115984",
+      "targetHandle": "midi",
+      "id": "reactflow__edge-inlet-1687963821031out-midiToFrequency-1687962115984midi"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1687963821031",
+      "sourceHandle": "out",
+      "target": "midiToFrequency-1687964985651",
+      "targetHandle": "midi",
+      "id": "reactflow__edge-inlet-1687963821031out-midiToFrequency-1687964985651midi"
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1687961141353",
+      "sourceHandle": "frequency",
+      "target": "mathNode-1687965040233",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-frequencyMeter-1687961141353frequency-mathNode-1687965040233INPUT"
+    },
+    {
+      "type": "wire",
+      "source": "midiToFrequency-1687964985651",
+      "sourceHandle": "out",
+      "target": "mathNode-1687965040233",
+      "targetHandle": "A",
+      "id": "reactflow__edge-midiToFrequency-1687964985651out-mathNode-1687965040233A"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1687965040233",
+      "sourceHandle": "out",
+      "target": "outlet-1687964920793",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1687965040233out-outlet-1687964920793in"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1687961955581",
+      "sourceHandle": "out",
+      "target": "mathNode-1687965040233",
+      "targetHandle": "X",
+      "id": "reactflow__edge-mathNode-1687961955581out-mathNode-1687965040233X"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true
+  }
+}
