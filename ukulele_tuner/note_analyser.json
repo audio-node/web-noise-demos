@@ -2,58 +2,6 @@
   "nodes": [
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "parameter-1687962049761",
-      "type": "parameter",
-      "data": {
-        "label": "parameter",
-        "config": {},
-        "values": {
-          "value": 1
-        }
-      },
-      "position": {
-        "x": 640,
-        "y": -1500
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 174,
-      "height": 86,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 640,
-        "y": -1500
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "parameter-1687962140422",
-      "type": "parameter",
-      "data": {
-        "label": "parameter",
-        "config": {},
-        "values": {
-          "value": -1
-        }
-      },
-      "position": {
-        "x": 640,
-        "y": -1220
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 174,
-      "height": 86,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 640,
-        "y": -1220
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "frequencyMeter-1687961141353",
       "type": "frequencyMeter",
       "data": {
@@ -72,6 +20,66 @@
       "positionAbsolute": {
         "x": 660,
         "y": -1000
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1689700156497",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {},
+        "values": {
+          "attack": 0,
+          "attackCurve": 0.5,
+          "decay": 0,
+          "sustain": 1,
+          "release": 0
+        }
+      },
+      "position": {
+        "x": 1740,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 372,
+      "height": 177,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1740,
+        "y": -1300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1689700132504",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {},
+        "values": {
+          "attack": 0.3,
+          "attackCurve": 0.5,
+          "decay": 0,
+          "sustain": 1,
+          "release": 0.7
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 372,
+      "height": 177,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -1300
       },
       "dragging": false
     },
@@ -100,52 +108,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1687964920793",
-      "type": "outlet",
-      "data": {
-        "label": "diff",
-        "config": {}
-      },
-      "position": {
-        "x": 1740,
-        "y": -1740
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1740,
-        "y": -1740
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1687963821031",
-      "type": "inlet",
-      "data": {
-        "label": "midi-number",
-        "config": {}
-      },
-      "position": {
-        "x": 380,
-        "y": -1420
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 380,
-        "y": -1420
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "inlet-1687962667560",
       "type": "inlet",
       "data": {
@@ -169,27 +131,47 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1687961955581",
-      "type": "mathNode",
+      "id": "outlet-1687964920793",
+      "type": "outlet",
       "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "INPUT < X && INPUT > Y"
-        }
+        "label": "diff",
+        "config": {}
       },
       "position": {
-        "x": 1100,
-        "y": -1380
+        "x": 2100,
+        "y": -1760
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 186,
-      "height": 273,
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2100,
+        "y": -1760
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1687963821031",
+      "type": "inlet",
+      "data": {
+        "label": "midi-number",
+        "config": {}
+      },
+      "position": {
+        "x": 440,
+        "y": -1360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
       "selected": false,
       "positionAbsolute": {
-        "x": 1100,
-        "y": -1380
+        "x": 440,
+        "y": -1360
       },
       "dragging": false
     },
@@ -202,8 +184,8 @@
         "config": {}
       },
       "position": {
-        "x": 640,
-        "y": -1720
+        "x": 700,
+        "y": -1680
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -211,54 +193,34 @@
       "height": 83,
       "selected": false,
       "positionAbsolute": {
-        "x": 640,
-        "y": -1720
+        "x": 700,
+        "y": -1680
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "midiToFrequency-1687962115984",
-      "type": "midiToFrequency",
+      "id": "mathNode-1687961955581",
+      "type": "mathNode",
       "data": {
-        "label": "1 note down",
-        "config": {}
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A === B"
+        }
       },
       "position": {
-        "x": 840,
-        "y": -1300
+        "x": 1100,
+        "y": -1380
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
+      "width": 180,
+      "height": 273,
       "selected": false,
       "positionAbsolute": {
-        "x": 840,
-        "y": -1300
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "midiToFrequency-1687961992144",
-      "type": "midiToFrequency",
-      "data": {
-        "label": "1 note up",
-        "config": {}
-      },
-      "position": {
-        "x": 840,
-        "y": -1420
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 840,
-        "y": -1420
+        "x": 1100,
+        "y": -1380
       },
       "dragging": false
     },
@@ -274,8 +236,8 @@
         }
       },
       "position": {
-        "x": 1420,
-        "y": -1740
+        "x": 1360,
+        "y": -1680
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -283,91 +245,88 @@
       "height": 273,
       "selected": false,
       "positionAbsolute": {
-        "x": 1420,
-        "y": -1740
+        "x": 1360,
+        "y": -1680
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "adsr-1689700132504",
-      "type": "adsr",
+      "id": "mathNode-1689726049614",
+      "type": "mathNode",
       "data": {
-        "label": "adsr",
+        "label": "mathNode",
         "config": {},
         "values": {
-          "attack": 0.3,
-          "attackCurve": 0.5,
-          "decay": 0,
-          "sustain": 1,
-          "release": 0.7
+          "expression": "Math.round(69 + 12 * Math.log2(A / 440))"
         }
       },
       "position": {
-        "x": 1340,
-        "y": -1300
+        "x": 1080,
+        "y": -1060
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 372,
-      "height": 325,
+      "width": 307,
+      "height": 275,
       "selected": false,
       "positionAbsolute": {
-        "x": 1340,
-        "y": -1300
+        "x": 1080,
+        "y": -1060
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "adsr-1689700156497",
-      "type": "adsr",
+      "id": "mathNode-1689726354302",
+      "type": "mathNode",
       "data": {
-        "label": "adsr",
+        "label": "mathNode",
         "config": {},
         "values": {
-          "attack": 0,
-          "attackCurve": 0.5,
-          "decay": 0,
-          "sustain": 1,
-          "release": 0
+          "expression": "X ? Math.log2(A / B) * 1731.24 : 0"
         }
       },
       "position": {
-        "x": 1740,
-        "y": -1300
+        "x": 1360,
+        "y": -2060
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 374,
-      "height": 327,
+      "width": 265,
+      "height": 273,
       "selected": false,
       "positionAbsolute": {
-        "x": 1740,
-        "y": -1300
+        "x": 1360,
+        "y": -2060
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1689726783486",
+      "type": "outlet",
+      "data": {
+        "label": "diff cents",
+        "config": {}
+      },
+      "position": {
+        "x": 2060,
+        "y": -1960
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2060,
+        "y": -1960
       },
       "dragging": false
     }
   ],
   "edges": [
-    {
-      "type": "wire",
-      "source": "parameter-1687962049761",
-      "sourceHandle": "out",
-      "target": "midiToFrequency-1687961992144",
-      "targetHandle": "midi",
-      "id": "reactflow__edge-parameter-1687962049761out-midiToFrequency-1687961992144midi",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "parameter-1687962140422",
-      "sourceHandle": "out",
-      "target": "midiToFrequency-1687962115984",
-      "targetHandle": "midi",
-      "id": "reactflow__edge-parameter-1687962140422out-midiToFrequency-1687962115984midi",
-      "selected": false
-    },
     {
       "type": "wire",
       "source": "frequencyMeter-1687961141353",
@@ -379,46 +338,12 @@
     },
     {
       "type": "wire",
-      "source": "midiToFrequency-1687962115984",
-      "sourceHandle": "out",
-      "target": "mathNode-1687961955581",
-      "targetHandle": "Y",
-      "id": "reactflow__edge-midiToFrequency-1687962115984out-mathNode-1687961955581Y",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "midiToFrequency-1687961992144",
-      "sourceHandle": "out",
-      "target": "mathNode-1687961955581",
-      "targetHandle": "X",
-      "id": "reactflow__edge-midiToFrequency-1687961992144out-mathNode-1687961955581X",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "inlet-1687962667560",
       "sourceHandle": "out",
       "target": "frequencyMeter-1687961141353",
       "targetHandle": "input",
       "id": "reactflow__edge-inlet-1687962667560out-frequencyMeter-1687961141353input",
       "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "inlet-1687963821031",
-      "sourceHandle": "out",
-      "target": "midiToFrequency-1687961992144",
-      "targetHandle": "midi",
-      "id": "reactflow__edge-inlet-1687963821031out-midiToFrequency-1687961992144midi"
-    },
-    {
-      "type": "wire",
-      "source": "inlet-1687963821031",
-      "sourceHandle": "out",
-      "target": "midiToFrequency-1687962115984",
-      "targetHandle": "midi",
-      "id": "reactflow__edge-inlet-1687963821031out-midiToFrequency-1687962115984midi"
     },
     {
       "type": "wire",
@@ -483,7 +408,64 @@
       "sourceHandle": "out",
       "target": "mathNode-1687965040233",
       "targetHandle": "X",
-      "id": "reactflow__edge-mathNode-1687961955581out-mathNode-1687965040233X"
+      "id": "reactflow__edge-mathNode-1687961955581out-mathNode-1687965040233X",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1687961141353",
+      "sourceHandle": "frequency",
+      "target": "mathNode-1689726049614",
+      "targetHandle": "A",
+      "id": "reactflow__edge-frequencyMeter-1687961141353frequency-mathNode-1689726049614A"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689726049614",
+      "sourceHandle": "out",
+      "target": "mathNode-1687961955581",
+      "targetHandle": "A",
+      "id": "reactflow__edge-mathNode-1689726049614out-mathNode-1687961955581A"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1687963821031",
+      "sourceHandle": "out",
+      "target": "mathNode-1687961955581",
+      "targetHandle": "B",
+      "id": "reactflow__edge-inlet-1687963821031out-mathNode-1687961955581B"
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1687961141353",
+      "sourceHandle": "frequency",
+      "target": "mathNode-1689726354302",
+      "targetHandle": "A",
+      "id": "reactflow__edge-frequencyMeter-1687961141353frequency-mathNode-1689726354302A"
+    },
+    {
+      "type": "wire",
+      "source": "midiToFrequency-1687964985651",
+      "sourceHandle": "out",
+      "target": "mathNode-1689726354302",
+      "targetHandle": "B",
+      "id": "reactflow__edge-midiToFrequency-1687964985651out-mathNode-1689726354302B"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1687961955581",
+      "sourceHandle": "out",
+      "target": "mathNode-1689726354302",
+      "targetHandle": "X",
+      "id": "reactflow__edge-mathNode-1687961955581out-mathNode-1689726354302X"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689726354302",
+      "sourceHandle": "out",
+      "target": "outlet-1689726783486",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1689726354302out-outlet-1689726783486in"
     }
   ],
   "controlPanel": {
