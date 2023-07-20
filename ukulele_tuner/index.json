@@ -2,29 +2,85 @@
   "nodes": [
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "sticker-1687966717205",
+      "id": "sticker-1689696340759",
       "type": "sticker",
       "data": {
         "label": "sticker",
         "config": {},
         "values": {
-          "text": "*Result*\n\n<br />\n<- current string\n<br /><br />\n\n--------\n<br /><br />\n<- difference\n\n- `>0` - tune up\n- `<0` - tune down",
-          "width": 221,
-          "height": 184
+          "text": "<- 4th string\n<br/><br/><br/>\n<- 3rd string\n<br/><br/><br/>\n<- 2nd string\n<br/><br/><br/>\n<- 1st string",
+          "width": 230,
+          "height": 151
         }
       },
       "position": {
-        "x": 1660,
-        "y": -920
+        "x": 3380,
+        "y": -1420
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 221,
-      "height": 184,
+      "width": 230,
+      "height": 151,
       "selected": false,
       "positionAbsolute": {
-        "x": 1660,
-        "y": -920
+        "x": 3380,
+        "y": -1420
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1689760882199",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {},
+        "values": {
+          "text": "Tune down\n- 1,2 strings - ↺\n- 3,4 strings - ↻\n\n<br/><br/>\n<hr/>\n\nTune up\n- 1,2 strings - ↻\n- 3,4 strings - ↺",
+          "width": 279,
+          "height": 208
+        }
+      },
+      "position": {
+        "x": 3380,
+        "y": -1160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 279,
+      "height": 208,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3380,
+        "y": -1160
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1689771131905",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {},
+        "values": {
+          "text": "cents",
+          "width": 100,
+          "height": 50
+        }
+      },
+      "position": {
+        "x": 3340,
+        "y": -940
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 100,
+      "height": 50,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3340,
+        "y": -940
       },
       "dragging": false
     },
@@ -500,7 +556,7 @@
       },
       "position": {
         "x": 540,
-        "y": -1240
+        "y": -1220
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -509,7 +565,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 540,
-        "y": -1240
+        "y": -1220
       },
       "dragging": false
     },
@@ -962,7 +1018,7 @@
       },
       "position": {
         "x": 540,
-        "y": -940
+        "y": -920
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -971,7 +1027,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 540,
-        "y": -940
+        "y": -920
       },
       "dragging": false
     },
@@ -1424,7 +1480,7 @@
       },
       "position": {
         "x": 560,
-        "y": -680
+        "y": -660
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -1433,7 +1489,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 560,
-        "y": -680
+        "y": -660
       },
       "dragging": false
     },
@@ -1885,8 +1941,8 @@
         }
       },
       "position": {
-        "x": 540,
-        "y": -400
+        "x": 560,
+        "y": -380
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -1895,9 +1951,305 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 540,
-        "y": -400
+        "x": 560,
+        "y": -380
       }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689705007116",
+      "type": "mathNode",
+      "data": {
+        "label": "common gate",
+        "config": {},
+        "values": {
+          "expression": "A && 1"
+        }
+      },
+      "position": {
+        "x": 1540,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1540,
+        "y": -1300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689718042848",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A ? INPUT : 0"
+        }
+      },
+      "position": {
+        "x": 2240,
+        "y": -1200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2240,
+        "y": -1200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689716878149",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A ? INPUT : 0"
+        }
+      },
+      "position": {
+        "x": 1860,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1860,
+        "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689759585220",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "Math.round(INPUT)"
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1686574789402",
+      "type": "mathNode",
+      "data": {
+        "label": "string detector",
+        "values": {
+          "expression": "A ? 1 :\nB ? 2 :\nC ? 3 :\nX ? 4 : 0 "
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 1140,
+        "y": -1360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 311,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1140,
+        "y": -1360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1689717454891",
+      "type": "oscilloscope",
+      "data": {
+        "label": "tuner",
+        "config": {
+          "minValue": -50,
+          "maxValue": 50,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 10,
+          "gridColumns": 0,
+          "size": {
+            "width": 452,
+            "height": 207
+          }
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -1240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 452,
+      "height": 290,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -1240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965857304",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 780,
+        "y": -780
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 780,
+        "y": -780
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965569864",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 800,
+        "y": -1280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 800,
+        "y": -1280
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1689688330745",
+      "type": "oscilloscope",
+      "data": {
+        "label": "current string",
+        "config": {
+          "minValue": 0.5,
+          "maxValue": 4.5,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 451,
+            "height": 147
+          }
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -1500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 451,
+      "height": 230,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -1500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1689759578943",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 3180,
+        "y": -940
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3180,
+        "y": -940
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965565116",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 800,
+        "y": -1320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 800,
+        "y": -1320
+      },
+      "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -1924,47 +2276,15 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1686153958683",
-      "type": "oscilloscope",
-      "data": {
-        "label": "oscilloscope",
-        "config": {
-          "input1Color": "#007bff",
-          "input2Color": "#14df42",
-          "showGrid": false,
-          "gridColor": "#ffffff",
-          "size": {
-            "width": 280,
-            "height": 150
-          }
-        }
-      },
-      "position": {
-        "x": -380,
-        "y": -740
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 280,
-      "height": 265,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -380,
-        "y": -740
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965569864",
+      "id": "valueMeter-1687966009704",
       "type": "valueMeter",
       "data": {
         "label": "valueMeter",
         "config": {}
       },
       "position": {
-        "x": 800,
-        "y": -1280
+        "x": 780,
+        "y": -460
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -1972,8 +2292,68 @@
       "height": 25,
       "selected": false,
       "positionAbsolute": {
-        "x": 800,
-        "y": -1280
+        "x": 780,
+        "y": -460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1686153958683",
+      "type": "oscilloscope",
+      "data": {
+        "label": "input",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 2460,
+        "y": -1220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 233,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2460,
+        "y": -1220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965869455",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 780,
+        "y": -740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 780,
+        "y": -740
       },
       "dragging": false
     },
@@ -2025,176 +2405,12 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687966678698",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 1500,
-        "y": -800
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1500,
-        "y": -800
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687966498104",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 1500,
-        "y": -880
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1500,
-        "y": -880
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965857304",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": -780
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": -780
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965869455",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": -740
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": -740
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687966009704",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": -460
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": -460
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965565116",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 800,
-        "y": -1320
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 800,
-        "y": -1320
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1686574789402",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "values": {
-          "expression": "A ? 1 :\nB ? 2 :\nC ? 3 :\nX ? 4 : 0 "
-        },
-        "config": {}
-      },
-      "position": {
-        "x": 1140,
-        "y": -1360
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 311,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1140,
-        "y": -1360
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "audioInput-1686147173142",
       "type": "audioInput",
       "data": {
         "label": "audioInput",
         "values": {
-          "currentInput": null
+          "currentInput": "default"
         },
         "config": {}
       },
@@ -2215,6 +2431,63 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "workletScript-1689716734566",
+      "type": "workletScript",
+      "data": {
+        "label": "workletScript",
+        "config": {
+          "size": {
+            "width": 560,
+            "height": 543
+          }
+        },
+        "values": {
+          "expression": "const createUseBuffer = (size: number) => {\n  let buffer = new Float32Array(size);\n  return (slice: Float32Array) => {\n    const sliceLength = slice.length;\n    const start = buffer.length - sliceLength;\n    for (let i = 0; i < start; i++) {\n      buffer[i] = buffer[sliceLength + i];\n    }\n    for (let i = 0; i < sliceLength; i++) {\n      buffer[start + i] = slice[i];\n    }\n    return buffer;\n  };\n};\n\nconst BUFFER_SIZE = 1024 * 16;\nthis.useBuffer = this.useBuffer || createUseBuffer(BUFFER_SIZE);\n//---------------------\n\nconst { inputs, outputs, parameters } = ProcessSandbox;\n\nconst output = outputs[0];\nconst input = inputs[0];\n\nconst buffer = this.useBuffer(input[0]);\n\nconst mm = buffer.reduce((acc, item) => acc + item, 0);\nconst ff = mm / buffer.length;\n\n\noutput.forEach((outputChannel, channelIndex) => {\n  for (\n    let sampleIndex = 0;\n    sampleIndex < outputChannel.length;\n    sampleIndex++\n  ) {\n    outputChannel[sampleIndex] = ff;\n  }\n});\n"
+        }
+      },
+      "position": {
+        "x": 2060,
+        "y": -740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 560,
+      "height": 755,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2060,
+        "y": -740
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1687965810011",
+      "type": "patch",
+      "data": {
+        "label": "patch",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
+        }
+      },
+      "position": {
+        "x": 560,
+        "y": -780
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 161,
+      "height": 105,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 560,
+        "y": -780
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "patch-1687965972900",
       "type": "patch",
       "data": {
@@ -2230,8 +2503,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
+      "width": 161,
+      "height": 105,
       "selected": false,
       "positionAbsolute": {
         "x": 560,
@@ -2256,8 +2529,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
+      "width": 161,
+      "height": 105,
       "selected": false,
       "positionAbsolute": {
         "x": 540,
@@ -2282,52 +2555,17 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
+      "width": 161,
+      "height": 105,
       "selected": false,
       "positionAbsolute": {
         "x": 540,
         "y": -1340
       },
       "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965810011",
-      "type": "patch",
-      "data": {
-        "label": "patch",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
-        }
-      },
-      "position": {
-        "x": 560,
-        "y": -780
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": -780
-      },
-      "dragging": false
     }
   ],
   "edges": [
-    {
-      "type": "wire",
-      "source": "audioInput-1686147173142",
-      "sourceHandle": "output",
-      "target": "oscilloscope-1686153958683",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-audioInput-1686147173142output-oscilloscope-1686153958683input1",
-      "selected": false
-    },
     {
       "type": "wire",
       "source": "audioInput-1686147173142",
@@ -2519,52 +2757,178 @@
     },
     {
       "type": "wire",
-      "source": "mathNode-1686574789402",
-      "sourceHandle": "out",
-      "target": "valueMeter-1687966498104",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-mathNode-1686574789402out-valueMeter-1687966498104input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "patch-1687965518246",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687966678698",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-patch-1687965518246diff-valueMeter-1687966678698input1",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1687965518246gate-mathNode-1689705007116A",
       "selected": false
     },
     {
       "type": "wire",
       "source": "patch-1687965696792",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687966678698",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-patch-1687965696792diff-valueMeter-1687966678698input1",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1687965696792gate-mathNode-1689705007116A",
       "selected": false
     },
     {
       "type": "wire",
       "source": "patch-1687965810011",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687966678698",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-patch-1687965810011diff-valueMeter-1687966678698input1",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1687965810011gate-mathNode-1689705007116A",
       "selected": false
     },
     {
       "type": "wire",
       "source": "patch-1687965972900",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687966678698",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-patch-1687965972900diff-valueMeter-1687966678698input1",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1687965972900gate-mathNode-1689705007116A",
       "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689716878149",
+      "sourceHandle": "out",
+      "target": "workletScript-1689716734566",
+      "targetHandle": "input0",
+      "id": "reactflow__edge-mathNode-1689716878149out-workletScript-1689716734566input0",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689705007116",
+      "sourceHandle": "out",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "A",
+      "id": "reactflow__edge-mathNode-1689705007116out-mathNode-1689716878149A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689718042848",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-mathNode-1689718042848out-oscilloscope-1686153958683input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "mathNode-1689718042848",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-audioInput-1686147173142output-mathNode-1689718042848INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689705007116",
+      "sourceHandle": "out",
+      "target": "mathNode-1689718042848",
+      "targetHandle": "A",
+      "id": "reactflow__edge-mathNode-1689705007116out-mathNode-1689718042848A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1687965972900",
+      "sourceHandle": "diff cents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1687965972900diff cents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1687965810011",
+      "sourceHandle": "diff cents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1687965810011diff cents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1687965696792",
+      "sourceHandle": "diff cents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1687965696792diff cents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1687965518246",
+      "sourceHandle": "diff cents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1687965518246diff cents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689759585220",
+      "sourceHandle": "out",
+      "target": "valueMeter-1689759578943",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-mathNode-1689759585220out-valueMeter-1689759578943input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "workletScript-1689716734566",
+      "sourceHandle": "output0",
+      "target": "mathNode-1689759585220",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-workletScript-1689716734566output0-mathNode-1689759585220INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1686574789402",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1689688330745",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-mathNode-1686574789402out-oscilloscope-1689688330745input1"
+    },
+    {
+      "type": "wire",
+      "source": "workletScript-1689716734566",
+      "sourceHandle": "output0",
+      "target": "oscilloscope-1689717454891",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-workletScript-1689716734566output0-oscilloscope-1689717454891input1"
     }
   ],
   "controlPanel": {
-    "nodes": [],
-    "show": true
+    "nodes": [
+      {
+        "id": "oscilloscope-1689688330745",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 55
+      },
+      {
+        "id": "oscilloscope-1686153958683",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "show": false
+  },
+  "viewport": {
+    "x": -2733.195315031629,
+    "y": 1527.8706773634235,
+    "zoom": 0.9944701686732266
   }
 }
