@@ -1,0 +1,10 @@
+{
+  "name": "web-noise-demos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:audio-node/web-noise-demos.git",
+  "license": "MIT",
+  "scripts": {
+    "serve": "npx serve --cors -p 8000"
+  }
+}
