@@ -93,17 +93,17 @@
         "config": {}
       },
       "position": {
-        "x": -80,
-        "y": -740
+        "x": -180,
+        "y": -640
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 300,
       "height": 248,
-      "selected": false,
+      "selected": true,
       "positionAbsolute": {
-        "x": -80,
-        "y": -740
+        "x": -180,
+        "y": -640
       },
       "dragging": false
     },
@@ -1957,79 +1957,50 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689705007116",
-      "type": "mathNode",
+      "id": "parameter-1690151115416",
+      "type": "parameter",
       "data": {
-        "label": "common gate",
-        "config": {},
-        "values": {
-          "expression": "A && 1"
-        }
+        "label": "parameter",
+        "config": {}
       },
       "position": {
-        "x": 1540,
-        "y": -1300
+        "x": 2560,
+        "y": -1320
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 180,
-      "height": 273,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
-        "x": 1540,
-        "y": -1300
+        "x": 2560,
+        "y": -1320
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689718042848",
-      "type": "mathNode",
+      "id": "gain-1690151415637",
+      "type": "gain",
       "data": {
-        "label": "mathNode",
+        "label": "gain",
         "config": {},
         "values": {
-          "expression": "A ? INPUT : 0"
+          "gain": 0
         }
       },
       "position": {
-        "x": 2240,
-        "y": -1200
+        "x": 2100,
+        "y": -1220
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 180,
-      "height": 273,
+      "width": 217,
+      "height": 115,
       "selected": false,
       "positionAbsolute": {
-        "x": 2240,
-        "y": -1200
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689716878149",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "A ? INPUT : 0"
-        }
-      },
-      "position": {
-        "x": 1860,
-        "y": -640
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 273,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1860,
-        "y": -640
+        "x": 2100,
+        "y": -1220
       },
       "dragging": false
     },
@@ -2071,8 +2042,8 @@
         "config": {}
       },
       "position": {
-        "x": 1140,
-        "y": -1360
+        "x": 2100,
+        "y": -1740
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -2080,180 +2051,66 @@
       "height": 311,
       "selected": false,
       "positionAbsolute": {
-        "x": 1140,
-        "y": -1360
+        "x": 2100,
+        "y": -1740
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1689717454891",
-      "type": "oscilloscope",
+      "id": "mathNode-1689705007116",
+      "type": "mathNode",
       "data": {
-        "label": "tuner",
-        "config": {
-          "minValue": -50,
-          "maxValue": 50,
-          "backgroundColor": "#292d39",
-          "input1Color": "#007bff",
-          "input2Color": "#14df42",
-          "showGrid": true,
-          "gridColor": "#ffffff",
-          "gridRows": 10,
-          "gridColumns": 0,
-          "size": {
-            "width": 452,
-            "height": 207
-          }
+        "label": "common gate",
+        "config": {},
+        "values": {
+          "expression": "A && 1"
         }
       },
       "position": {
-        "x": 2920,
-        "y": -1240
+        "x": 1580,
+        "y": -1080
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 452,
-      "height": 290,
+      "width": 180,
+      "height": 273,
       "selected": false,
       "positionAbsolute": {
-        "x": 2920,
-        "y": -1240
+        "x": 1580,
+        "y": -1080
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965857304",
-      "type": "valueMeter",
+      "id": "mathNode-1689716878149",
+      "type": "mathNode",
       "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": -780
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": -780
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965569864",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 800,
-        "y": -1280
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 800,
-        "y": -1280
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1689688330745",
-      "type": "oscilloscope",
-      "data": {
-        "label": "current string",
-        "config": {
-          "minValue": 0.5,
-          "maxValue": 4.5,
-          "backgroundColor": "#351717",
-          "input1Color": "#f6f7f9",
-          "input2Color": "#14df42",
-          "showGrid": true,
-          "gridColor": "#ffffff",
-          "gridRows": 4,
-          "gridColumns": 8,
-          "size": {
-            "width": 451,
-            "height": 147
-          }
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A * INPUT /* gain node */"
         }
       },
       "position": {
-        "x": 2920,
-        "y": -1500
+        "x": 1800,
+        "y": -660
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 451,
-      "height": 230,
+      "width": 206,
+      "height": 273,
       "selected": false,
       "positionAbsolute": {
-        "x": 2920,
-        "y": -1500
+        "x": 1800,
+        "y": -660
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1689759578943",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 3180,
-        "y": -940
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 3180,
-        "y": -940
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965565116",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 800,
-        "y": -1320
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 800,
-        "y": -1320
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965722033",
+      "id": "valueMeter-1687965869455",
       "type": "valueMeter",
       "data": {
         "label": "valueMeter",
@@ -2261,7 +2118,7 @@
       },
       "position": {
         "x": 780,
-        "y": -1000
+        "y": -740
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -2270,30 +2127,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 780,
-        "y": -1000
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687966009704",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": -460
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": -460
+        "y": -740
       },
       "dragging": false
     },
@@ -2336,15 +2170,15 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965869455",
+      "id": "valueMeter-1687965565116",
       "type": "valueMeter",
       "data": {
         "label": "valueMeter",
         "config": {}
       },
       "position": {
-        "x": 780,
-        "y": -740
+        "x": 800,
+        "y": -1320
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -2352,14 +2186,60 @@
       "height": 25,
       "selected": false,
       "positionAbsolute": {
-        "x": 780,
-        "y": -740
+        "x": 800,
+        "y": -1320
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965718277",
+      "id": "valueMeter-1689759578943",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 3180,
+        "y": -940
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3180,
+        "y": -940
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965569864",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 800,
+        "y": -1280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 800,
+        "y": -1280
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965857304",
       "type": "valueMeter",
       "data": {
         "label": "valueMeter",
@@ -2367,7 +2247,7 @@
       },
       "position": {
         "x": 780,
-        "y": -1040
+        "y": -780
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -2376,7 +2256,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 780,
-        "y": -1040
+        "y": -780
       },
       "dragging": false
     },
@@ -2405,6 +2285,149 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1689688330745",
+      "type": "oscilloscope",
+      "data": {
+        "label": "current string",
+        "config": {
+          "minValue": 0.5,
+          "maxValue": 4.5,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 451,
+            "height": 147
+          }
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -1500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 451,
+      "height": 230,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -1500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687966009704",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 780,
+        "y": -460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 780,
+        "y": -460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1689717454891",
+      "type": "oscilloscope",
+      "data": {
+        "label": "tuner",
+        "config": {
+          "minValue": -50,
+          "maxValue": 50,
+          "backgroundColor": "#292d39",
+          "input1Color": "#6d86a2",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 10,
+          "gridColumns": 0,
+          "size": {
+            "width": 452,
+            "height": 207
+          }
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -1240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 452,
+      "height": 290,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -1240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965718277",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 780,
+        "y": -1040
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 780,
+        "y": -1040
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965722033",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 780,
+        "y": -1000
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 780,
+        "y": -1000
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "audioInput-1686147173142",
       "type": "audioInput",
       "data": {
@@ -2420,8 +2443,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 324,
-      "height": 150,
+      "width": 323,
+      "height": 180,
       "selected": false,
       "positionAbsolute": {
         "x": -200,
@@ -2431,32 +2454,27 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "workletScript-1689716734566",
-      "type": "workletScript",
+      "id": "patch-1687965696792",
+      "type": "patch",
       "data": {
-        "label": "workletScript",
-        "config": {
-          "size": {
-            "width": 560,
-            "height": 543
-          }
-        },
+        "label": "patch",
+        "config": {},
         "values": {
-          "expression": "const createUseBuffer = (size: number) => {\n  let buffer = new Float32Array(size);\n  return (slice: Float32Array) => {\n    const sliceLength = slice.length;\n    const start = buffer.length - sliceLength;\n    for (let i = 0; i < start; i++) {\n      buffer[i] = buffer[sliceLength + i];\n    }\n    for (let i = 0; i < sliceLength; i++) {\n      buffer[start + i] = slice[i];\n    }\n    return buffer;\n  };\n};\n\nconst BUFFER_SIZE = 1024 * 16;\nthis.useBuffer = this.useBuffer || createUseBuffer(BUFFER_SIZE);\n//---------------------\n\nconst { inputs, outputs, parameters } = ProcessSandbox;\n\nconst output = outputs[0];\nconst input = inputs[0];\n\nconst buffer = this.useBuffer(input[0]);\n\nconst mm = buffer.reduce((acc, item) => acc + item, 0);\nconst ff = mm / buffer.length;\n\n\noutput.forEach((outputChannel, channelIndex) => {\n  for (\n    let sampleIndex = 0;\n    sampleIndex < outputChannel.length;\n    sampleIndex++\n  ) {\n    outputChannel[sampleIndex] = ff;\n  }\n});\n"
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
         }
       },
       "position": {
-        "x": 2060,
-        "y": -740
+        "x": 540,
+        "y": -1040
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 560,
-      "height": 755,
+      "width": 161,
+      "height": 105,
       "selected": false,
       "positionAbsolute": {
-        "x": 2060,
-        "y": -740
+        "x": 540,
+        "y": -1040
       },
       "dragging": false
     },
@@ -2514,32 +2532,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965696792",
-      "type": "patch",
-      "data": {
-        "label": "patch",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
-        }
-      },
-      "position": {
-        "x": 540,
-        "y": -1040
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 161,
-      "height": 105,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 540,
-        "y": -1040
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "patch-1687965518246",
       "type": "patch",
       "data": {
@@ -2561,6 +2553,37 @@
       "positionAbsolute": {
         "x": 540,
         "y": -1340
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "workletScript-1689716734566",
+      "type": "workletScript",
+      "data": {
+        "label": "workletScript",
+        "config": {
+          "size": {
+            "width": 560,
+            "height": 543
+          }
+        },
+        "values": {
+          "expression": "const createUseBuffer = (size: number) => {\n  let buffer = new Float32Array(size);\n  return (slice: Float32Array) => {\n    const sliceLength = slice.length;\n    const start = buffer.length - sliceLength;\n    for (let i = 0; i < start; i++) {\n      buffer[i] = buffer[sliceLength + i];\n    }\n    for (let i = 0; i < sliceLength; i++) {\n      buffer[start + i] = slice[i];\n    }\n    return buffer;\n  };\n};\n\nconst BUFFER_SIZE = 1024 * 16;\nthis.useBuffer = this.useBuffer || createUseBuffer(BUFFER_SIZE);\n//---------------------\n\nconst { inputs, outputs, parameters } = ProcessSandbox;\n\nconst output = outputs[0];\nconst input = inputs[0];\n\nconst buffer = this.useBuffer(input[0]);\n\nconst mm = buffer.reduce((acc, item) => acc + item, 0);\nconst ff = mm / buffer.length;\n\n\noutput.forEach((outputChannel, channelIndex) => {\n  for (\n    let sampleIndex = 0;\n    sampleIndex < outputChannel.length;\n    sampleIndex++\n  ) {\n    outputChannel[sampleIndex] = ff;\n  }\n});\n"
+        }
+      },
+      "position": {
+        "x": 2060,
+        "y": -740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 560,
+      "height": 755,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2060,
+        "y": -740
       },
       "dragging": false
     }
@@ -2811,33 +2834,6 @@
     },
     {
       "type": "wire",
-      "source": "mathNode-1689718042848",
-      "sourceHandle": "out",
-      "target": "oscilloscope-1686153958683",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-mathNode-1689718042848out-oscilloscope-1686153958683input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "audioInput-1686147173142",
-      "sourceHandle": "output",
-      "target": "mathNode-1689718042848",
-      "targetHandle": "INPUT",
-      "id": "reactflow__edge-audioInput-1686147173142output-mathNode-1689718042848INPUT",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "mathNode-1689705007116",
-      "sourceHandle": "out",
-      "target": "mathNode-1689718042848",
-      "targetHandle": "A",
-      "id": "reactflow__edge-mathNode-1689705007116out-mathNode-1689718042848A",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "patch-1687965972900",
       "sourceHandle": "diff cents",
       "target": "mathNode-1689716878149",
@@ -2900,11 +2896,43 @@
     },
     {
       "type": "wire",
+      "source": "parameter-1690151115416",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1689717454891",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-parameter-1690151115416out-oscilloscope-1689717454891input1"
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "gain-1690151415637",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioInput-1686147173142output-gain-1690151415637in"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689705007116",
+      "sourceHandle": "out",
+      "target": "gain-1690151415637",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-mathNode-1689705007116out-gain-1690151415637gain"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1690151415637",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gain-1690151415637out-oscilloscope-1686153958683input1"
+    },
+    {
+      "type": "wire",
       "source": "workletScript-1689716734566",
       "sourceHandle": "output0",
       "target": "oscilloscope-1689717454891",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-workletScript-1689716734566output0-oscilloscope-1689717454891input1"
+      "targetHandle": "input2",
+      "id": "reactflow__edge-workletScript-1689716734566output0-oscilloscope-1689717454891input2"
     }
   ],
   "controlPanel": {
@@ -2927,8 +2955,8 @@
     "show": false
   },
   "viewport": {
-    "x": -2733.195315031629,
-    "y": 1527.8706773634235,
-    "zoom": 0.9944701686732266
+    "x": -1050.8314317878567,
+    "y": 862.8155424299102,
+    "zoom": 0.5
   }
 }
