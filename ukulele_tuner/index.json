@@ -100,1860 +100,12 @@
       "sourcePosition": "right",
       "width": 300,
       "height": 248,
-      "selected": true,
+      "selected": false,
       "positionAbsolute": {
         "x": -180,
         "y": -640
       },
       "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "midiNote-1687960584802",
-      "type": "midiNote",
-      "data": {
-        "label": "String #1 tume",
-        "config": {
-          "placeholder": "Select note",
-          "options": [
-            {
-              "key": "G#9/Ab9",
-              "value": 128
-            },
-            {
-              "key": "G9",
-              "value": 127
-            },
-            {
-              "key": "F#9/Gb9",
-              "value": 126
-            },
-            {
-              "key": "F9",
-              "value": 125
-            },
-            {
-              "key": "E9",
-              "value": 124
-            },
-            {
-              "key": "D#9/Eb9",
-              "value": 123
-            },
-            {
-              "key": "D9",
-              "value": 122
-            },
-            {
-              "key": "C#9/Db9",
-              "value": 121
-            },
-            {
-              "key": "C9",
-              "value": 120
-            },
-            {
-              "key": "B8",
-              "value": 119
-            },
-            {
-              "key": "A#8/Bb8",
-              "value": 118
-            },
-            {
-              "key": "A8",
-              "value": 117
-            },
-            {
-              "key": "G#8/Ab8",
-              "value": 116
-            },
-            {
-              "key": "G8",
-              "value": 115
-            },
-            {
-              "key": "F#8/Gb8",
-              "value": 114
-            },
-            {
-              "key": "F8",
-              "value": 113
-            },
-            {
-              "key": "E8",
-              "value": 112
-            },
-            {
-              "key": "D#8/Eb8",
-              "value": 111
-            },
-            {
-              "key": "D8",
-              "value": 110
-            },
-            {
-              "key": "C#8/Db8",
-              "value": 109
-            },
-            {
-              "key": "C8",
-              "value": 108
-            },
-            {
-              "key": "B7",
-              "value": 107
-            },
-            {
-              "key": "A#7/Bb7",
-              "value": 106
-            },
-            {
-              "key": "A7",
-              "value": 105
-            },
-            {
-              "key": "G#7/Ab7",
-              "value": 104
-            },
-            {
-              "key": "G7",
-              "value": 103
-            },
-            {
-              "key": "F#7/Gb7",
-              "value": 102
-            },
-            {
-              "key": "F7",
-              "value": 101
-            },
-            {
-              "key": "E7",
-              "value": 100
-            },
-            {
-              "key": "D#7/Eb7",
-              "value": 99
-            },
-            {
-              "key": "D7",
-              "value": 98
-            },
-            {
-              "key": "C#7/Db7",
-              "value": 97
-            },
-            {
-              "key": "C7",
-              "value": 96
-            },
-            {
-              "key": "B6",
-              "value": 95
-            },
-            {
-              "key": "A#6/Bb6",
-              "value": 94
-            },
-            {
-              "key": "A6",
-              "value": 93
-            },
-            {
-              "key": "G#6/Ab6",
-              "value": 92
-            },
-            {
-              "key": "G6",
-              "value": 91
-            },
-            {
-              "key": "F#6/Gb6",
-              "value": 90
-            },
-            {
-              "key": "F6",
-              "value": 89
-            },
-            {
-              "key": "E6",
-              "value": 88
-            },
-            {
-              "key": "D#6/Eb6",
-              "value": 87
-            },
-            {
-              "key": "D6",
-              "value": 86
-            },
-            {
-              "key": "C#6/Db6",
-              "value": 85
-            },
-            {
-              "key": "C6",
-              "value": 84
-            },
-            {
-              "key": "B5",
-              "value": 83
-            },
-            {
-              "key": "A#5/Bb5",
-              "value": 82
-            },
-            {
-              "key": "A5",
-              "value": 81
-            },
-            {
-              "key": "G#5/Ab5",
-              "value": 80
-            },
-            {
-              "key": "G5",
-              "value": 79
-            },
-            {
-              "key": "F#5/Gb5",
-              "value": 78
-            },
-            {
-              "key": "F5",
-              "value": 77
-            },
-            {
-              "key": "E5",
-              "value": 76
-            },
-            {
-              "key": "D#5/Eb5",
-              "value": 75
-            },
-            {
-              "key": "D5",
-              "value": 74
-            },
-            {
-              "key": "C#5/Db5",
-              "value": 73
-            },
-            {
-              "key": "C5",
-              "value": 72
-            },
-            {
-              "key": "B4",
-              "value": 71
-            },
-            {
-              "key": "A#4/Bb4",
-              "value": 70
-            },
-            {
-              "key": "A4 concert pitch",
-              "value": 69
-            },
-            {
-              "key": "G#4/Ab4",
-              "value": 68
-            },
-            {
-              "key": "G4",
-              "value": 67
-            },
-            {
-              "key": "F#4/Gb4",
-              "value": 66
-            },
-            {
-              "key": "F4",
-              "value": 65
-            },
-            {
-              "key": "E4",
-              "value": 64
-            },
-            {
-              "key": "D#4/Eb4",
-              "value": 63
-            },
-            {
-              "key": "D4",
-              "value": 62
-            },
-            {
-              "key": "C#4/Db4",
-              "value": 61
-            },
-            {
-              "key": "C4 (middle C)",
-              "value": 60
-            },
-            {
-              "key": "B3",
-              "value": 59
-            },
-            {
-              "key": "A#3/Bb3",
-              "value": 58
-            },
-            {
-              "key": "A3",
-              "value": 57
-            },
-            {
-              "key": "G#3/Ab3",
-              "value": 56
-            },
-            {
-              "key": "G3",
-              "value": 55
-            },
-            {
-              "key": "F#3/Gb3",
-              "value": 54
-            },
-            {
-              "key": "F3",
-              "value": 53
-            },
-            {
-              "key": "E3",
-              "value": 52
-            },
-            {
-              "key": "D#3/Eb3",
-              "value": 51
-            },
-            {
-              "key": "D3",
-              "value": 50
-            },
-            {
-              "key": "C#3/Db3",
-              "value": 49
-            },
-            {
-              "key": "C3",
-              "value": 48
-            },
-            {
-              "key": "B2",
-              "value": 47
-            },
-            {
-              "key": "A#2/Bb2",
-              "value": 46
-            },
-            {
-              "key": "A2",
-              "value": 45
-            },
-            {
-              "key": "G#2/Ab2",
-              "value": 44
-            },
-            {
-              "key": "G2",
-              "value": 43
-            },
-            {
-              "key": "F#2/Gb2",
-              "value": 42
-            },
-            {
-              "key": "F2",
-              "value": 41
-            },
-            {
-              "key": "E2",
-              "value": 40
-            },
-            {
-              "key": "D#2/Eb2",
-              "value": 39
-            },
-            {
-              "key": "D2",
-              "value": 38
-            },
-            {
-              "key": "C#2/Db2",
-              "value": 37
-            },
-            {
-              "key": "C2",
-              "value": 36
-            },
-            {
-              "key": "B1",
-              "value": 35
-            },
-            {
-              "key": "A#1/Bb1",
-              "value": 34
-            },
-            {
-              "key": "A1",
-              "value": 33
-            },
-            {
-              "key": "G#1/Ab1",
-              "value": 32
-            },
-            {
-              "key": "G1",
-              "value": 31
-            },
-            {
-              "key": "F#1/Gb1",
-              "value": 30
-            },
-            {
-              "key": "F1",
-              "value": 29
-            },
-            {
-              "key": "E1",
-              "value": 28
-            },
-            {
-              "key": "D#1/Eb1",
-              "value": 27
-            },
-            {
-              "key": "D1",
-              "value": 26
-            },
-            {
-              "key": "C#1/Db1",
-              "value": 25
-            },
-            {
-              "key": "C1",
-              "value": 24
-            },
-            {
-              "key": "B0",
-              "value": 23
-            },
-            {
-              "key": "A#0/Bb0",
-              "value": 22
-            },
-            {
-              "key": "A0",
-              "value": 21
-            }
-          ]
-        },
-        "values": {
-          "value": "A4 concert pitch"
-        }
-      },
-      "position": {
-        "x": 540,
-        "y": -1220
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 174,
-      "height": 96,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 540,
-        "y": -1220
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "midiNote-1687960659366",
-      "type": "midiNote",
-      "data": {
-        "label": "String #2 tune",
-        "config": {
-          "placeholder": "Select note",
-          "options": [
-            {
-              "key": "G#9/Ab9",
-              "value": 128
-            },
-            {
-              "key": "G9",
-              "value": 127
-            },
-            {
-              "key": "F#9/Gb9",
-              "value": 126
-            },
-            {
-              "key": "F9",
-              "value": 125
-            },
-            {
-              "key": "E9",
-              "value": 124
-            },
-            {
-              "key": "D#9/Eb9",
-              "value": 123
-            },
-            {
-              "key": "D9",
-              "value": 122
-            },
-            {
-              "key": "C#9/Db9",
-              "value": 121
-            },
-            {
-              "key": "C9",
-              "value": 120
-            },
-            {
-              "key": "B8",
-              "value": 119
-            },
-            {
-              "key": "A#8/Bb8",
-              "value": 118
-            },
-            {
-              "key": "A8",
-              "value": 117
-            },
-            {
-              "key": "G#8/Ab8",
-              "value": 116
-            },
-            {
-              "key": "G8",
-              "value": 115
-            },
-            {
-              "key": "F#8/Gb8",
-              "value": 114
-            },
-            {
-              "key": "F8",
-              "value": 113
-            },
-            {
-              "key": "E8",
-              "value": 112
-            },
-            {
-              "key": "D#8/Eb8",
-              "value": 111
-            },
-            {
-              "key": "D8",
-              "value": 110
-            },
-            {
-              "key": "C#8/Db8",
-              "value": 109
-            },
-            {
-              "key": "C8",
-              "value": 108
-            },
-            {
-              "key": "B7",
-              "value": 107
-            },
-            {
-              "key": "A#7/Bb7",
-              "value": 106
-            },
-            {
-              "key": "A7",
-              "value": 105
-            },
-            {
-              "key": "G#7/Ab7",
-              "value": 104
-            },
-            {
-              "key": "G7",
-              "value": 103
-            },
-            {
-              "key": "F#7/Gb7",
-              "value": 102
-            },
-            {
-              "key": "F7",
-              "value": 101
-            },
-            {
-              "key": "E7",
-              "value": 100
-            },
-            {
-              "key": "D#7/Eb7",
-              "value": 99
-            },
-            {
-              "key": "D7",
-              "value": 98
-            },
-            {
-              "key": "C#7/Db7",
-              "value": 97
-            },
-            {
-              "key": "C7",
-              "value": 96
-            },
-            {
-              "key": "B6",
-              "value": 95
-            },
-            {
-              "key": "A#6/Bb6",
-              "value": 94
-            },
-            {
-              "key": "A6",
-              "value": 93
-            },
-            {
-              "key": "G#6/Ab6",
-              "value": 92
-            },
-            {
-              "key": "G6",
-              "value": 91
-            },
-            {
-              "key": "F#6/Gb6",
-              "value": 90
-            },
-            {
-              "key": "F6",
-              "value": 89
-            },
-            {
-              "key": "E6",
-              "value": 88
-            },
-            {
-              "key": "D#6/Eb6",
-              "value": 87
-            },
-            {
-              "key": "D6",
-              "value": 86
-            },
-            {
-              "key": "C#6/Db6",
-              "value": 85
-            },
-            {
-              "key": "C6",
-              "value": 84
-            },
-            {
-              "key": "B5",
-              "value": 83
-            },
-            {
-              "key": "A#5/Bb5",
-              "value": 82
-            },
-            {
-              "key": "A5",
-              "value": 81
-            },
-            {
-              "key": "G#5/Ab5",
-              "value": 80
-            },
-            {
-              "key": "G5",
-              "value": 79
-            },
-            {
-              "key": "F#5/Gb5",
-              "value": 78
-            },
-            {
-              "key": "F5",
-              "value": 77
-            },
-            {
-              "key": "E5",
-              "value": 76
-            },
-            {
-              "key": "D#5/Eb5",
-              "value": 75
-            },
-            {
-              "key": "D5",
-              "value": 74
-            },
-            {
-              "key": "C#5/Db5",
-              "value": 73
-            },
-            {
-              "key": "C5",
-              "value": 72
-            },
-            {
-              "key": "B4",
-              "value": 71
-            },
-            {
-              "key": "A#4/Bb4",
-              "value": 70
-            },
-            {
-              "key": "A4 concert pitch",
-              "value": 69
-            },
-            {
-              "key": "G#4/Ab4",
-              "value": 68
-            },
-            {
-              "key": "G4",
-              "value": 67
-            },
-            {
-              "key": "F#4/Gb4",
-              "value": 66
-            },
-            {
-              "key": "F4",
-              "value": 65
-            },
-            {
-              "key": "E4",
-              "value": 64
-            },
-            {
-              "key": "D#4/Eb4",
-              "value": 63
-            },
-            {
-              "key": "D4",
-              "value": 62
-            },
-            {
-              "key": "C#4/Db4",
-              "value": 61
-            },
-            {
-              "key": "C4 (middle C)",
-              "value": 60
-            },
-            {
-              "key": "B3",
-              "value": 59
-            },
-            {
-              "key": "A#3/Bb3",
-              "value": 58
-            },
-            {
-              "key": "A3",
-              "value": 57
-            },
-            {
-              "key": "G#3/Ab3",
-              "value": 56
-            },
-            {
-              "key": "G3",
-              "value": 55
-            },
-            {
-              "key": "F#3/Gb3",
-              "value": 54
-            },
-            {
-              "key": "F3",
-              "value": 53
-            },
-            {
-              "key": "E3",
-              "value": 52
-            },
-            {
-              "key": "D#3/Eb3",
-              "value": 51
-            },
-            {
-              "key": "D3",
-              "value": 50
-            },
-            {
-              "key": "C#3/Db3",
-              "value": 49
-            },
-            {
-              "key": "C3",
-              "value": 48
-            },
-            {
-              "key": "B2",
-              "value": 47
-            },
-            {
-              "key": "A#2/Bb2",
-              "value": 46
-            },
-            {
-              "key": "A2",
-              "value": 45
-            },
-            {
-              "key": "G#2/Ab2",
-              "value": 44
-            },
-            {
-              "key": "G2",
-              "value": 43
-            },
-            {
-              "key": "F#2/Gb2",
-              "value": 42
-            },
-            {
-              "key": "F2",
-              "value": 41
-            },
-            {
-              "key": "E2",
-              "value": 40
-            },
-            {
-              "key": "D#2/Eb2",
-              "value": 39
-            },
-            {
-              "key": "D2",
-              "value": 38
-            },
-            {
-              "key": "C#2/Db2",
-              "value": 37
-            },
-            {
-              "key": "C2",
-              "value": 36
-            },
-            {
-              "key": "B1",
-              "value": 35
-            },
-            {
-              "key": "A#1/Bb1",
-              "value": 34
-            },
-            {
-              "key": "A1",
-              "value": 33
-            },
-            {
-              "key": "G#1/Ab1",
-              "value": 32
-            },
-            {
-              "key": "G1",
-              "value": 31
-            },
-            {
-              "key": "F#1/Gb1",
-              "value": 30
-            },
-            {
-              "key": "F1",
-              "value": 29
-            },
-            {
-              "key": "E1",
-              "value": 28
-            },
-            {
-              "key": "D#1/Eb1",
-              "value": 27
-            },
-            {
-              "key": "D1",
-              "value": 26
-            },
-            {
-              "key": "C#1/Db1",
-              "value": 25
-            },
-            {
-              "key": "C1",
-              "value": 24
-            },
-            {
-              "key": "B0",
-              "value": 23
-            },
-            {
-              "key": "A#0/Bb0",
-              "value": 22
-            },
-            {
-              "key": "A0",
-              "value": 21
-            }
-          ]
-        },
-        "values": {
-          "value": "E4"
-        }
-      },
-      "position": {
-        "x": 540,
-        "y": -920
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 174,
-      "height": 96,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 540,
-        "y": -920
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "midiNote-1687960708967",
-      "type": "midiNote",
-      "data": {
-        "label": "String #3 tune",
-        "config": {
-          "placeholder": "Select note",
-          "options": [
-            {
-              "key": "G#9/Ab9",
-              "value": 128
-            },
-            {
-              "key": "G9",
-              "value": 127
-            },
-            {
-              "key": "F#9/Gb9",
-              "value": 126
-            },
-            {
-              "key": "F9",
-              "value": 125
-            },
-            {
-              "key": "E9",
-              "value": 124
-            },
-            {
-              "key": "D#9/Eb9",
-              "value": 123
-            },
-            {
-              "key": "D9",
-              "value": 122
-            },
-            {
-              "key": "C#9/Db9",
-              "value": 121
-            },
-            {
-              "key": "C9",
-              "value": 120
-            },
-            {
-              "key": "B8",
-              "value": 119
-            },
-            {
-              "key": "A#8/Bb8",
-              "value": 118
-            },
-            {
-              "key": "A8",
-              "value": 117
-            },
-            {
-              "key": "G#8/Ab8",
-              "value": 116
-            },
-            {
-              "key": "G8",
-              "value": 115
-            },
-            {
-              "key": "F#8/Gb8",
-              "value": 114
-            },
-            {
-              "key": "F8",
-              "value": 113
-            },
-            {
-              "key": "E8",
-              "value": 112
-            },
-            {
-              "key": "D#8/Eb8",
-              "value": 111
-            },
-            {
-              "key": "D8",
-              "value": 110
-            },
-            {
-              "key": "C#8/Db8",
-              "value": 109
-            },
-            {
-              "key": "C8",
-              "value": 108
-            },
-            {
-              "key": "B7",
-              "value": 107
-            },
-            {
-              "key": "A#7/Bb7",
-              "value": 106
-            },
-            {
-              "key": "A7",
-              "value": 105
-            },
-            {
-              "key": "G#7/Ab7",
-              "value": 104
-            },
-            {
-              "key": "G7",
-              "value": 103
-            },
-            {
-              "key": "F#7/Gb7",
-              "value": 102
-            },
-            {
-              "key": "F7",
-              "value": 101
-            },
-            {
-              "key": "E7",
-              "value": 100
-            },
-            {
-              "key": "D#7/Eb7",
-              "value": 99
-            },
-            {
-              "key": "D7",
-              "value": 98
-            },
-            {
-              "key": "C#7/Db7",
-              "value": 97
-            },
-            {
-              "key": "C7",
-              "value": 96
-            },
-            {
-              "key": "B6",
-              "value": 95
-            },
-            {
-              "key": "A#6/Bb6",
-              "value": 94
-            },
-            {
-              "key": "A6",
-              "value": 93
-            },
-            {
-              "key": "G#6/Ab6",
-              "value": 92
-            },
-            {
-              "key": "G6",
-              "value": 91
-            },
-            {
-              "key": "F#6/Gb6",
-              "value": 90
-            },
-            {
-              "key": "F6",
-              "value": 89
-            },
-            {
-              "key": "E6",
-              "value": 88
-            },
-            {
-              "key": "D#6/Eb6",
-              "value": 87
-            },
-            {
-              "key": "D6",
-              "value": 86
-            },
-            {
-              "key": "C#6/Db6",
-              "value": 85
-            },
-            {
-              "key": "C6",
-              "value": 84
-            },
-            {
-              "key": "B5",
-              "value": 83
-            },
-            {
-              "key": "A#5/Bb5",
-              "value": 82
-            },
-            {
-              "key": "A5",
-              "value": 81
-            },
-            {
-              "key": "G#5/Ab5",
-              "value": 80
-            },
-            {
-              "key": "G5",
-              "value": 79
-            },
-            {
-              "key": "F#5/Gb5",
-              "value": 78
-            },
-            {
-              "key": "F5",
-              "value": 77
-            },
-            {
-              "key": "E5",
-              "value": 76
-            },
-            {
-              "key": "D#5/Eb5",
-              "value": 75
-            },
-            {
-              "key": "D5",
-              "value": 74
-            },
-            {
-              "key": "C#5/Db5",
-              "value": 73
-            },
-            {
-              "key": "C5",
-              "value": 72
-            },
-            {
-              "key": "B4",
-              "value": 71
-            },
-            {
-              "key": "A#4/Bb4",
-              "value": 70
-            },
-            {
-              "key": "A4 concert pitch",
-              "value": 69
-            },
-            {
-              "key": "G#4/Ab4",
-              "value": 68
-            },
-            {
-              "key": "G4",
-              "value": 67
-            },
-            {
-              "key": "F#4/Gb4",
-              "value": 66
-            },
-            {
-              "key": "F4",
-              "value": 65
-            },
-            {
-              "key": "E4",
-              "value": 64
-            },
-            {
-              "key": "D#4/Eb4",
-              "value": 63
-            },
-            {
-              "key": "D4",
-              "value": 62
-            },
-            {
-              "key": "C#4/Db4",
-              "value": 61
-            },
-            {
-              "key": "C4 (middle C)",
-              "value": 60
-            },
-            {
-              "key": "B3",
-              "value": 59
-            },
-            {
-              "key": "A#3/Bb3",
-              "value": 58
-            },
-            {
-              "key": "A3",
-              "value": 57
-            },
-            {
-              "key": "G#3/Ab3",
-              "value": 56
-            },
-            {
-              "key": "G3",
-              "value": 55
-            },
-            {
-              "key": "F#3/Gb3",
-              "value": 54
-            },
-            {
-              "key": "F3",
-              "value": 53
-            },
-            {
-              "key": "E3",
-              "value": 52
-            },
-            {
-              "key": "D#3/Eb3",
-              "value": 51
-            },
-            {
-              "key": "D3",
-              "value": 50
-            },
-            {
-              "key": "C#3/Db3",
-              "value": 49
-            },
-            {
-              "key": "C3",
-              "value": 48
-            },
-            {
-              "key": "B2",
-              "value": 47
-            },
-            {
-              "key": "A#2/Bb2",
-              "value": 46
-            },
-            {
-              "key": "A2",
-              "value": 45
-            },
-            {
-              "key": "G#2/Ab2",
-              "value": 44
-            },
-            {
-              "key": "G2",
-              "value": 43
-            },
-            {
-              "key": "F#2/Gb2",
-              "value": 42
-            },
-            {
-              "key": "F2",
-              "value": 41
-            },
-            {
-              "key": "E2",
-              "value": 40
-            },
-            {
-              "key": "D#2/Eb2",
-              "value": 39
-            },
-            {
-              "key": "D2",
-              "value": 38
-            },
-            {
-              "key": "C#2/Db2",
-              "value": 37
-            },
-            {
-              "key": "C2",
-              "value": 36
-            },
-            {
-              "key": "B1",
-              "value": 35
-            },
-            {
-              "key": "A#1/Bb1",
-              "value": 34
-            },
-            {
-              "key": "A1",
-              "value": 33
-            },
-            {
-              "key": "G#1/Ab1",
-              "value": 32
-            },
-            {
-              "key": "G1",
-              "value": 31
-            },
-            {
-              "key": "F#1/Gb1",
-              "value": 30
-            },
-            {
-              "key": "F1",
-              "value": 29
-            },
-            {
-              "key": "E1",
-              "value": 28
-            },
-            {
-              "key": "D#1/Eb1",
-              "value": 27
-            },
-            {
-              "key": "D1",
-              "value": 26
-            },
-            {
-              "key": "C#1/Db1",
-              "value": 25
-            },
-            {
-              "key": "C1",
-              "value": 24
-            },
-            {
-              "key": "B0",
-              "value": 23
-            },
-            {
-              "key": "A#0/Bb0",
-              "value": 22
-            },
-            {
-              "key": "A0",
-              "value": 21
-            }
-          ]
-        },
-        "values": {
-          "value": "C4 (middle C)"
-        }
-      },
-      "position": {
-        "x": 560,
-        "y": -660
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 174,
-      "height": 96,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": -660
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "midiNote-1687960759011",
-      "type": "midiNote",
-      "data": {
-        "label": "String #4 tune",
-        "config": {
-          "placeholder": "Select note",
-          "options": [
-            {
-              "key": "G#9/Ab9",
-              "value": 128
-            },
-            {
-              "key": "G9",
-              "value": 127
-            },
-            {
-              "key": "F#9/Gb9",
-              "value": 126
-            },
-            {
-              "key": "F9",
-              "value": 125
-            },
-            {
-              "key": "E9",
-              "value": 124
-            },
-            {
-              "key": "D#9/Eb9",
-              "value": 123
-            },
-            {
-              "key": "D9",
-              "value": 122
-            },
-            {
-              "key": "C#9/Db9",
-              "value": 121
-            },
-            {
-              "key": "C9",
-              "value": 120
-            },
-            {
-              "key": "B8",
-              "value": 119
-            },
-            {
-              "key": "A#8/Bb8",
-              "value": 118
-            },
-            {
-              "key": "A8",
-              "value": 117
-            },
-            {
-              "key": "G#8/Ab8",
-              "value": 116
-            },
-            {
-              "key": "G8",
-              "value": 115
-            },
-            {
-              "key": "F#8/Gb8",
-              "value": 114
-            },
-            {
-              "key": "F8",
-              "value": 113
-            },
-            {
-              "key": "E8",
-              "value": 112
-            },
-            {
-              "key": "D#8/Eb8",
-              "value": 111
-            },
-            {
-              "key": "D8",
-              "value": 110
-            },
-            {
-              "key": "C#8/Db8",
-              "value": 109
-            },
-            {
-              "key": "C8",
-              "value": 108
-            },
-            {
-              "key": "B7",
-              "value": 107
-            },
-            {
-              "key": "A#7/Bb7",
-              "value": 106
-            },
-            {
-              "key": "A7",
-              "value": 105
-            },
-            {
-              "key": "G#7/Ab7",
-              "value": 104
-            },
-            {
-              "key": "G7",
-              "value": 103
-            },
-            {
-              "key": "F#7/Gb7",
-              "value": 102
-            },
-            {
-              "key": "F7",
-              "value": 101
-            },
-            {
-              "key": "E7",
-              "value": 100
-            },
-            {
-              "key": "D#7/Eb7",
-              "value": 99
-            },
-            {
-              "key": "D7",
-              "value": 98
-            },
-            {
-              "key": "C#7/Db7",
-              "value": 97
-            },
-            {
-              "key": "C7",
-              "value": 96
-            },
-            {
-              "key": "B6",
-              "value": 95
-            },
-            {
-              "key": "A#6/Bb6",
-              "value": 94
-            },
-            {
-              "key": "A6",
-              "value": 93
-            },
-            {
-              "key": "G#6/Ab6",
-              "value": 92
-            },
-            {
-              "key": "G6",
-              "value": 91
-            },
-            {
-              "key": "F#6/Gb6",
-              "value": 90
-            },
-            {
-              "key": "F6",
-              "value": 89
-            },
-            {
-              "key": "E6",
-              "value": 88
-            },
-            {
-              "key": "D#6/Eb6",
-              "value": 87
-            },
-            {
-              "key": "D6",
-              "value": 86
-            },
-            {
-              "key": "C#6/Db6",
-              "value": 85
-            },
-            {
-              "key": "C6",
-              "value": 84
-            },
-            {
-              "key": "B5",
-              "value": 83
-            },
-            {
-              "key": "A#5/Bb5",
-              "value": 82
-            },
-            {
-              "key": "A5",
-              "value": 81
-            },
-            {
-              "key": "G#5/Ab5",
-              "value": 80
-            },
-            {
-              "key": "G5",
-              "value": 79
-            },
-            {
-              "key": "F#5/Gb5",
-              "value": 78
-            },
-            {
-              "key": "F5",
-              "value": 77
-            },
-            {
-              "key": "E5",
-              "value": 76
-            },
-            {
-              "key": "D#5/Eb5",
-              "value": 75
-            },
-            {
-              "key": "D5",
-              "value": 74
-            },
-            {
-              "key": "C#5/Db5",
-              "value": 73
-            },
-            {
-              "key": "C5",
-              "value": 72
-            },
-            {
-              "key": "B4",
-              "value": 71
-            },
-            {
-              "key": "A#4/Bb4",
-              "value": 70
-            },
-            {
-              "key": "A4 concert pitch",
-              "value": 69
-            },
-            {
-              "key": "G#4/Ab4",
-              "value": 68
-            },
-            {
-              "key": "G4",
-              "value": 67
-            },
-            {
-              "key": "F#4/Gb4",
-              "value": 66
-            },
-            {
-              "key": "F4",
-              "value": 65
-            },
-            {
-              "key": "E4",
-              "value": 64
-            },
-            {
-              "key": "D#4/Eb4",
-              "value": 63
-            },
-            {
-              "key": "D4",
-              "value": 62
-            },
-            {
-              "key": "C#4/Db4",
-              "value": 61
-            },
-            {
-              "key": "C4 (middle C)",
-              "value": 60
-            },
-            {
-              "key": "B3",
-              "value": 59
-            },
-            {
-              "key": "A#3/Bb3",
-              "value": 58
-            },
-            {
-              "key": "A3",
-              "value": 57
-            },
-            {
-              "key": "G#3/Ab3",
-              "value": 56
-            },
-            {
-              "key": "G3",
-              "value": 55
-            },
-            {
-              "key": "F#3/Gb3",
-              "value": 54
-            },
-            {
-              "key": "F3",
-              "value": 53
-            },
-            {
-              "key": "E3",
-              "value": 52
-            },
-            {
-              "key": "D#3/Eb3",
-              "value": 51
-            },
-            {
-              "key": "D3",
-              "value": 50
-            },
-            {
-              "key": "C#3/Db3",
-              "value": 49
-            },
-            {
-              "key": "C3",
-              "value": 48
-            },
-            {
-              "key": "B2",
-              "value": 47
-            },
-            {
-              "key": "A#2/Bb2",
-              "value": 46
-            },
-            {
-              "key": "A2",
-              "value": 45
-            },
-            {
-              "key": "G#2/Ab2",
-              "value": 44
-            },
-            {
-              "key": "G2",
-              "value": 43
-            },
-            {
-              "key": "F#2/Gb2",
-              "value": 42
-            },
-            {
-              "key": "F2",
-              "value": 41
-            },
-            {
-              "key": "E2",
-              "value": 40
-            },
-            {
-              "key": "D#2/Eb2",
-              "value": 39
-            },
-            {
-              "key": "D2",
-              "value": 38
-            },
-            {
-              "key": "C#2/Db2",
-              "value": 37
-            },
-            {
-              "key": "C2",
-              "value": 36
-            },
-            {
-              "key": "B1",
-              "value": 35
-            },
-            {
-              "key": "A#1/Bb1",
-              "value": 34
-            },
-            {
-              "key": "A1",
-              "value": 33
-            },
-            {
-              "key": "G#1/Ab1",
-              "value": 32
-            },
-            {
-              "key": "G1",
-              "value": 31
-            },
-            {
-              "key": "F#1/Gb1",
-              "value": 30
-            },
-            {
-              "key": "F1",
-              "value": 29
-            },
-            {
-              "key": "E1",
-              "value": 28
-            },
-            {
-              "key": "D#1/Eb1",
-              "value": 27
-            },
-            {
-              "key": "D1",
-              "value": 26
-            },
-            {
-              "key": "C#1/Db1",
-              "value": 25
-            },
-            {
-              "key": "C1",
-              "value": 24
-            },
-            {
-              "key": "B0",
-              "value": 23
-            },
-            {
-              "key": "A#0/Bb0",
-              "value": 22
-            },
-            {
-              "key": "A0",
-              "value": 21
-            }
-          ]
-        },
-        "values": {
-          "value": "G4"
-        }
-      },
-      "position": {
-        "x": 560,
-        "y": -380
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 174,
-      "height": 96,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": -380
-      }
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -2006,53 +158,156 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689759585220",
-      "type": "mathNode",
+      "id": "destination-1690924736113",
+      "type": "destination",
       "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "Math.round(INPUT)"
-        }
+        "label": "destination",
+        "config": {}
       },
       "position": {
-        "x": 2920,
-        "y": -520
+        "x": -580,
+        "y": -820
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 180,
-      "height": 273,
+      "width": 64,
+      "height": 64,
       "selected": false,
       "positionAbsolute": {
-        "x": 2920,
-        "y": -520
+        "x": -580,
+        "y": -820
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1686574789402",
-      "type": "mathNode",
+      "id": "gate-1690924756033",
+      "type": "gate",
       "data": {
-        "label": "string detector",
-        "values": {
-          "expression": "A ? 1 :\nB ? 2 :\nC ? 3 :\nX ? 4 : 0 "
+        "label": "A4",
+        "config": {
+          "label": "🔊 I string (A4)",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
         },
-        "config": {}
+        "values": {
+          "isOpened": false
+        }
       },
       "position": {
-        "x": 2100,
-        "y": -1740
+        "x": -1940,
+        "y": -1180
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 180,
-      "height": 311,
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1690924762606",
+      "type": "gate",
+      "data": {
+        "label": "E4",
+        "config": {
+          "label": "🔊 II string (E4)",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": -1940,
+        "y": -1080
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -1940,
+        "y": -1080
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1690924774135",
+      "type": "gate",
+      "data": {
+        "label": "C4",
+        "config": {
+          "label": "🔊 III string (C4)",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": -1940,
+        "y": -980
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
       "selected": false,
       "positionAbsolute": {
-        "x": 2100,
-        "y": -1740
+        "x": -1940,
+        "y": -980
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1690924784835",
+      "type": "gate",
+      "data": {
+        "label": "G4",
+        "config": {
+          "label": "🔊 IV string (G4)",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": -1940,
+        "y": -880
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1940,
+        "y": -880
       },
       "dragging": false
     },
@@ -2084,6 +339,32 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1686574789402",
+      "type": "mathNode",
+      "data": {
+        "label": "string detector",
+        "values": {
+          "expression": "A ? 1 :\nB ? 2 :\nC ? 3 :\nX ? 4 : 0 "
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 2100,
+        "y": -1740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 311,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2100,
+        "y": -1740
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "mathNode-1689716878149",
       "type": "mathNode",
       "data": {
@@ -2105,6 +386,171 @@
       "positionAbsolute": {
         "x": 1800,
         "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689759585220",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "Math.round(INPUT)"
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924620288",
+      "type": "audioTrack",
+      "data": {
+        "label": "A4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/A4.mp3?_=4"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -1520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1260,
+        "y": -1520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924699051",
+      "type": "audioTrack",
+      "data": {
+        "label": "G4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/G4.mp3?_=2"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1260,
+        "y": -320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924644298",
+      "type": "audioTrack",
+      "data": {
+        "label": "E4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/E4.mp3?_=3"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -1120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924670509",
+      "type": "audioTrack",
+      "data": {
+        "label": "C4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/C4.mp3?_=1"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1260,
+        "y": -720
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687965857304",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 780,
+        "y": -780
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 780,
+        "y": -780
       },
       "dragging": false
     },
@@ -2133,52 +579,15 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1686153958683",
-      "type": "oscilloscope",
-      "data": {
-        "label": "input",
-        "config": {
-          "minValue": -1,
-          "maxValue": 1,
-          "backgroundColor": "#292d39",
-          "input1Color": "#007bff",
-          "input2Color": "#14df42",
-          "showGrid": false,
-          "gridColor": "#ffffff",
-          "gridRows": 4,
-          "gridColumns": 8,
-          "size": {
-            "width": 280,
-            "height": 150
-          }
-        }
-      },
-      "position": {
-        "x": 2460,
-        "y": -1220
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 280,
-      "height": 233,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2460,
-        "y": -1220
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965565116",
+      "id": "valueMeter-1687965722033",
       "type": "valueMeter",
       "data": {
         "label": "valueMeter",
         "config": {}
       },
       "position": {
-        "x": 800,
-        "y": -1320
+        "x": 780,
+        "y": -1000
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -2186,31 +595,8 @@
       "height": 25,
       "selected": false,
       "positionAbsolute": {
-        "x": 800,
-        "y": -1320
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1689759578943",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 3180,
-        "y": -940
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 3180,
-        "y": -940
+        "x": 780,
+        "y": -1000
       },
       "dragging": false
     },
@@ -2239,15 +625,15 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965857304",
+      "id": "valueMeter-1687965565116",
       "type": "valueMeter",
       "data": {
         "label": "valueMeter",
         "config": {}
       },
       "position": {
-        "x": 780,
-        "y": -780
+        "x": 800,
+        "y": -1320
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -2255,8 +641,68 @@
       "height": 25,
       "selected": false,
       "positionAbsolute": {
-        "x": 780,
-        "y": -780
+        "x": 800,
+        "y": -1320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1689717454891",
+      "type": "oscilloscope",
+      "data": {
+        "label": "tuner",
+        "config": {
+          "minValue": -50,
+          "maxValue": 50,
+          "backgroundColor": "#292d39",
+          "input1Color": "#6d86a2",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 10,
+          "gridColumns": 0,
+          "size": {
+            "width": 452,
+            "height": 207
+          }
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -1240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 452,
+      "height": 290,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -1240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1689759578943",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 3180,
+        "y": -940
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3180,
+        "y": -940
       },
       "dragging": false
     },
@@ -2345,43 +791,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1689717454891",
-      "type": "oscilloscope",
-      "data": {
-        "label": "tuner",
-        "config": {
-          "minValue": -50,
-          "maxValue": 50,
-          "backgroundColor": "#292d39",
-          "input1Color": "#6d86a2",
-          "input2Color": "#14df42",
-          "showGrid": true,
-          "gridColor": "#ffffff",
-          "gridRows": 10,
-          "gridColumns": 0,
-          "size": {
-            "width": 452,
-            "height": 207
-          }
-        }
-      },
-      "position": {
-        "x": 2920,
-        "y": -1240
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 452,
-      "height": 290,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2920,
-        "y": -1240
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "valueMeter-1687965718277",
       "type": "valueMeter",
       "data": {
@@ -2405,154 +814,38 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965722033",
-      "type": "valueMeter",
+      "id": "oscilloscope-1686153958683",
+      "type": "oscilloscope",
       "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": -1000
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": -1000
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "audioInput-1686147173142",
-      "type": "audioInput",
-      "data": {
-        "label": "audioInput",
-        "values": {
-          "currentInput": "default"
-        },
-        "config": {}
-      },
-      "position": {
-        "x": -200,
-        "y": -900
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 323,
-      "height": 180,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -200,
-        "y": -900
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965696792",
-      "type": "patch",
-      "data": {
-        "label": "patch",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
+        "label": "input",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#eeff00",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 279,
+            "height": 145
+          }
         }
       },
       "position": {
-        "x": 540,
-        "y": -1040
+        "x": 2460,
+        "y": -1220
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 161,
-      "height": 105,
+      "width": 279,
+      "height": 228,
       "selected": false,
       "positionAbsolute": {
-        "x": 540,
-        "y": -1040
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965810011",
-      "type": "patch",
-      "data": {
-        "label": "patch",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
-        }
-      },
-      "position": {
-        "x": 560,
-        "y": -780
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 161,
-      "height": 105,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": -780
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965972900",
-      "type": "patch",
-      "data": {
-        "label": "patch",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
-        }
-      },
-      "position": {
-        "x": 560,
-        "y": -500
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 161,
-      "height": 105,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": -500
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965518246",
-      "type": "patch",
-      "data": {
-        "label": "patch",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json"
-        }
-      },
-      "position": {
-        "x": 540,
-        "y": -1340
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 161,
-      "height": 105,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 540,
-        "y": -1340
+        "x": 2460,
+        "y": -1220
       },
       "dragging": false
     },
@@ -2586,6 +879,156 @@
         "y": -740
       },
       "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1687965518246",
+      "type": "patch",
+      "data": {
+        "label": "String #1 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
+          "nodes": {
+            "midiNote-1690922850403": {
+              "value": "A4 concert pitch"
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -1340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 165,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -1340
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1687965810011",
+      "type": "patch",
+      "data": {
+        "label": "String #3 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
+          "nodes": {
+            "midiNote-1690922850403": {
+              "value": "C4 (middle C)"
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 560,
+        "y": -780
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 165,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 560,
+        "y": -780
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1687965972900",
+      "type": "patch",
+      "data": {
+        "label": "String #4 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
+          "nodes": {
+            "midiNote-1690922850403": {
+              "value": "G4"
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 560,
+        "y": -500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 165,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 560,
+        "y": -500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1687965696792",
+      "type": "patch",
+      "data": {
+        "label": "String #2 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
+          "nodes": {
+            "midiNote-1690922850403": {
+              "value": "E4"
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -1040
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 165,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -1040
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioInput-1686147173142",
+      "type": "audioInput",
+      "data": {
+        "label": "audioInput",
+        "values": {
+          "currentInput": "default"
+        },
+        "config": {}
+      },
+      "position": {
+        "x": -200,
+        "y": -900
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 323,
+      "height": 180,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -200,
+        "y": -900
+      },
+      "dragging": false
     }
   ],
   "edges": [
@@ -2609,15 +1052,6 @@
     },
     {
       "type": "wire",
-      "source": "midiNote-1687960584802",
-      "sourceHandle": "out",
-      "target": "patch-1687965518246",
-      "targetHandle": "midi-number",
-      "id": "reactflow__edge-midiNote-1687960584802out-patch-1687965518246midi-number",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "patch-1687965518246",
       "sourceHandle": "gate",
       "target": "valueMeter-1687965565116",
@@ -2632,15 +1066,6 @@
       "target": "valueMeter-1687965569864",
       "targetHandle": "input1",
       "id": "reactflow__edge-patch-1687965518246diff-valueMeter-1687965569864input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "midiNote-1687960659366",
-      "sourceHandle": "out",
-      "target": "patch-1687965696792",
-      "targetHandle": "midi-number",
-      "id": "reactflow__edge-midiNote-1687960659366out-patch-1687965696792midi-number",
       "selected": false
     },
     {
@@ -2672,15 +1097,6 @@
     },
     {
       "type": "wire",
-      "source": "midiNote-1687960708967",
-      "sourceHandle": "out",
-      "target": "patch-1687965810011",
-      "targetHandle": "midi-number",
-      "id": "reactflow__edge-midiNote-1687960708967out-patch-1687965810011midi-number",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "audioInput-1686147173142",
       "sourceHandle": "output",
       "target": "patch-1687965810011",
@@ -2704,15 +1120,6 @@
       "target": "valueMeter-1687965869455",
       "targetHandle": "input1",
       "id": "reactflow__edge-patch-1687965810011diff-valueMeter-1687965869455input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "midiNote-1687960759011",
-      "sourceHandle": "out",
-      "target": "patch-1687965972900",
-      "targetHandle": "midi-number",
-      "id": "reactflow__edge-midiNote-1687960759011out-patch-1687965972900midi-number",
       "selected": false
     },
     {
@@ -2892,7 +1299,8 @@
       "sourceHandle": "out",
       "target": "oscilloscope-1689688330745",
       "targetHandle": "input1",
-      "id": "reactflow__edge-mathNode-1686574789402out-oscilloscope-1689688330745input1"
+      "id": "reactflow__edge-mathNode-1686574789402out-oscilloscope-1689688330745input1",
+      "selected": false
     },
     {
       "type": "wire",
@@ -2900,7 +1308,8 @@
       "sourceHandle": "out",
       "target": "oscilloscope-1689717454891",
       "targetHandle": "input1",
-      "id": "reactflow__edge-parameter-1690151115416out-oscilloscope-1689717454891input1"
+      "id": "reactflow__edge-parameter-1690151115416out-oscilloscope-1689717454891input1",
+      "selected": false
     },
     {
       "type": "wire",
@@ -2908,7 +1317,8 @@
       "sourceHandle": "output",
       "target": "gain-1690151415637",
       "targetHandle": "in",
-      "id": "reactflow__edge-audioInput-1686147173142output-gain-1690151415637in"
+      "id": "reactflow__edge-audioInput-1686147173142output-gain-1690151415637in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -2916,7 +1326,8 @@
       "sourceHandle": "out",
       "target": "gain-1690151415637",
       "targetHandle": "gain",
-      "id": "reactflow__edge-mathNode-1689705007116out-gain-1690151415637gain"
+      "id": "reactflow__edge-mathNode-1689705007116out-gain-1690151415637gain",
+      "selected": false
     },
     {
       "type": "wire",
@@ -2924,7 +1335,8 @@
       "sourceHandle": "out",
       "target": "oscilloscope-1686153958683",
       "targetHandle": "input1",
-      "id": "reactflow__edge-gain-1690151415637out-oscilloscope-1686153958683input1"
+      "id": "reactflow__edge-gain-1690151415637out-oscilloscope-1686153958683input1",
+      "selected": false
     },
     {
       "type": "wire",
@@ -2932,31 +1344,167 @@
       "sourceHandle": "output0",
       "target": "oscilloscope-1689717454891",
       "targetHandle": "input2",
-      "id": "reactflow__edge-workletScript-1689716734566output0-oscilloscope-1689717454891input2"
+      "id": "reactflow__edge-workletScript-1689716734566output0-oscilloscope-1689717454891input2",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924620288",
+      "sourceHandle": "out",
+      "target": "destination-1690924736113",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924620288out-destination-1690924736113in"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924644298",
+      "sourceHandle": "out",
+      "target": "destination-1690924736113",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924644298out-destination-1690924736113in"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924670509",
+      "sourceHandle": "out",
+      "target": "destination-1690924736113",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924670509out-destination-1690924736113in"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924699051",
+      "sourceHandle": "out",
+      "target": "destination-1690924736113",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924699051out-destination-1690924736113in"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1690924756033",
+      "sourceHandle": "out",
+      "target": "audioTrack-1690924620288",
+      "targetHandle": "gate",
+      "id": "reactflow__edge-gate-1690924756033out-audioTrack-1690924620288gate"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1690924762606",
+      "sourceHandle": "out",
+      "target": "audioTrack-1690924644298",
+      "targetHandle": "gate",
+      "id": "reactflow__edge-gate-1690924762606out-audioTrack-1690924644298gate"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1690924774135",
+      "sourceHandle": "out",
+      "target": "audioTrack-1690924670509",
+      "targetHandle": "gate",
+      "id": "reactflow__edge-gate-1690924774135out-audioTrack-1690924670509gate"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1690924784835",
+      "sourceHandle": "out",
+      "target": "audioTrack-1690924699051",
+      "targetHandle": "gate",
+      "id": "reactflow__edge-gate-1690924784835out-audioTrack-1690924699051gate"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924620288",
+      "sourceHandle": "out",
+      "target": "patch-1687965518246",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924620288out-patch-1687965518246input"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924644298",
+      "sourceHandle": "out",
+      "target": "patch-1687965696792",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924644298out-patch-1687965696792input"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924670509",
+      "sourceHandle": "out",
+      "target": "patch-1687965810011",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924670509out-patch-1687965810011input"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924699051",
+      "sourceHandle": "out",
+      "target": "patch-1687965972900",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924699051out-patch-1687965972900input"
     }
   ],
   "controlPanel": {
     "nodes": [
       {
-        "id": "oscilloscope-1689688330745",
+        "id": "gate-1690924756033",
         "width": 1,
-        "height": 55,
+        "height": 10,
         "x": 0,
-        "y": 55
+        "y": 0
+      },
+      {
+        "id": "gate-1690924762606",
+        "width": 1,
+        "height": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "id": "gate-1690924774135",
+        "width": 1,
+        "height": 10,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "id": "gate-1690924784835",
+        "width": 1,
+        "height": 10,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "id": "oscilloscope-1689717454891",
+        "width": 4,
+        "height": 35,
+        "x": 0,
+        "y": 25
+      },
+      {
+        "id": "oscilloscope-1689688330745",
+        "width": 4,
+        "height": 9,
+        "x": 0,
+        "y": 16
       },
       {
         "id": "oscilloscope-1686153958683",
-        "width": 1,
-        "height": 55,
+        "width": 4,
+        "height": 6,
         "x": 0,
-        "y": 0
+        "y": 10
       }
     ],
-    "show": false
+    "show": true,
+    "size": {
+      "width": 375,
+      "height": 100
+    }
   },
   "viewport": {
-    "x": -1050.8314317878567,
-    "y": 862.8155424299102,
+    "x": 85.10847991734704,
+    "y": 879.3285725080516,
     "zoom": 0.5
   }
 }
