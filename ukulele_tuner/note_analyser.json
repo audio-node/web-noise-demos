@@ -2,308 +2,6 @@
   "nodes": [
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "frequencyMeter-1687961141353",
-      "type": "frequencyMeter",
-      "data": {
-        "label": "frequencyMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 660,
-        "y": -1000
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 660,
-        "y": -1000
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1687961955581",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "A === B"
-        }
-      },
-      "position": {
-        "x": 1100,
-        "y": -1380
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 273,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1100,
-        "y": -1380
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1687965040233",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "X ? Math.round(A - INPUT) : 0"
-        }
-      },
-      "position": {
-        "x": 1360,
-        "y": -1680
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 232,
-      "height": 273,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1360,
-        "y": -1680
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689726354302",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "X ? Math.log2(A / B) * 1731.24 : 0"
-        }
-      },
-      "position": {
-        "x": 1360,
-        "y": -2060
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 265,
-      "height": 273,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1360,
-        "y": -2060
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689726049614",
-      "type": "mathNode",
-      "data": {
-        "label": "frequency to note",
-        "config": {},
-        "values": {
-          "expression": "Math.round(69 + 12 * Math.log2(A / 440))"
-        }
-      },
-      "position": {
-        "x": 1080,
-        "y": -1060
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 305,
-      "height": 273,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1080,
-        "y": -1060
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "midiToFrequency-1687964985651",
-      "type": "midiToFrequency",
-      "data": {
-        "label": "tuning freq",
-        "config": {}
-      },
-      "position": {
-        "x": 700,
-        "y": -1680
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 700,
-        "y": -1680
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1687964920793",
-      "type": "outlet",
-      "data": {
-        "label": "diff",
-        "config": {}
-      },
-      "position": {
-        "x": 2100,
-        "y": -1760
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 2100,
-        "y": -1760
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1689726783486",
-      "type": "outlet",
-      "data": {
-        "label": "diff cents",
-        "config": {}
-      },
-      "position": {
-        "x": 2060,
-        "y": -1960
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2060,
-        "y": -1960
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1687962686944",
-      "type": "outlet",
-      "data": {
-        "label": "gate",
-        "config": {}
-      },
-      "position": {
-        "x": 2240,
-        "y": -1380
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2240,
-        "y": -1380
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1687962667560",
-      "type": "inlet",
-      "data": {
-        "label": "input",
-        "config": {}
-      },
-      "position": {
-        "x": 460,
-        "y": -1000
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 460,
-        "y": -1000
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "adsr-1689700156497",
-      "type": "adsr",
-      "data": {
-        "label": "adsr",
-        "config": {},
-        "values": {
-          "attack": 0,
-          "attackCurve": 0.5,
-          "decay": 0,
-          "sustain": 1,
-          "release": 0
-        }
-      },
-      "position": {
-        "x": 1740,
-        "y": -1300
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 372,
-      "height": 177,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1740,
-        "y": -1300
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "adsr-1689700132504",
-      "type": "adsr",
-      "data": {
-        "label": "adsr",
-        "config": {},
-        "values": {
-          "attack": 0.3,
-          "attackCurve": 0.5,
-          "decay": 0,
-          "sustain": 1,
-          "release": 0.7
-        }
-      },
-      "position": {
-        "x": 1340,
-        "y": -1300
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 372,
-      "height": 177,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1340,
-        "y": -1300
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "midiNote-1690922850403",
       "type": "midiNote",
       "data": {
@@ -758,6 +456,308 @@
       "positionAbsolute": {
         "x": 400,
         "y": -1360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689726354302",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "X ? Math.log2(A / B) * 1731.24 : 0"
+        }
+      },
+      "position": {
+        "x": 1360,
+        "y": -2060
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 265,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1360,
+        "y": -2060
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1687964985651",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "tuning freq",
+        "config": {}
+      },
+      "position": {
+        "x": 700,
+        "y": -1680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 700,
+        "y": -1680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689726049614",
+      "type": "mathNode",
+      "data": {
+        "label": "frequency to note",
+        "config": {},
+        "values": {
+          "expression": "Math.round(69 + 12 * Math.log2(A / 440))"
+        }
+      },
+      "position": {
+        "x": 1080,
+        "y": -1060
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 305,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1080,
+        "y": -1060
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1687965040233",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "X ? Math.round(A - INPUT) : 0"
+        }
+      },
+      "position": {
+        "x": 1360,
+        "y": -1680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 232,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1360,
+        "y": -1680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1687961955581",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A === B"
+        }
+      },
+      "position": {
+        "x": 1100,
+        "y": -1380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 273,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1100,
+        "y": -1380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1687964920793",
+      "type": "outlet",
+      "data": {
+        "label": "diff",
+        "config": {}
+      },
+      "position": {
+        "x": 2100,
+        "y": -1760
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2100,
+        "y": -1760
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1687962686944",
+      "type": "outlet",
+      "data": {
+        "label": "gate",
+        "config": {}
+      },
+      "position": {
+        "x": 2240,
+        "y": -1380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2240,
+        "y": -1380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1687962667560",
+      "type": "inlet",
+      "data": {
+        "label": "input",
+        "config": {}
+      },
+      "position": {
+        "x": 460,
+        "y": -1000
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 460,
+        "y": -1000
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1689726783486",
+      "type": "outlet",
+      "data": {
+        "label": "diff cents",
+        "config": {}
+      },
+      "position": {
+        "x": 2060,
+        "y": -1960
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2060,
+        "y": -1960
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "frequencyMeter-1687961141353",
+      "type": "frequencyMeter",
+      "data": {
+        "label": "frequencyMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": -1000
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -1000
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1689700156497",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {},
+        "values": {
+          "attack": 0,
+          "attackCurve": 0.5,
+          "decay": 0,
+          "sustain": 1,
+          "release": 0
+        }
+      },
+      "position": {
+        "x": 1740,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 372,
+      "height": 177,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1740,
+        "y": -1300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1689700132504",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {},
+        "values": {
+          "attack": 0.3,
+          "attackCurve": 0.5,
+          "decay": 0,
+          "sustain": 1,
+          "release": 0.7
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 372,
+      "height": 177,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -1300
       },
       "dragging": false
     }

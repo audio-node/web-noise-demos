@@ -1055,7 +1055,7 @@
       "source": "patch-1687965518246",
       "sourceHandle": "gate",
       "target": "valueMeter-1687965565116",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965518246gate-valueMeter-1687965565116input1",
       "selected": false
     },
@@ -1064,7 +1064,7 @@
       "source": "patch-1687965518246",
       "sourceHandle": "diff",
       "target": "valueMeter-1687965569864",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965518246diff-valueMeter-1687965569864input1",
       "selected": false
     },
@@ -1073,7 +1073,7 @@
       "source": "patch-1687965696792",
       "sourceHandle": "gate",
       "target": "valueMeter-1687965718277",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965696792gate-valueMeter-1687965718277input1",
       "selected": false
     },
@@ -1082,7 +1082,7 @@
       "source": "patch-1687965696792",
       "sourceHandle": "diff",
       "target": "valueMeter-1687965722033",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965696792diff-valueMeter-1687965722033input1",
       "selected": false
     },
@@ -1109,7 +1109,7 @@
       "source": "patch-1687965810011",
       "sourceHandle": "gate",
       "target": "valueMeter-1687965857304",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965810011gate-valueMeter-1687965857304input1",
       "selected": false
     },
@@ -1118,7 +1118,7 @@
       "source": "patch-1687965810011",
       "sourceHandle": "diff",
       "target": "valueMeter-1687965869455",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965810011diff-valueMeter-1687965869455input1",
       "selected": false
     },
@@ -1136,7 +1136,7 @@
       "source": "patch-1687965972900",
       "sourceHandle": "gate",
       "target": "valueMeter-1687966005704",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965972900gate-valueMeter-1687966005704input1",
       "selected": false
     },
@@ -1145,7 +1145,7 @@
       "source": "patch-1687965972900",
       "sourceHandle": "diff",
       "target": "valueMeter-1687966009704",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-patch-1687965972900diff-valueMeter-1687966009704input1",
       "selected": false
     },
@@ -1280,7 +1280,7 @@
       "source": "mathNode-1689759585220",
       "sourceHandle": "out",
       "target": "valueMeter-1689759578943",
-      "targetHandle": "input1",
+      "targetHandle": "input",
       "id": "reactflow__edge-mathNode-1689759585220out-valueMeter-1689759578943input1",
       "selected": false
     },
