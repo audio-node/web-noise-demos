@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1686579824684",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "values": {
+          "frequency": 440,
+          "type": "sawtooth"
+        },
+        "config": {}
+      },
+      "position": {
+        "x": -60,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 128,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": -140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "frequencyMeter-1686579821438",
+      "type": "frequencyMeter",
+      "data": {
+        "label": "frequencyMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 120,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 120,
+        "y": -140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1686579828274",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 320,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 320,
+        "y": -140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1693225370382",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 440
+        }
+      },
+      "position": {
+        "x": -260,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -260,
+        "y": -140
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "oscillator-1686579824684",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1686579821438",
+      "targetHandle": "input",
+      "id": "reactflow__edge-oscillator-1686579824684out-frequencyMeter-1686579821438input"
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1686579821438",
+      "sourceHandle": "frequency",
+      "target": "valueMeter-1686579828274",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-frequencyMeter-1686579821438frequency-valueMeter-1686579828274input1"
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1686579821438",
+      "sourceHandle": "frequency",
+      "target": "valueMeter-1686579828274",
+      "targetHandle": "input",
+      "id": "reactflow__edge-frequencyMeter-1686579821438frequency-valueMeter-1686579828274input"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1693225370382",
+      "sourceHandle": "out",
+      "target": "oscillator-1686579824684",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-parameter-1693225370382out-oscillator-1686579824684frequency"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 403.2240531202948,
+    "y": 399.6180627972041,
+    "zoom": 1.0784523996352178
+  }
+}

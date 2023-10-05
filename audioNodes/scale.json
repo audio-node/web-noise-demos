@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1690296646799",
+      "type": "parameter",
+      "data": {
+        "label": "inMin",
+        "config": {},
+        "values": {
+          "value": -1
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1690296652203",
+      "type": "parameter",
+      "data": {
+        "label": "inMax",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1690296680038",
+      "type": "parameter",
+      "data": {
+        "label": "outMin",
+        "config": {},
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": 220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": 220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1690296692908",
+      "type": "parameter",
+      "data": {
+        "label": "outMax",
+        "config": {},
+        "values": {
+          "value": 0.5
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": 320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": 320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1690295618355",
+      "type": "scale",
+      "data": {
+        "label": "scale",
+        "config": {}
+      },
+      "position": {
+        "x": 220,
+        "y": 60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 148,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 220,
+        "y": 60
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1690297574697",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 420,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 282,
+      "height": 235,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1690297639307",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "config": {},
+        "values": {
+          "frequency": 281,
+          "type": "sine"
+        }
+      },
+      "position": {
+        "x": -240,
+        "y": -200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 223,
+      "height": 170,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -240,
+        "y": -200
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "parameter-1690296680038",
+      "sourceHandle": "out",
+      "target": "scale-1690295618355",
+      "targetHandle": "outMin",
+      "id": "reactflow__edge-parameter-1690296680038out-scale-1690295618355outMin"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1690296692908",
+      "sourceHandle": "out",
+      "target": "scale-1690295618355",
+      "targetHandle": "outMax",
+      "id": "reactflow__edge-parameter-1690296692908out-scale-1690295618355outMax"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1690296652203",
+      "sourceHandle": "out",
+      "target": "scale-1690295618355",
+      "targetHandle": "inMax",
+      "id": "reactflow__edge-parameter-1690296652203out-scale-1690295618355inMax"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1690296646799",
+      "sourceHandle": "out",
+      "target": "scale-1690295618355",
+      "targetHandle": "inMin",
+      "id": "reactflow__edge-parameter-1690296646799out-scale-1690295618355inMin"
+    },
+    {
+      "type": "wire",
+      "source": "scale-1690295618355",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1690297574697",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-scale-1690295618355out-oscilloscope-1690297574697input1"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1690297639307",
+      "sourceHandle": "out",
+      "target": "scale-1690295618355",
+      "targetHandle": "in",
+      "id": "reactflow__edge-oscillator-1690297639307out-scale-1690295618355in"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true
+  },
+  "viewport": {
+    "x": 171.01620113710362,
+    "y": 194.83972769224965,
+    "zoom": 0.8145075630702164
+  }
+}

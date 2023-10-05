@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1692962567765",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "config": {},
+        "values": {
+          "type": "sine"
+        }
+      },
+      "position": {
+        "x": 200,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 128,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 200,
+        "y": -40
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1692962882470",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 440
+        }
+      },
+      "position": {
+        "x": -20,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -20,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1692962583494",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 480,
+        "y": 80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 282,
+      "height": 257,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 480,
+        "y": 80
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "spectroscope-1692999719728",
+      "type": "spectroscope",
+      "data": {
+        "label": "spectroscope",
+        "config": {
+          "backgroundColor": "#292d39",
+          "inputColor": "#007bff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 480,
+        "y": -180
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 233,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 480,
+        "y": -180
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "oscillator-1692962567765",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1692962583494",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-oscillator-1692962567765out-oscilloscope-1692962583494input1"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1692962882470",
+      "sourceHandle": "out",
+      "target": "oscillator-1692962567765",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-parameter-1692962882470out-oscillator-1692962567765frequency"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1692962567765",
+      "sourceHandle": "out",
+      "target": "spectroscope-1692999719728",
+      "targetHandle": "input",
+      "id": "reactflow__edge-oscillator-1692962567765out-spectroscope-1692999719728input"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "oscillator-1692962567765",
+        "width": 4,
+        "height": 7,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 148,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 329.35506031288753,
+    "y": 272.2619731226781,
+    "zoom": 0.5
+  }
+}

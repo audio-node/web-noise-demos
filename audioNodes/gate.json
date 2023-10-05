@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1686671322469",
+      "type": "gate",
+      "data": {
+        "label": "gate",
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": -320,
+        "y": -20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -320,
+        "y": -20
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1686776230193",
+      "type": "gate",
+      "data": {
+        "label": "toggle gate",
+        "config": {
+          "label": "open",
+          "color": "#189120",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#c85951",
+          "textColorOpened": "#fefefe",
+          "isToggle": true
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": -320,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -320,
+        "y": 100
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1686776280420",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter"
+      },
+      "position": {
+        "x": -80,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -80,
+        "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1686776273529",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter"
+      },
+      "position": {
+        "x": -80,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -80,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1687026033905",
+      "type": "outlet",
+      "data": {
+        "label": "gate"
+      },
+      "position": {
+        "x": -80,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -80,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1687026063244",
+      "type": "outlet",
+      "data": {
+        "label": "toggle gate"
+      },
+      "position": {
+        "x": -80,
+        "y": 200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -80,
+        "y": 200
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "gate-1686671322469",
+      "sourceHandle": "out",
+      "target": "valueMeter-1686776273529",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gate-1686671322469out-valueMeter-1686776273529input1"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1686776230193",
+      "sourceHandle": "out",
+      "target": "valueMeter-1686776280420",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gate-1686776230193out-valueMeter-1686776280420input1"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1686671322469",
+      "sourceHandle": "out",
+      "target": "outlet-1687026033905",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gate-1686671322469out-outlet-1687026033905in"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1686776230193",
+      "sourceHandle": "out",
+      "target": "outlet-1687026063244",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gate-1686776230193out-outlet-1687026063244in"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "gate-1686671322469",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "gate-1686776230193",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 55
+      }
+    ],
+    "show": true
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1687028810468",
+      "type": "select",
+      "data": {
+        "label": "selected value",
+        "config": {
+          "options": [
+            {
+              "key": "on",
+              "value": 1
+            },
+            {
+              "key": "off",
+              "value": 0
+            }
+          ]
+        },
+        "values": {
+          "value": "on"
+        }
+      },
+      "position": {
+        "x": 380,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 140
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1687357313433",
+      "type": "select",
+      "data": {
+        "label": "default state"
+      },
+      "position": {
+        "x": 380,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 0
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1687357857390",
+      "type": "select",
+      "data": {
+        "label": "not selected",
+        "config": {
+          "placeholder": "Select value",
+          "options": [
+            {
+              "key": "option 1",
+              "value": 25
+            },
+            {
+              "key": "option 2",
+              "value": -20
+            }
+          ]
+        }
+      },
+      "position": {
+        "x": 380,
+        "y": 260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 98,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 260
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1687381869704",
+      "type": "select",
+      "data": {
+        "label": "placeholder",
+        "config": {
+          "placeholder": "placeholder"
+        }
+      },
+      "position": {
+        "x": 380,
+        "y": 380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 98,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687357860285",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter"
+      },
+      "position": {
+        "x": 580,
+        "y": 260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 580,
+        "y": 260
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687357292701",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter"
+      },
+      "position": {
+        "x": 580,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 580,
+        "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687381877301",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter"
+      },
+      "position": {
+        "x": 580,
+        "y": 380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 580,
+        "y": 380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687357323420",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter"
+      },
+      "position": {
+        "x": 580,
+        "y": 20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 25,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 580,
+        "y": 20
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "select-1687028810468",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687357292701",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-select-1687028810468out-valueMeter-1687357292701input1"
+    },
+    {
+      "type": "wire",
+      "source": "select-1687357313433",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687357323420",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-select-1687357313433out-valueMeter-1687357323420input1"
+    },
+    {
+      "type": "wire",
+      "source": "select-1687357857390",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687357860285",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-select-1687357857390out-valueMeter-1687357860285input1"
+    },
+    {
+      "type": "wire",
+      "source": "select-1687381869704",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687381877301",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-select-1687381869704out-valueMeter-1687381877301input1"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "select-1687028810468",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 165
+      },
+      {
+        "id": "select-1687357313433",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "select-1687357857390",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 110
+      },
+      {
+        "id": "select-1687381869704",
+        "width": 1,
+        "height": 55,
+        "x": 0,
+        "y": 55
+      }
+    ],
+    "show": true
+  }
+}

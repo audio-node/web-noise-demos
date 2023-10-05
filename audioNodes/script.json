@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1683142032798",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "values": {
+          "value": 0.5
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1683917598733",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "values": {
+          "frequency": 440,
+          "type": "sine"
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": 60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 223,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": 60
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1683917918434",
+      "type": "destination",
+      "data": {
+        "label": "destination"
+      },
+      "position": {
+        "x": 1040,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1685110858363",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1683142049474",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1040,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 265,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "script-1683145350229",
+      "type": "script",
+      "data": {
+        "label": "script",
+        "values": {
+          "expression": "const { inputs, outputs, audioContext, onTriggered } = ScriptSandbox;\n\nonTriggered(() => {\n    gain.gain.linearRampToValueAtTime(1, audioContext.currentTime + 0.1);\n    gain.gain.linearRampToValueAtTime(0, audioContext.currentTime + 0.5);\n})\n\ninputs[0].connect(outputs[0]);\n\nconst gain = audioContext.createGain();\ngain.gain.value = 0;\n\nconst masterGain = audioContext.createGain();\nmasterGain.gain.value = 0;\n\ninputs[0].connect(masterGain.gain);\ninputs[1].connect(gain);\ngain.connect(masterGain);\nmasterGain.connect(outputs[1]);\n"
+        },
+        "config": {
+          "size": {
+            "width": 537,
+            "height": 294
+          }
+        }
+      },
+      "position": {
+        "x": 340,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 537,
+      "height": 442,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 340,
+        "y": -140
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "parameter-1683142032798",
+      "sourceHandle": "out",
+      "target": "script-1683145350229",
+      "targetHandle": "input0",
+      "id": "reactflow__edge-parameter-1683142032798out-script-1683145350229input0"
+    },
+    {
+      "type": "wire",
+      "source": "script-1683145350229",
+      "sourceHandle": "output0",
+      "target": "oscilloscope-1683142049474",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-script-1683145350229output0-oscilloscope-1683142049474input1"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1683917598733",
+      "sourceHandle": "out",
+      "target": "script-1683145350229",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-oscillator-1683917598733out-script-1683145350229input1"
+    },
+    {
+      "type": "wire",
+      "source": "script-1683145350229",
+      "sourceHandle": "output1",
+      "target": "oscilloscope-1683142049474",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-script-1683145350229output1-oscilloscope-1683142049474input2"
+    },
+    {
+      "type": "wire",
+      "source": "script-1683145350229",
+      "sourceHandle": "output1",
+      "target": "destination-1683917918434",
+      "targetHandle": "in",
+      "id": "reactflow__edge-script-1683145350229output1-destination-1683917918434in"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1685110858363",
+      "sourceHandle": "out",
+      "target": "script-1683145350229",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-parameter-1685110858363out-script-1683145350229trigger"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true
+  }
+}

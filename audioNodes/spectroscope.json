@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1692910265418",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "config": {},
+        "values": {
+          "frequency": 0,
+          "type": "sawtooth"
+        }
+      },
+      "position": {
+        "x": 320,
+        "y": 520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 223,
+      "height": 115
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1692910296194",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 740,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 740,
+        "y": 120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1692910413552",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 10
+        }
+      },
+      "position": {
+        "x": 740,
+        "y": 260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 740,
+        "y": 260
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1692910834183",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 440
+        }
+      },
+      "position": {
+        "x": 80,
+        "y": 520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 80,
+        "y": 520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "spectroscope-1692910313224",
+      "type": "spectroscope",
+      "data": {
+        "label": "spectroscope",
+        "config": {
+          "backgroundColor": "#292d39",
+          "inputColor": "#007bff",
+          "size": {
+            "width": 280,
+            "height": 142
+          }
+        }
+      },
+      "position": {
+        "x": 720,
+        "y": 520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": 520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "spectroscope-1692910272087",
+      "type": "spectroscope",
+      "data": {
+        "label": "spectroscope",
+        "config": {
+          "backgroundColor": "#8996bd",
+          "inputColor": "#170a02",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1080,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 233,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1080,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1692910255104",
+      "type": "audioTrack",
+      "data": {
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/414162aa-42ba-11ee-aa24-022ed69f96e6.mp3?cb=20230824221022"
+        }
+      },
+      "position": {
+        "x": 280,
+        "y": 60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 328,
+      "height": 381
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "oscillator-1692910265418",
+      "sourceHandle": "out",
+      "target": "spectroscope-1692910313224",
+      "targetHandle": "input",
+      "id": "reactflow__edge-oscillator-1692910265418out-spectroscope-1692910313224input"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1692910255104",
+      "sourceHandle": "out",
+      "target": "gain-1692910296194",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1692910255104out-gain-1692910296194in"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1692910413552",
+      "sourceHandle": "out",
+      "target": "gain-1692910296194",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-parameter-1692910413552out-gain-1692910296194gain"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1692910296194",
+      "sourceHandle": "out",
+      "target": "spectroscope-1692910272087",
+      "targetHandle": "input",
+      "id": "reactflow__edge-gain-1692910296194out-spectroscope-1692910272087input"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1692910834183",
+      "sourceHandle": "out",
+      "target": "oscillator-1692910265418",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-parameter-1692910834183out-oscillator-1692910265418frequency"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "spectroscope-1692910313224",
+        "width": 4,
+        "height": 15,
+        "x": 0,
+        "y": 6
+      },
+      {
+        "id": "spectroscope-1692910272087",
+        "width": 4,
+        "height": 6,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 49.87765645647903,
+    "y": 76.10701606694488,
+    "zoom": 0.5756170813182714
+  }
+}

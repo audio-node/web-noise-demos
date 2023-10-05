@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1686153958683",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 660,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 265,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioInput-1686147173142",
+      "type": "audioInput",
+      "data": {
+        "label": "audioInput",
+        "values": {
+          "currentInput": "default"
+        }
+      },
+      "position": {
+        "x": 200,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 323,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-audioInput-1686147173142output-oscilloscope-1686153958683input1"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true
+  }
+}

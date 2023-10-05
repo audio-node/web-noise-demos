@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1683142032798",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": -140,
+        "y": -60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1683142049474",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1160,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 265
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "workletScript-1683141956205",
+      "type": "workletScript",
+      "data": {
+        "label": "workletScript",
+        "values": {
+          "expression": "const { inputs, outputs } = ProcessSandbox;\n\nconst output = outputs[0];\nconst input = inputs[0];\noutput.forEach((outputChannel, channelIndex) => {\n  for (\n    let sampleIndex = 0;\n    sampleIndex < outputChannel.length;\n    sampleIndex++\n  ) {\n    outputChannel[sampleIndex] = input[channelIndex]?.[sampleIndex] * 0.5;\n  }\n});\n"
+        }
+      },
+      "position": {
+        "x": 300,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 560,
+      "height": 532
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "parameter-1683142032798",
+      "sourceHandle": "out",
+      "target": "workletScript-1683141956205",
+      "targetHandle": "input0",
+      "id": "reactflow__edge-parameter-1683142032798out-workletScript-1683141956205input0"
+    },
+    {
+      "type": "wire",
+      "source": "workletScript-1683141956205",
+      "sourceHandle": "output0",
+      "target": "oscilloscope-1683142049474",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-workletScript-1683141956205output0-oscilloscope-1683142049474input1"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true
+  }
+}
