@@ -214,10 +214,10 @@
       "data": {
         "label": "compressor",
         "config": {
-          "label": "on",
+          "label": "add compression",
           "color": "#007bff",
           "textColor": "#fefefe",
-          "labelOpened": "off",
+          "labelOpened": "remove compression",
           "colorOpened": "#f2ff3d",
           "textColorOpened": "#242323",
           "isToggle": true
@@ -232,8 +232,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
-      "height": 93,
+      "width": 176,
+      "height": 95,
       "selected": false,
       "positionAbsolute": {
         "x": 260,
@@ -295,6 +295,43 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1696789690239",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1100,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1100,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "mathNode-1696792138747",
       "type": "mathNode",
       "data": {
@@ -346,43 +383,6 @@
       "positionAbsolute": {
         "x": -400,
         "y": -20
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1696789690239",
-      "type": "oscilloscope",
-      "data": {
-        "label": "oscilloscope",
-        "config": {
-          "minValue": -1,
-          "maxValue": 1,
-          "backgroundColor": "#292d39",
-          "input1Color": "#007bff",
-          "input2Color": "#14df42",
-          "showGrid": false,
-          "gridColor": "#ffffff",
-          "gridRows": 4,
-          "gridColumns": 8,
-          "size": {
-            "width": 280,
-            "height": 150
-          }
-        }
-      },
-      "position": {
-        "x": 1100,
-        "y": -160
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 280,
-      "height": 255,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1100,
-        "y": -160
       },
       "dragging": false
     },
@@ -571,7 +571,7 @@
       {
         "id": "gate-1696789654670",
         "width": 2,
-        "height": 6,
+        "height": 8,
         "x": 0,
         "y": 0
       },
@@ -580,40 +580,40 @@
         "width": 2,
         "height": 6,
         "x": 0,
-        "y": 6
+        "y": 8
       },
       {
         "id": "parameter-1696790014697",
         "width": 2,
         "height": 6,
         "x": 2,
-        "y": 6
+        "y": 8
       },
       {
         "id": "parameter-1696790024748",
         "width": 2,
         "height": 6,
         "x": 0,
-        "y": 12
+        "y": 14
       },
       {
         "id": "parameter-1696790061906",
         "width": 2,
         "height": 6,
         "x": 2,
-        "y": 12
+        "y": 14
       },
       {
         "id": "parameter-1696790071690",
         "width": 2,
         "height": 6,
         "x": 0,
-        "y": 18
+        "y": 20
       },
       {
         "id": "gate-1696792133495",
         "width": 2,
-        "height": 6,
+        "height": 8,
         "x": 2,
         "y": 0
       },
@@ -622,14 +622,14 @@
         "width": 4,
         "height": 15,
         "x": 0,
-        "y": 24
+        "y": 26
       },
       {
         "id": "spectroscope-1696792689811",
         "width": 4,
         "height": 15,
         "x": 0,
-        "y": 39
+        "y": 41
       }
     ],
     "show": true,
