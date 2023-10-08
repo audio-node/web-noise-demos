@@ -8,11 +8,20 @@
         "label": "gate",
         "values": {
           "isOpened": false
+        },
+        "config": {
+          "label": "open",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
         }
       },
       "position": {
-        "x": -320,
-        "y": -20
+        "x": -280,
+        "y": -80
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -20,8 +29,8 @@
       "height": 93,
       "selected": false,
       "positionAbsolute": {
-        "x": -320,
-        "y": -20
+        "x": -280,
+        "y": -80
       },
       "dragging": false
     },
@@ -45,8 +54,8 @@
         }
       },
       "position": {
-        "x": -320,
-        "y": 100
+        "x": -280,
+        "y": 40
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -55,38 +64,17 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": -320,
-        "y": 100
+        "x": -280,
+        "y": 40
       }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1686776280420",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter"
-      },
-      "position": {
-        "x": -80,
-        "y": 140
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -80,
-        "y": 140
-      },
-      "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
       "id": "valueMeter-1686776273529",
       "type": "valueMeter",
       "data": {
-        "label": "valueMeter"
+        "label": "valueMeter",
+        "config": {}
       },
       "position": {
         "x": -80,
@@ -94,8 +82,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
+      "width": 153,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
         "x": -80,
@@ -105,45 +93,24 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1687026033905",
-      "type": "outlet",
+      "id": "valueMeter-1686776280420",
+      "type": "valueMeter",
       "data": {
-        "label": "gate"
+        "label": "valueMeter",
+        "config": {}
       },
       "position": {
         "x": -80,
-        "y": -40
+        "y": -80
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 153,
-      "height": 62,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
         "x": -80,
-        "y": -40
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1687026063244",
-      "type": "outlet",
-      "data": {
-        "label": "toggle gate"
-      },
-      "position": {
-        "x": -80,
-        "y": 200
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -80,
-        "y": 200
+        "y": -80
       },
       "dragging": false
     }
@@ -169,36 +136,45 @@
       "type": "wire",
       "source": "gate-1686671322469",
       "sourceHandle": "out",
-      "target": "outlet-1687026033905",
-      "targetHandle": "in",
-      "id": "reactflow__edge-gate-1686671322469out-outlet-1687026033905in"
+      "target": "valueMeter-1686776280420",
+      "targetHandle": "input",
+      "id": "reactflow__edge-gate-1686671322469out-valueMeter-1686776280420input"
     },
     {
       "type": "wire",
       "source": "gate-1686776230193",
       "sourceHandle": "out",
-      "target": "outlet-1687026063244",
-      "targetHandle": "in",
-      "id": "reactflow__edge-gate-1686776230193out-outlet-1687026063244in"
+      "target": "valueMeter-1686776273529",
+      "targetHandle": "input",
+      "id": "reactflow__edge-gate-1686776230193out-valueMeter-1686776273529input"
     }
   ],
   "controlPanel": {
     "nodes": [
       {
         "id": "gate-1686671322469",
-        "width": 1,
-        "height": 55,
+        "width": 4,
+        "height": 6,
         "x": 0,
         "y": 0
       },
       {
         "id": "gate-1686776230193",
-        "width": 1,
-        "height": 55,
+        "width": 4,
+        "height": 6,
         "x": 0,
-        "y": 55
+        "y": 6
       }
     ],
-    "show": true
+    "show": false,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 708.0468137005369,
+    "y": 182.86951052035252,
+    "zoom": 1.181780829074019
   }
 }
