@@ -8,16 +8,23 @@
         "label": "parameter",
         "values": {
           "value": 1
-        }
+        },
+        "config": {}
       },
       "position": {
-        "x": -140,
-        "y": -60
+        "x": 20,
+        "y": 140
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 174,
-      "height": 86
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 20,
+        "y": 140
+      },
+      "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -26,10 +33,15 @@
       "data": {
         "label": "oscilloscope",
         "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
           "input1Color": "#007bff",
           "input2Color": "#14df42",
           "showGrid": true,
           "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
           "size": {
             "width": 280,
             "height": 150
@@ -37,13 +49,19 @@
         }
       },
       "position": {
-        "x": 1160,
-        "y": 0
+        "x": 940,
+        "y": 20
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 280,
-      "height": 265
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 940,
+        "y": 20
+      },
+      "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -53,7 +71,8 @@
         "label": "workletScript",
         "values": {
           "expression": "const { inputs, outputs } = ProcessSandbox;\n\nconst output = outputs[0];\nconst input = inputs[0];\noutput.forEach((outputChannel, channelIndex) => {\n  for (\n    let sampleIndex = 0;\n    sampleIndex < outputChannel.length;\n    sampleIndex++\n  ) {\n    outputChannel[sampleIndex] = input[channelIndex]?.[sampleIndex] * 0.5;\n  }\n});\n"
-        }
+        },
+        "config": {}
       },
       "position": {
         "x": 300,
@@ -85,6 +104,15 @@
   ],
   "controlPanel": {
     "nodes": [],
-    "show": true
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 172.5798896107823,
+    "y": 181.1224549985788,
+    "zoom": 0.5775428922767931
   }
 }
