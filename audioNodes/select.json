@@ -7,6 +7,7 @@
       "data": {
         "label": "selected value",
         "config": {
+          "placeholder": "Select value",
           "options": [
             {
               "key": "on",
@@ -42,7 +43,10 @@
       "id": "select-1687357313433",
       "type": "select",
       "data": {
-        "label": "default state"
+        "label": "default state",
+        "config": {
+          "placeholder": "Select value"
+        }
       },
       "position": {
         "x": 380,
@@ -85,8 +89,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 98,
+      "width": 174,
+      "height": 96,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -110,8 +114,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 98,
+      "width": 174,
+      "height": 96,
       "selected": false,
       "positionAbsolute": {
         "x": 380,
@@ -121,32 +125,11 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687357860285",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter"
-      },
-      "position": {
-        "x": 580,
-        "y": 260
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 580,
-        "y": 260
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "valueMeter-1687357292701",
       "type": "valueMeter",
       "data": {
-        "label": "valueMeter"
+        "label": "valueMeter",
+        "config": {}
       },
       "position": {
         "x": 580,
@@ -154,8 +137,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
+      "width": 153,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
         "x": 580,
@@ -165,23 +148,24 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687381877301",
+      "id": "valueMeter-1687357860285",
       "type": "valueMeter",
       "data": {
-        "label": "valueMeter"
+        "label": "valueMeter",
+        "config": {}
       },
       "position": {
         "x": 580,
-        "y": 380
+        "y": 260
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
+      "width": 153,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
         "x": 580,
-        "y": 380
+        "y": 260
       },
       "dragging": false
     },
@@ -190,20 +174,44 @@
       "id": "valueMeter-1687357323420",
       "type": "valueMeter",
       "data": {
-        "label": "valueMeter"
+        "label": "valueMeter",
+        "config": {}
       },
       "position": {
         "x": 580,
-        "y": 20
+        "y": 0
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 149,
-      "height": 25,
+      "width": 153,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
         "x": 580,
-        "y": 20
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1687381877301",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 580,
+        "y": 380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 580,
+        "y": 380
       },
       "dragging": false
     }
@@ -240,39 +248,80 @@
       "target": "valueMeter-1687381877301",
       "targetHandle": "input1",
       "id": "reactflow__edge-select-1687381869704out-valueMeter-1687381877301input1"
+    },
+    {
+      "type": "wire",
+      "source": "select-1687357313433",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687357323420",
+      "targetHandle": "input",
+      "id": "reactflow__edge-select-1687357313433out-valueMeter-1687357323420input"
+    },
+    {
+      "type": "wire",
+      "source": "select-1687028810468",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687357292701",
+      "targetHandle": "input",
+      "id": "reactflow__edge-select-1687028810468out-valueMeter-1687357292701input"
+    },
+    {
+      "type": "wire",
+      "source": "select-1687357857390",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687357860285",
+      "targetHandle": "input",
+      "id": "reactflow__edge-select-1687357857390out-valueMeter-1687357860285input"
+    },
+    {
+      "type": "wire",
+      "source": "select-1687381869704",
+      "sourceHandle": "out",
+      "target": "valueMeter-1687381877301",
+      "targetHandle": "input",
+      "id": "reactflow__edge-select-1687381869704out-valueMeter-1687381877301input"
     }
   ],
   "controlPanel": {
     "nodes": [
       {
         "id": "select-1687028810468",
-        "width": 1,
-        "height": 55,
+        "width": 4,
+        "height": 6,
         "x": 0,
-        "y": 165
+        "y": 6
       },
       {
         "id": "select-1687357313433",
-        "width": 1,
-        "height": 55,
+        "width": 4,
+        "height": 6,
         "x": 0,
         "y": 0
       },
       {
         "id": "select-1687357857390",
-        "width": 1,
-        "height": 55,
+        "width": 4,
+        "height": 6,
         "x": 0,
-        "y": 110
+        "y": 12
       },
       {
         "id": "select-1687381869704",
-        "width": 1,
-        "height": 55,
+        "width": 4,
+        "height": 6,
         "x": 0,
-        "y": 55
+        "y": 18
       }
     ],
-    "show": true
+    "show": false,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": -55.82882229534545,
+    "y": 22.547569997818357,
+    "zoom": 1.2082864365731256
   }
 }
