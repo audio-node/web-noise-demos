@@ -13,16 +13,16 @@
         }
       },
       "position": {
-        "x": 20,
+        "x": 80,
         "y": 240
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 223,
-      "height": 115,
+      "width": 153,
+      "height": 128,
       "selected": false,
       "positionAbsolute": {
-        "x": 20,
+        "x": 80,
         "y": 240
       },
       "dragging": false
@@ -55,7 +55,7 @@
           ]
         },
         "values": {
-          "value": "4"
+          "value": "2"
         }
       },
       "position": {
@@ -69,6 +69,29 @@
       "selected": false,
       "positionAbsolute": {
         "x": 60,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "quantizer-1690382104203",
+      "type": "quantizer",
+      "data": {
+        "label": "quantizer",
+        "config": {}
+      },
+      "position": {
+        "x": 280,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 280,
         "y": 100
       },
       "dragging": false
@@ -102,7 +125,7 @@
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 280,
-      "height": 233,
+      "height": 255,
       "selected": false,
       "positionAbsolute": {
         "x": 500,
@@ -112,20 +135,29 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "quantizer-1690382104203",
-      "type": "quantizer",
+      "id": "parameter-1696794262622",
+      "type": "parameter",
       "data": {
-        "label": "quantizer",
-        "config": {}
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 47
+        }
       },
       "position": {
-        "x": 300,
-        "y": 120
+        "x": -140,
+        "y": 240
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 83
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -140,
+        "y": 240
+      },
+      "dragging": false
     }
   ],
   "edges": [
@@ -152,15 +184,35 @@
       "target": "quantizer-1690382104203",
       "targetHandle": "bitDepth",
       "id": "reactflow__edge-select-1690382128913out-quantizer-1690382104203bitDepth"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1696794262622",
+      "sourceHandle": "out",
+      "target": "oscillator-1690382115565",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-parameter-1696794262622out-oscillator-1690382115565frequency"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1690382115565",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1690382194564",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-oscillator-1690382115565out-oscilloscope-1690382194564input2"
     }
   ],
   "controlPanel": {
     "nodes": [],
-    "show": true
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
   },
   "viewport": {
-    "x": 58.88685280333959,
-    "y": 68.31459994023629,
-    "zoom": 0.9539595505475587
+    "x": 328.4077927729128,
+    "y": 87.79481608898593,
+    "zoom": 0.714992493180846
   }
 }
