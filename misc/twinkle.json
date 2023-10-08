@@ -1,0 +1,405 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1684240469572",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "values": {
+          "frequency": 0,
+          "type": "sine"
+        }
+      },
+      "position": {
+        "x": 660,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 223,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1684240531226",
+      "type": "destination",
+      "data": {
+        "label": "destination"
+      },
+      "position": {
+        "x": 1580,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1580,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1684240565479",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 1060,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1060,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1684240484678",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1580,
+        "y": -100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 265,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1580,
+        "y": -100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1684240633265",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "values": {
+          "attack": 0.05,
+          "attackCurve": 0,
+          "decay": 1,
+          "sustain": 0.8,
+          "release": 0.1
+        }
+      },
+      "position": {
+        "x": 660,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 372,
+      "height": 177,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -80
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "clock-1684240539640",
+      "type": "clock",
+      "data": {
+        "label": "clock",
+        "values": {
+          "bpm": 120,
+          "duration": 0.1
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 250,
+      "height": 208,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": -80
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "stepSequencer-1684240293978",
+      "type": "stepSequencerWorklet",
+      "data": {
+        "label": "stepSequencer",
+        "config": {
+          "showMidiNumbers": true
+        },
+        "values": {
+          "mode": 0,
+          "sequenceData": [
+            {
+              "value": 60,
+              "active": true
+            },
+            {
+              "value": 60,
+              "active": true
+            },
+            {
+              "value": 67,
+              "active": true
+            },
+            {
+              "value": 67,
+              "active": true
+            },
+            {
+              "value": 69,
+              "active": true
+            },
+            {
+              "value": 69,
+              "active": true
+            },
+            {
+              "value": 67,
+              "active": true
+            },
+            {
+              "value": 65,
+              "active": false
+            },
+            {
+              "value": 65,
+              "active": true
+            },
+            {
+              "value": 65,
+              "active": true
+            },
+            {
+              "value": 64,
+              "active": true
+            },
+            {
+              "value": 64,
+              "active": true
+            },
+            {
+              "value": 62,
+              "active": true
+            },
+            {
+              "value": 62,
+              "active": true
+            },
+            {
+              "value": 60,
+              "active": true
+            },
+            {
+              "value": 36,
+              "active": false
+            }
+          ]
+        }
+      },
+      "position": {
+        "x": 220,
+        "y": -360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 317,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 220,
+        "y": -360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "reverb-1684251410105",
+      "type": "reverb",
+      "data": {
+        "label": "reverb",
+        "values": {
+          "wetDry": 0.14999999999999997
+        }
+      },
+      "position": {
+        "x": 1300,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 233,
+      "height": 98,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1300,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1684352863180",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 420,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 420,
+        "y": -80
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "stepSequencer-1684240293978",
+      "sourceHandle": "freq",
+      "target": "oscillator-1684240469572",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-stepSequencer-1684240293978freq-oscillator-1684240469572frequency"
+    },
+    {
+      "type": "wire",
+      "source": "clock-1684240539640",
+      "sourceHandle": "trigger",
+      "target": "stepSequencer-1684240293978",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-clock-1684240539640trigger-stepSequencer-1684240293978trigger"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1684240469572",
+      "sourceHandle": "out",
+      "target": "gain-1684240565479",
+      "targetHandle": "in",
+      "id": "reactflow__edge-oscillator-1684240469572out-gain-1684240565479in"
+    },
+    {
+      "type": "wire",
+      "source": "reverb-1684251410105",
+      "sourceHandle": "out",
+      "target": "destination-1684240531226",
+      "targetHandle": "in",
+      "id": "reactflow__edge-reverb-1684251410105out-destination-1684240531226in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "reverb-1684251410105",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1684240484678",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-reverb-1684251410105out-oscilloscope-1684240484678input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gain-1684240565479",
+      "sourceHandle": "out",
+      "target": "reverb-1684251410105",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gain-1684240565479out-reverb-1684251410105in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "stepSequencer-1684240293978",
+      "sourceHandle": "gate",
+      "target": "gain-1684352863180",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-stepSequencer-1684240293978gate-gain-1684352863180gain"
+    },
+    {
+      "type": "wire",
+      "source": "clock-1684240539640",
+      "sourceHandle": "trigger",
+      "target": "gain-1684352863180",
+      "targetHandle": "in",
+      "id": "reactflow__edge-clock-1684240539640trigger-gain-1684352863180in"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1684352863180",
+      "sourceHandle": "out",
+      "target": "adsr-1684240633265",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-gain-1684352863180out-adsr-1684240633265trigger"
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1684240633265",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1684240484678",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-adsr-1684240633265gain-oscilloscope-1684240484678input2"
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1684240633265",
+      "sourceHandle": "gain",
+      "target": "gain-1684240565479",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-adsr-1684240633265gain-gain-1684240565479gain"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true
+  }
+}
