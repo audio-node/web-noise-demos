@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1683917918434",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 1000,
+        "y": -260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1000,
+        "y": -260
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1683142049474",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1000,
+        "y": -120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1000,
+        "y": -120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "script-1683145350229",
+      "type": "script",
+      "data": {
+        "label": "script",
+        "values": {
+          "expression": "const Tone = await import('https://cdn.jsdelivr.net/npm/tone@14.7.77/+esm');\nTone.setContext(ScriptSandbox.audioContext);\nconst synth = new Tone.Synth();\n\nconst { onTriggered, outputs } = ScriptSandbox;\n\nsynth.connect(outputs[0]);\n\nonTriggered(() => {\n    const now = Tone.now();\n    synth.triggerAttackRelease(\"C4\", \"8n\", now)\n    synth.triggerAttackRelease(\"E4\", \"8n\", now + 0.5)\n    synth.triggerAttackRelease(\"G4\", \"8n\", now + 1)\n})\n"
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 340,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 560,
+      "height": 468,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 340,
+        "y": -140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1696795469652",
+      "type": "gate",
+      "data": {
+        "label": "gate",
+        "config": {
+          "label": "open",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": 60,
+        "y": -200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": -200
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "script-1683145350229",
+      "sourceHandle": "output0",
+      "target": "oscilloscope-1683142049474",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-script-1683145350229output0-oscilloscope-1683142049474input1"
+    },
+    {
+      "type": "wire",
+      "source": "script-1683145350229",
+      "sourceHandle": "output0",
+      "target": "destination-1683917918434",
+      "targetHandle": "in",
+      "id": "reactflow__edge-script-1683145350229output0-destination-1683917918434in"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1696795469652",
+      "sourceHandle": "out",
+      "target": "script-1683145350229",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-gate-1696795469652out-script-1683145350229trigger"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 159.3994681643588,
+    "y": 266.3872293466579,
+    "zoom": 0.7396745283700189
+  }
+}
