@@ -1,0 +1,322 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1696967050203",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1
+        },
+        "values": {
+          "value": 0.5
+        }
+      },
+      "position": {
+        "x": 420,
+        "y": 180
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 420,
+        "y": 180
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1696967091642",
+      "type": "audioTrack",
+      "data": {
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://d28l47h1uhvbhl.cloudfront.net/assets/music_file/5de33510-9941-11ed-bbed-064f3e9f608e.mp3?cb=20230121050914"
+        }
+      },
+      "position": {
+        "x": 120,
+        "y": -300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 120,
+        "y": -300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1696968228472",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -0.5,
+          "maxValue": 0.5,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1400,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 282,
+      "height": 257,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1400,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "reverb-1696967054544",
+      "type": "reverb",
+      "data": {
+        "label": "reverb",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 105,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": 120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1696968882748",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 1400,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1400,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1696974094065",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A ? INPUT : 0"
+        }
+      },
+      "position": {
+        "x": 980,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 980,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1696974132306",
+      "type": "gate",
+      "data": {
+        "label": "use reverb",
+        "config": {
+          "label": "on",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "off",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": true
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": 660,
+        "y": -120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 95,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1696974294107",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "!A ? INPUT : 0"
+        }
+      },
+      "position": {
+        "x": 980,
+        "y": -360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "parameter-1696967050203",
+      "sourceHandle": "out",
+      "target": "reverb-1696967054544",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-parameter-1696967050203out-reverb-1696967054544dryWet"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1696967091642",
+      "sourceHandle": "out",
+      "target": "reverb-1696967054544",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1696967091642out-reverb-1696967054544input"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1696974132306",
+      "sourceHandle": "out",
+      "target": "mathNode-1696974094065",
+      "targetHandle": "A",
+      "id": "reactflow__edge-gate-1696974132306out-mathNode-1696974094065A"
+    },
+    {
+      "type": "wire",
+      "source": "reverb-1696967054544",
+      "sourceHandle": "output",
+      "target": "mathNode-1696974094065",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-reverb-1696967054544output-mathNode-1696974094065INPUT"
+    },
+    {
+      "type": "wire",
+      "source": "gate-1696974132306",
+      "sourceHandle": "out",
+      "target": "mathNode-1696974294107",
+      "targetHandle": "A",
+      "id": "reactflow__edge-gate-1696974132306out-mathNode-1696974294107A"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1696967091642",
+      "sourceHandle": "out",
+      "target": "mathNode-1696974294107",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-audioTrack-1696967091642out-mathNode-1696974294107INPUT"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1696974294107",
+      "sourceHandle": "out",
+      "target": "destination-1696968882748",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1696974294107out-destination-1696968882748in"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1696974094065",
+      "sourceHandle": "out",
+      "target": "destination-1696968882748",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1696974094065out-destination-1696968882748in"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1696974294107",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1696968228472",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-mathNode-1696974294107out-oscilloscope-1696968228472input1"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1696974094065",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1696968228472",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-mathNode-1696974094065out-oscilloscope-1696968228472input2"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": false,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 86.99909364553798,
+    "y": 313.2334146334835,
+    "zoom": 0.5329233680339716
+  }
+}
