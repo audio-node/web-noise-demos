@@ -1,0 +1,1092 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674483506442",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "# Listing of this graph\n\n```js\nconst audioCtx = new AudioContext();\n\n// create Oscillator node\nconst oscillator = audioCtx.createOscillator();\n\n// set oscillator frequency to 43Hz\noscillator.frequency.value = 43;\n\n// start the oscillator\noscillator.start();\n\n\n// create Gain node\nconst gain = audioCtx.createGain();\n\n// reduce volume by 50%\ngain.gain.value = 0.5;\n\n\n// connect oscillator to gain\noscillator.connect(gain);\n\n\n// connect gain to destination\ngain.connect(audioCtx.destination);\n```\n\n\n\n\n",
+          "width": 414,
+          "height": 489
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 478,
+            "height": 499
+          }
+        }
+      },
+      "position": {
+        "x": 1820,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 478,
+      "height": 499,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1820,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674484140374",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "# AudioContext \n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext)\n\nThe `AudioContext` interface represents an audio-processing graph built from audio modules linked together, each represented by an [AudioNode](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode).\n\n<img src=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/audio-context_.png\" width=\"500px\" style=\"background: white;\" />",
+          "width": 516,
+          "height": 296
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 522,
+            "height": 302
+          }
+        }
+      },
+      "position": {
+        "x": -300,
+        "y": -860
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 522,
+      "height": 302,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -300,
+        "y": -860
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674484403862",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "# Links\n\n- https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API\n\n- https://fingerprint.com/blog/audio-fingerprinting/\n\n- https://www.w3.org/TR/webaudio/\n\n- https://www.toptal.com/web/web-audio-api-tutorial\n\n- https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API",
+          "width": 488,
+          "height": 214
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 533,
+            "height": 218
+          }
+        }
+      },
+      "position": {
+        "x": 1820,
+        "y": 380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 533,
+      "height": 218,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1820,
+        "y": 380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674484740806",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "## `AudioDestinationNode `\n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/AudioDestinationNode)\n\n*represents the end destination of an audio graph in a given context*",
+          "width": 248,
+          "height": 116
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1360,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 150,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1360,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674484778539",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "## `GainNode`\n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/GainNode)\n\n*represents a change in volume*\n\n<img src=\"https://developer.mozilla.org/en-US/docs/Web/API/GainNode/webaudiogainnode.png\" width=\"400px\" />",
+          "width": 424,
+          "height": 174
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 424,
+            "height": 175
+          }
+        }
+      },
+      "position": {
+        "x": 560,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 424,
+      "height": 175,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 560,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674484840592",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "## `OscillatorNode` \n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode)\n\n*represents a periodic waveform, such as a sine wave*",
+          "width": 227,
+          "height": 109
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 132
+          }
+        }
+      },
+      "position": {
+        "x": 80,
+        "y": -200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 132,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 80,
+        "y": -200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674486587353",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "### `AudioParam`s &nbsp;→\n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/AudioParam)",
+          "width": 153,
+          "height": 78
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 153,
+            "height": 64
+          }
+        }
+      },
+      "position": {
+        "x": 940,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 940,
+        "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674486648745",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "### Inputs &nbsp;→",
+          "width": 100,
+          "height": 50
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 104,
+            "height": 50
+          }
+        }
+      },
+      "position": {
+        "x": 980,
+        "y": -560
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 104,
+      "height": 50,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 980,
+        "y": -560
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674486718544",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "### ← Outputs",
+          "width": 136,
+          "height": 64
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 106,
+            "height": 50
+          }
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 106,
+      "height": 50,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674486801598",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "## Anatomy of an `AudioNode`\n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode)",
+          "width": 256,
+          "height": 71
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 102
+          }
+        }
+      },
+      "position": {
+        "x": 1060,
+        "y": -860
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 102,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1060,
+        "y": -860
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674487825091",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "## `ConstantSourceNode` \n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/ConstantSourceNode)\n\n*represents an audio source whose output is single unchanging value*",
+          "width": 200,
+          "height": 116
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 139
+          }
+        }
+      },
+      "position": {
+        "x": -280,
+        "y": -200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 139,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -280,
+        "y": -200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674488430491",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "## `AudioBuffer`\n\n[documentation](https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer)\n\nThe AudioBuffer interface represents a short audio asset residing in memory\n\nThe buffer contains data in the following format: non-interleaved IEEE754 32-bit linear PCM with a nominal range between `-1` and `+1`, that is, a 32-bit floating point buffer, with each sample between `-1.0` and `1.0`",
+          "width": 424,
+          "height": 175
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 200
+          }
+        }
+      },
+      "position": {
+        "x": 60,
+        "y": 1040
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 200,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 1040
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674489465048",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "### Generated values\n`[0, 0.25, 0.5, ..., 0 ]`",
+          "width": 174,
+          "height": 64
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 195,
+            "height": 70
+          }
+        }
+      },
+      "position": {
+        "x": 340,
+        "y": 20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 195,
+      "height": 70,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 340,
+        "y": 20
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674489633635",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "`out = in x gain`",
+          "width": 123,
+          "height": 50
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 148,
+            "height": 50
+          }
+        }
+      },
+      "position": {
+        "x": 880,
+        "y": 20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 148,
+      "height": 50,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 880,
+        "y": 20
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674490891329",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "`SampleRate` is the amount of values in an AudioBuffer per *1 second*\n\n---\n\nIn this example, the audio buffer is **144** seconds long\n\nHaving sample rate of **44100**, the buffer length is:\n\n`144 * 44100 = 6350400` elements\n\n---\n\nThe duration of 1 element would be:\n\n`1 / 44100 = 0.00002` seconds (or `0.02` ms)\n\n---\n\nTo slice first N seconds of an audio buffer, we would do:\n\n`buffer.slice(0, 44100 * N)`\n\n---\n\n[Good article about sampling and sample rate](https://www.izotope.com/en/learn/digital-audio-basics-sample-rate-and-bit-depth.html)",
+          "width": 433,
+          "height": 304
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 520,
+        "y": 1120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 150,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 520,
+        "y": 1120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674491982452",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "### !!!\nWhen outputs are connected to the same input/parameter, their values are summarised",
+          "width": 280,
+          "height": 150
+        },
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 105
+          }
+        }
+      },
+      "position": {
+        "x": 1560,
+        "y": -680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 105,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1560,
+        "y": -680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1674492128299",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "values": {
+          "text": "# Audio buffers",
+          "width": 199,
+          "height": 65
+        },
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 231,
+            "height": 70
+          }
+        }
+      },
+      "position": {
+        "x": 300,
+        "y": 840
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 231,
+      "height": 70,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 300,
+        "y": 840
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1674483377502",
+      "type": "oscillator",
+      "data": {
+        "label": "OscillatorNode",
+        "values": {
+          "frequency": 43,
+          "type": "sine"
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 80,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 128,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 80,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1674483382496",
+      "type": "gain",
+      "data": {
+        "label": "GainNode",
+        "values": {
+          "gain": 0
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1674483388713",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 1360,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1360,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1674488394226",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 540,
+        "y": 1360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": 1360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1674491916552",
+      "type": "parameter",
+      "data": {
+        "label": "parameter A",
+        "values": {
+          "value": 1
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 1620,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1620,
+        "y": -800
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1674491921539",
+      "type": "parameter",
+      "data": {
+        "label": "parameter B",
+        "values": {
+          "value": 1
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 1620,
+        "y": -540
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1620,
+        "y": -540
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1697411088219",
+      "type": "parameter",
+      "data": {
+        "label": "frequency",
+        "config": {},
+        "values": {
+          "value": 440
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697411295529",
+      "type": "slider",
+      "data": {
+        "label": "gain",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "height": 80,
+            "width": 100
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 340,
+        "y": 200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 142,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 340,
+        "y": 200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1674488365324",
+      "type": "audioTrack",
+      "data": {
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/d5a64af3-881b-11ec-af9c-022ed69f96e6.wav?cb=20220207144247"
+        }
+      },
+      "position": {
+        "x": 60,
+        "y": 1280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 1280
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1674491945887",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 1900,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1900,
+        "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1674486536428",
+      "type": "mathNode",
+      "data": {
+        "label": "abstract node",
+        "values": {
+          "expression": "/* processing/generation */"
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 1100,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 219,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1100,
+        "y": -720
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1674488407768",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": 1440
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": 1440
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1674483410254",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1360,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1360,
+        "y": 140
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "oscillator-1674483377502",
+      "sourceHandle": "out",
+      "target": "gain-1674483382496",
+      "targetHandle": "in",
+      "id": "reactflow__edge-oscillator-1674483377502out-gain-1674483382496in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gain-1674483382496",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1674483410254",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gain-1674483382496out-oscilloscope-1674483410254input1"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1674483382496",
+      "sourceHandle": "out",
+      "target": "destination-1674483388713",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gain-1674483382496out-destination-1674483388713in"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1674488365324",
+      "sourceHandle": "out",
+      "target": "destination-1674488394226",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1674488365324out-destination-1674488394226in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1674488365324",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1674488407768",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-audioTrack-1674488365324out-oscilloscope-1674488407768input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1674491916552",
+      "sourceHandle": "out",
+      "target": "valueMeter-1674491945887",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-parameter-1674491916552out-valueMeter-1674491945887input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1674491921539",
+      "sourceHandle": "out",
+      "target": "valueMeter-1674491945887",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-parameter-1674491921539out-valueMeter-1674491945887input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1674491916552",
+      "sourceHandle": "out",
+      "target": "valueMeter-1674491945887",
+      "targetHandle": "input",
+      "id": "reactflow__edge-parameter-1674491916552out-valueMeter-1674491945887input"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1674491921539",
+      "sourceHandle": "out",
+      "target": "valueMeter-1674491945887",
+      "targetHandle": "input",
+      "id": "reactflow__edge-parameter-1674491921539out-valueMeter-1674491945887input"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1697411088219",
+      "sourceHandle": "out",
+      "target": "oscillator-1674483377502",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-parameter-1697411088219out-oscillator-1674483377502frequency"
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697411295529",
+      "sourceHandle": "output",
+      "target": "gain-1674483382496",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-slider-1697411295529output-gain-1674483382496gain"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": false,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 237.74576004613527,
+    "y": 466.5314241147131,
+    "zoom": 0.5
+  }
+}
