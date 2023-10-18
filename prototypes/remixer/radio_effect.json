@@ -132,98 +132,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1697658891292",
-      "type": "inlet",
-      "data": {
-        "label": "in",
-        "config": {}
-      },
-      "position": {
-        "x": -140,
-        "y": 220
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -140,
-        "y": 220
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1697659185095",
-      "type": "outlet",
-      "data": {
-        "label": "out",
-        "config": {}
-      },
-      "position": {
-        "x": 2100,
-        "y": 360
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2100,
-        "y": 360
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "whiteNoise-1696498773534",
-      "type": "whiteNoise",
-      "data": {
-        "label": "whiteNoise",
-        "config": {}
-      },
-      "position": {
-        "x": 1100,
-        "y": 700
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1100,
-        "y": 700
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1697659320787",
-      "type": "inlet",
-      "data": {
-        "label": "dryWet",
-        "config": {}
-      },
-      "position": {
-        "x": -140,
-        "y": 380
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -140,
-        "y": 380
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "parameter-1697659794174",
       "type": "parameter",
       "data": {
@@ -265,35 +173,12 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
         "x": -420,
         "y": 700
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697659810758",
-      "type": "scale",
-      "data": {
-        "label": "scaleHighpassFreq",
-        "config": {}
-      },
-      "position": {
-        "x": 100,
-        "y": 660
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 100,
-        "y": 660
       },
       "dragging": false
     },
@@ -314,8 +199,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
         "x": -140,
@@ -340,8 +225,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
         "x": -140,
@@ -366,35 +251,12 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
         "x": -420,
         "y": 500
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697660384819",
-      "type": "scale",
-      "data": {
-        "label": "scaleLowpassFreq",
-        "config": {}
-      },
-      "position": {
-        "x": 600,
-        "y": 660
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 600,
-        "y": 660
       },
       "dragging": false
     },
@@ -415,8 +277,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -441,8 +303,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -452,62 +314,76 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697661146448",
-      "type": "scale",
+      "id": "parameter-1697661208746",
+      "type": "parameter",
       "data": {
-        "label": "noiseGainScale",
-        "config": {}
+        "label": "master gain",
+        "config": {},
+        "values": {
+          "value": 1
+        }
       },
       "position": {
-        "x": 960,
-        "y": 820
+        "x": 1800,
+        "y": 480
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
-        "x": 960,
-        "y": 820
+        "x": 1800,
+        "y": 480
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "slider-1697661153349",
-      "type": "slider",
+      "id": "parameter-1697661250975",
+      "type": "parameter",
       "data": {
-        "label": "slider",
-        "config": {
-          "min": 0,
-          "max": 1,
-          "step": 0.1,
-          "isVertical": false,
-          "color": "#007bff",
-          "showScale": true,
-          "scaleSteps": 3,
-          "size": {
-            "height": 80,
-            "width": 100
-          }
-        },
+        "label": "noiseGainMax",
+        "config": {},
         "values": {
-          "value": 0
+          "value": 0.003
         }
       },
       "position": {
-        "x": -480,
-        "y": 240
+        "x": 760,
+        "y": 960
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 180,
-      "height": 142,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
-        "x": -480,
-        "y": 240
+        "x": 760,
+        "y": 960
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "whiteNoise-1696498773534",
+      "type": "whiteNoise",
+      "data": {
+        "label": "whiteNoise",
+        "config": {}
+      },
+      "position": {
+        "x": 1100,
+        "y": 700
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1100,
+        "y": 700
       },
       "dragging": false
     },
@@ -536,55 +412,141 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "parameter-1697661208746",
-      "type": "parameter",
+      "id": "scale-1697660384819",
+      "type": "scale",
       "data": {
-        "label": "master gain",
-        "config": {},
-        "values": {
-          "value": 1
-        }
+        "label": "scaleLowpassFreq",
+        "config": {}
       },
       "position": {
-        "x": 1800,
-        "y": 480
+        "x": 600,
+        "y": 660
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 153,
+      "height": 148,
       "selected": false,
       "positionAbsolute": {
-        "x": 1800,
-        "y": 480
+        "x": 600,
+        "y": 660
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "parameter-1697661250975",
-      "type": "parameter",
+      "id": "scale-1697659810758",
+      "type": "scale",
       "data": {
-        "label": "noiseGainMax",
-        "config": {},
-        "values": {
-          "value": 0.003
-        }
+        "label": "scaleHighpassFreq",
+        "config": {}
       },
       "position": {
-        "x": 760,
-        "y": 960
+        "x": 100,
+        "y": 660
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 153,
+      "height": 148,
       "selected": false,
       "positionAbsolute": {
-        "x": 760,
-        "y": 960
+        "x": 100,
+        "y": 660
       },
       "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1697661146448",
+      "type": "scale",
+      "data": {
+        "label": "scaleNoiseGain",
+        "config": {}
+      },
+      "position": {
+        "x": 960,
+        "y": 820
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 150,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 960,
+        "y": 820
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1697659185095",
+      "type": "outlet",
+      "data": {
+        "label": "out",
+        "config": {}
+      },
+      "position": {
+        "x": 2100,
+        "y": 360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2100,
+        "y": 360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1697659320787",
+      "type": "inlet",
+      "data": {
+        "label": "dryWet",
+        "config": {}
+      },
+      "position": {
+        "x": -140,
+        "y": 380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -140,
+        "y": 380
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1697658891292",
+      "type": "inlet",
+      "data": {
+        "label": "in",
+        "config": {}
+      },
+      "position": {
+        "x": -140,
+        "y": 220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -140,
+        "y": 220
+      }
     }
   ],
   "edges": [
@@ -797,15 +759,6 @@
     },
     {
       "type": "wire",
-      "source": "slider-1697661153349",
-      "sourceHandle": "output",
-      "target": "inlet-1697658891292",
-      "targetHandle": "in",
-      "id": "reactflow__edge-slider-1697661153349output-inlet-1697658891292in",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "parameter-1697661208746",
       "sourceHandle": "out",
       "target": "gain-1696516785570",
@@ -877,8 +830,8 @@
     }
   },
   "viewport": {
-    "x": 396.775755513436,
-    "y": -40.80300909092125,
+    "x": 166.20387803863076,
+    "y": -74.63685768292072,
     "zoom": 0.5
   }
 }
