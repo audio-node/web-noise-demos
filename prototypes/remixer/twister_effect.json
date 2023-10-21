@@ -1,0 +1,349 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1697919654510",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "config": {},
+        "values": {
+          "type": "triangle"
+        }
+      },
+      "position": {
+        "x": 380,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 128,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1697919667786",
+      "type": "scale",
+      "data": {
+        "label": "scaleFreq",
+        "config": {}
+      },
+      "position": {
+        "x": 380,
+        "y": 280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 150,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 280
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1697919673164",
+      "type": "inlet",
+      "data": {
+        "label": "in",
+        "config": {}
+      },
+      "position": {
+        "x": -20,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -20,
+        "y": 40
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1697919676802",
+      "type": "inlet",
+      "data": {
+        "label": "dryWet",
+        "config": {}
+      },
+      "position": {
+        "x": -20,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -20,
+        "y": 120
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1697919719470",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 580,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 580,
+        "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "stereoPanner-1697919751446",
+      "type": "stereoPanner",
+      "data": {
+        "label": "stereoPanner",
+        "config": {}
+      },
+      "position": {
+        "x": 860,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 860,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1697919786710",
+      "type": "parameter",
+      "data": {
+        "label": "0",
+        "config": {}
+      },
+      "position": {
+        "x": 120,
+        "y": 300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 120,
+        "y": 300
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1697919789453",
+      "type": "parameter",
+      "data": {
+        "label": "1",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 120,
+        "y": 400
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 120,
+        "y": 400
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1697919792804",
+      "type": "parameter",
+      "data": {
+        "label": "freqMax",
+        "config": {},
+        "values": {
+          "value": 0.8
+        }
+      },
+      "position": {
+        "x": 120,
+        "y": 500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 120,
+        "y": 500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1697919902954",
+      "type": "outlet",
+      "data": {
+        "label": "outlet",
+        "config": {}
+      },
+      "position": {
+        "x": 1080,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1080,
+        "y": 40
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "inlet-1697919676802",
+      "sourceHandle": "out",
+      "target": "scale-1697919667786",
+      "targetHandle": "in",
+      "id": "reactflow__edge-inlet-1697919676802out-scale-1697919667786in"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1697919654510",
+      "sourceHandle": "out",
+      "target": "gain-1697919719470",
+      "targetHandle": "in",
+      "id": "reactflow__edge-oscillator-1697919654510out-gain-1697919719470in"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1697919654510",
+      "sourceHandle": "out",
+      "target": "gain-1697919719470",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-oscillator-1697919654510out-gain-1697919719470gain"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1697919719470",
+      "sourceHandle": "out",
+      "target": "stereoPanner-1697919751446",
+      "targetHandle": "pan",
+      "id": "reactflow__edge-gain-1697919719470out-stereoPanner-1697919751446pan"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1697919673164",
+      "sourceHandle": "out",
+      "target": "stereoPanner-1697919751446",
+      "targetHandle": "input",
+      "id": "reactflow__edge-inlet-1697919673164out-stereoPanner-1697919751446input"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1697919786710",
+      "sourceHandle": "out",
+      "target": "scale-1697919667786",
+      "targetHandle": "inMin",
+      "id": "reactflow__edge-parameter-1697919786710out-scale-1697919667786inMin"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1697919789453",
+      "sourceHandle": "out",
+      "target": "scale-1697919667786",
+      "targetHandle": "inMax",
+      "id": "reactflow__edge-parameter-1697919789453out-scale-1697919667786inMax"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1697919792804",
+      "sourceHandle": "out",
+      "target": "scale-1697919667786",
+      "targetHandle": "outMax",
+      "id": "reactflow__edge-parameter-1697919792804out-scale-1697919667786outMax"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1697919786710",
+      "sourceHandle": "out",
+      "target": "scale-1697919667786",
+      "targetHandle": "outMin",
+      "id": "reactflow__edge-parameter-1697919786710out-scale-1697919667786outMin"
+    },
+    {
+      "type": "wire",
+      "source": "scale-1697919667786",
+      "sourceHandle": "out",
+      "target": "oscillator-1697919654510",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-scale-1697919667786out-oscillator-1697919654510frequency"
+    },
+    {
+      "type": "wire",
+      "source": "stereoPanner-1697919751446",
+      "sourceHandle": "output",
+      "target": "outlet-1697919902954",
+      "targetHandle": "in",
+      "id": "reactflow__edge-stereoPanner-1697919751446output-outlet-1697919902954in"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": false,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 232.3366833258428,
+    "y": 102.7555810141503,
+    "zoom": 0.7453551933994599
+  }
+}
