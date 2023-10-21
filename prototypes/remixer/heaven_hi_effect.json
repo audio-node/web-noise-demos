@@ -169,8 +169,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -232,124 +232,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697665365234",
-      "type": "scale",
-      "data": {
-        "label": "scaleFilter1Freq",
-        "config": {}
-      },
-      "position": {
-        "x": 460,
-        "y": 100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 460,
-        "y": 100
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697665401528",
-      "type": "scale",
-      "data": {
-        "label": "scaleReverb",
-        "config": {}
-      },
-      "position": {
-        "x": 880,
-        "y": 100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 880,
-        "y": 100
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697665434208",
-      "type": "scale",
-      "data": {
-        "label": "scaleFilter2Freq",
-        "config": {}
-      },
-      "position": {
-        "x": 1280,
-        "y": 100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1280,
-        "y": 100
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697665456880",
-      "type": "scale",
-      "data": {
-        "label": "scaleFilter3Freq",
-        "config": {}
-      },
-      "position": {
-        "x": 1800,
-        "y": 120
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1800,
-        "y": 120
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "reverb-1696516455907",
-      "type": "reverb",
-      "data": {
-        "label": "reverb",
-        "config": {},
-        "values": {
-          "wetDry": 1
-        }
-      },
-      "position": {
-        "x": 1060,
-        "y": 0
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1060,
-        "y": 0
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "parameter-1697665713434",
       "type": "parameter",
       "data": {
@@ -360,41 +242,18 @@
         }
       },
       "position": {
-        "x": 940,
+        "x": 880,
         "y": 280
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 940,
+        "x": 880,
         "y": 280
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1697665805660",
-      "type": "inlet",
-      "data": {
-        "label": "dryWet",
-        "config": {}
-      },
-      "position": {
-        "x": 160,
-        "y": 500
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 160,
-        "y": 500
       }
     },
     {
@@ -492,8 +351,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -518,13 +377,36 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
         "x": 1800,
         "y": 280
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1697665805660",
+      "type": "inlet",
+      "data": {
+        "label": "dryWet",
+        "config": {}
+      },
+      "position": {
+        "x": 160,
+        "y": 500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 160,
+        "y": 500
       }
     },
     {
@@ -541,8 +423,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
+      "width": 153,
+      "height": 62,
       "selected": false,
       "positionAbsolute": {
         "x": 200,
@@ -564,14 +446,224 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
+      "width": 153,
+      "height": 62,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
         "x": 2640,
         "y": 20
       }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1697665434208",
+      "type": "scale",
+      "data": {
+        "label": "scaleFilter2Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1280,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 148,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1280,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1697665456880",
+      "type": "scale",
+      "data": {
+        "label": "scaleFilter3Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1800,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 148,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1800,
+        "y": 120
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1697665401528",
+      "type": "scale",
+      "data": {
+        "label": "scaleReverb",
+        "config": {}
+      },
+      "position": {
+        "x": 880,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 148,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 880,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1697665365234",
+      "type": "scale",
+      "data": {
+        "label": "scaleFilter1Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 460,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 148,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 460,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "reverb-1696516455907",
+      "type": "reverb",
+      "data": {
+        "label": "reverb",
+        "config": {},
+        "values": {
+          "wetDry": 1
+        }
+      },
+      "position": {
+        "x": 1060,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1060,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1697925298520",
+      "type": "outlet",
+      "data": {
+        "label": "filter3Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 2000,
+        "y": 200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2000,
+        "y": 200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1697925328663",
+      "type": "outlet",
+      "data": {
+        "label": "filter2Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1500,
+        "y": 200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1500,
+        "y": 200
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1697925347225",
+      "type": "outlet",
+      "data": {
+        "label": "reverbVal",
+        "config": {}
+      },
+      "position": {
+        "x": 1060,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1060,
+        "y": 120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1697925360345",
+      "type": "outlet",
+      "data": {
+        "label": "filter1Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": 200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": 200
+      },
+      "dragging": false
     }
   ],
   "edges": [
@@ -885,6 +977,38 @@
       "target": "filter-1696516430858",
       "targetHandle": "in",
       "id": "reactflow__edge-inlet-1697666344116out-filter-1696516430858in"
+    },
+    {
+      "type": "wire",
+      "source": "scale-1697665456880",
+      "sourceHandle": "out",
+      "target": "outlet-1697925298520",
+      "targetHandle": "in",
+      "id": "reactflow__edge-scale-1697665456880out-outlet-1697925298520in"
+    },
+    {
+      "type": "wire",
+      "source": "scale-1697665434208",
+      "sourceHandle": "out",
+      "target": "outlet-1697925328663",
+      "targetHandle": "in",
+      "id": "reactflow__edge-scale-1697665434208out-outlet-1697925328663in"
+    },
+    {
+      "type": "wire",
+      "source": "scale-1697665401528",
+      "sourceHandle": "out",
+      "target": "outlet-1697925347225",
+      "targetHandle": "in",
+      "id": "reactflow__edge-scale-1697665401528out-outlet-1697925347225in"
+    },
+    {
+      "type": "wire",
+      "source": "scale-1697665365234",
+      "sourceHandle": "out",
+      "target": "outlet-1697925360345",
+      "targetHandle": "in",
+      "id": "reactflow__edge-scale-1697665365234out-outlet-1697925360345in"
     }
   ],
   "controlPanel": {
@@ -896,8 +1020,8 @@
     }
   },
   "viewport": {
-    "x": -16.14945650024697,
-    "y": 88.67217950234487,
-    "zoom": 0.5
+    "x": -106.17201944739327,
+    "y": 74.18067620690704,
+    "zoom": 0.6542890357275056
   }
 }
