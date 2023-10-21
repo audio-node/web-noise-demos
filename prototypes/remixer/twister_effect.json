@@ -28,75 +28,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1697919667786",
-      "type": "scale",
-      "data": {
-        "label": "scaleFreq",
-        "config": {}
-      },
-      "position": {
-        "x": 380,
-        "y": 280
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 150,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 380,
-        "y": 280
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1697919673164",
-      "type": "inlet",
-      "data": {
-        "label": "in",
-        "config": {}
-      },
-      "position": {
-        "x": -20,
-        "y": 40
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -20,
-        "y": 40
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1697919676802",
-      "type": "inlet",
-      "data": {
-        "label": "dryWet",
-        "config": {}
-      },
-      "position": {
-        "x": -20,
-        "y": 120
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -20,
-        "y": 120
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "gain-1697919719470",
       "type": "gain",
       "data": {
@@ -158,8 +89,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -184,8 +115,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
         "x": 120,
@@ -210,8 +141,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "positionAbsolute": {
         "x": 120,
@@ -221,10 +152,102 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1697919667786",
+      "type": "scale",
+      "data": {
+        "label": "scaleFreq",
+        "config": {}
+      },
+      "position": {
+        "x": 380,
+        "y": 280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 148,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 280
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1697927118153",
+      "type": "outlet",
+      "data": {
+        "label": "freq",
+        "config": {}
+      },
+      "position": {
+        "x": 600,
+        "y": 340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 600,
+        "y": 340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1697919673164",
+      "type": "inlet",
+      "data": {
+        "label": "in",
+        "config": {}
+      },
+      "position": {
+        "x": -20,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -20,
+        "y": 40
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1697919676802",
+      "type": "inlet",
+      "data": {
+        "label": "dryWet",
+        "config": {}
+      },
+      "position": {
+        "x": -20,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -20,
+        "y": 120
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "outlet-1697919902954",
       "type": "outlet",
       "data": {
-        "label": "outlet",
+        "label": "out",
         "config": {}
       },
       "position": {
@@ -233,8 +256,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
+      "width": 155,
+      "height": 64,
       "selected": false,
       "positionAbsolute": {
         "x": 1080,
@@ -331,6 +354,14 @@
       "target": "outlet-1697919902954",
       "targetHandle": "in",
       "id": "reactflow__edge-stereoPanner-1697919751446output-outlet-1697919902954in"
+    },
+    {
+      "type": "wire",
+      "source": "scale-1697919667786",
+      "sourceHandle": "out",
+      "target": "outlet-1697927118153",
+      "targetHandle": "in",
+      "id": "reactflow__edge-scale-1697919667786out-outlet-1697927118153in"
     }
   ],
   "controlPanel": {
@@ -342,8 +373,8 @@
     }
   },
   "viewport": {
-    "x": 232.3366833258428,
-    "y": 102.7555810141503,
-    "zoom": 0.7453551933994599
+    "x": 105.37096714433994,
+    "y": 149.45776239064878,
+    "zoom": 0.6652645205403432
   }
 }
