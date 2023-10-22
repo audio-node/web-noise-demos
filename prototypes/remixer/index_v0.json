@@ -1,0 +1,2244 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697623786679",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 194,
+            "height": 197
+          }
+        },
+        "values": {
+          "text": "sequential from here to the end of the chain. \n\nEvery \"slider\" within a fx section should move at the same time to the opposite direction to start applying the desired fx. They all should move proportionall.\n\n\n",
+          "width": 177,
+          "height": 299
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": -760
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 194,
+      "height": 197,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": -760
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697623815116",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 174,
+            "height": 75
+          }
+        },
+        "values": {
+          "text": "parallel",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 440,
+        "y": -1140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 75,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 440,
+        "y": -1140
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697628038322",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 149,
+            "height": 56
+          }
+        },
+        "values": {
+          "text": "spaciousness fx\n",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 460,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 149,
+      "height": 56,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 460,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697628068050",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 128,
+            "height": 59
+          }
+        },
+        "values": {
+          "text": "heaven lo fx\n\n",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 800,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 128,
+      "height": 59,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 800,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697628096890",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 129,
+            "height": 53
+          }
+        },
+        "values": {
+          "text": "heaven hi fx\n",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 1040,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 129,
+      "height": 53,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697628115922",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 138,
+            "height": 60
+          }
+        },
+        "values": {
+          "text": "radio/vinyl fx",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 138,
+      "height": 60,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697628271134",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 167,
+            "height": 66
+          }
+        },
+        "values": {
+          "text": "destroyer  fx",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 1720,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 167,
+      "height": 66,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1720,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697628307579",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 152,
+            "height": 59
+          }
+        },
+        "values": {
+          "text": "twister fx\n",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 2120,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 152,
+      "height": 59,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2120,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697628341474",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 154,
+            "height": 55
+          }
+        },
+        "values": {
+          "text": "master punch fx\n",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 2520,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 154,
+      "height": 55,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2520,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1697817310676",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 86
+          }
+        },
+        "values": {
+          "text": "reroute this patch instead of regular destroyer to the twister to hear the difference\n",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": 1700,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1700,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1696490914491",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 4700,
+        "y": -1180
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 4700,
+        "y": -1180
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1696507832043",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0.04
+        }
+      },
+      "position": {
+        "x": 4800,
+        "y": 1520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 4800,
+        "y": 1520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "visualiser-1696508893789",
+      "type": "visualiser",
+      "data": {
+        "label": "visualiser",
+        "config": {}
+      },
+      "position": {
+        "x": 4860,
+        "y": 2080
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 244,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 4860,
+        "y": 2080
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1696512703029",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": -620,
+        "y": -680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -620,
+        "y": -680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1696513804840",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 700,
+        "y": -1200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 700,
+        "y": -1200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1696513839979",
+      "type": "gate",
+      "data": {
+        "label": "original/fx",
+        "config": {
+          "label": "fx on",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "fx off",
+          "colorOpened": "#000000",
+          "textColorOpened": "#fefefe",
+          "isToggle": true
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": 440,
+        "y": -1020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 440,
+        "y": -1020
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1696513953482",
+      "type": "gain",
+      "data": {
+        "label": "mix bus",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 3260,
+        "y": -1020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3260,
+        "y": -1020
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697454878207",
+      "type": "slider",
+      "data": {
+        "label": "reverb",
+        "config": {
+          "min": 0,
+          "max": 0.3,
+          "step": 0.01,
+          "isVertical": true,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 150
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 460,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 212,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 460,
+        "y": -720
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697455331638",
+      "type": "slider",
+      "data": {
+        "label": "slider",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "height": 80,
+            "width": 100
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": -700,
+        "y": -200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 142,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -700,
+        "y": -200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1697629339523",
+      "type": "gate",
+      "data": {
+        "label": "play",
+        "config": {
+          "label": "off",
+          "color": "#000000",
+          "textColor": "#fefefe",
+          "labelOpened": "on",
+          "colorOpened": "#66ff00",
+          "textColorOpened": "#fefefe",
+          "isToggle": true
+        },
+        "values": {
+          "isOpened": true
+        }
+      },
+      "position": {
+        "x": -640,
+        "y": -880
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -640,
+        "y": -880
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697658060805",
+      "type": "slider",
+      "data": {
+        "label": "destroyer dry/wet",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": true,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 153
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 1720,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 215,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1720,
+        "y": -720
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697662299160",
+      "type": "slider",
+      "data": {
+        "label": "radio dry/wet",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": true,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 156
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 218,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -720
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697667348326",
+      "type": "slider",
+      "data": {
+        "label": "heaven hi",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": true,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 150
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 1040,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 212,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": -720
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697917937791",
+      "type": "slider",
+      "data": {
+        "label": "heaven lo",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": true,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 156
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 720,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 218,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": -720
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697920003618",
+      "type": "slider",
+      "data": {
+        "label": "twister",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": true,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 155
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 2120,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 217,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2120,
+        "y": -720
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1697923692506",
+      "type": "slider",
+      "data": {
+        "label": "master punch",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": true,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 152
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 2500,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 214,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2500,
+        "y": -720
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1696489624030",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 4980,
+        "y": 1740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 4980,
+        "y": 1740
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1696489610376",
+      "type": "audioTrack",
+      "data": {
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "start": 45.44,
+          "end": 50,
+          "src": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/7937f0e0-882c-11ec-af9c-022ed69f96e6.mp3?cb=202202071"
+        }
+      },
+      "position": {
+        "x": -380,
+        "y": -840
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -380,
+        "y": -840
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697616756074",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 460,
+        "y": -360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 460,
+        "y": -360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923855721",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 2480,
+        "y": 260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2480,
+        "y": 260
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697924261975",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": -1020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -1020
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925974275",
+      "type": "valueMeter",
+      "data": {
+        "label": "noiseGain",
+        "config": {}
+      },
+      "position": {
+        "x": 1340,
+        "y": -100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925435274",
+      "type": "valueMeter",
+      "data": {
+        "label": "filter1Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1040,
+        "y": -300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": -300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697927169885",
+      "type": "valueMeter",
+      "data": {
+        "label": "freq",
+        "config": {}
+      },
+      "position": {
+        "x": 2120,
+        "y": -360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2120,
+        "y": -360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923792714",
+      "type": "valueMeter",
+      "data": {
+        "label": "threshold",
+        "config": {}
+      },
+      "position": {
+        "x": 2480,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2480,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925954585",
+      "type": "valueMeter",
+      "data": {
+        "label": "lowpassFreq",
+        "config": {}
+      },
+      "position": {
+        "x": 1340,
+        "y": -220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925449234",
+      "type": "valueMeter",
+      "data": {
+        "label": "filter2Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1040,
+        "y": -100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": -100
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697924545686",
+      "type": "valueMeter",
+      "data": {
+        "label": "filter2Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 740,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 740,
+        "y": -140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925459121",
+      "type": "valueMeter",
+      "data": {
+        "label": "reverb",
+        "config": {}
+      },
+      "position": {
+        "x": 1040,
+        "y": -200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": -200
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697924703803",
+      "type": "valueMeter",
+      "data": {
+        "label": "reverb",
+        "config": {}
+      },
+      "position": {
+        "x": 740,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 740,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923873753",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 2480,
+        "y": 60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2480,
+        "y": 60
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925941907",
+      "type": "valueMeter",
+      "data": {
+        "label": "highpassFreq",
+        "config": {}
+      },
+      "position": {
+        "x": 1340,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -320
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925467374",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 1040,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697926856232",
+      "type": "valueMeter",
+      "data": {
+        "label": "freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1700,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1700,
+        "y": -340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923762885",
+      "type": "valueMeter",
+      "data": {
+        "label": "attack",
+        "config": {}
+      },
+      "position": {
+        "x": 2480,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2480,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923775833",
+      "type": "valueMeter",
+      "data": {
+        "label": "release",
+        "config": {}
+      },
+      "position": {
+        "x": 2480,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2480,
+        "y": -140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697926845498",
+      "type": "valueMeter",
+      "data": {
+        "label": "lowendGain",
+        "config": {}
+      },
+      "position": {
+        "x": 1700,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1700,
+        "y": -240
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697924677912",
+      "type": "valueMeter",
+      "data": {
+        "label": "filter1Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 740,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 740,
+        "y": -340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923835403",
+      "type": "valueMeter",
+      "data": {
+        "label": "open gain",
+        "config": {}
+      },
+      "position": {
+        "x": 2480,
+        "y": 160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2480,
+        "y": 160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "script-1696506769950",
+      "type": "script",
+      "data": {
+        "label": "script",
+        "config": {
+          "size": {
+            "width": 560,
+            "height": 320
+          }
+        },
+        "values": {
+          "expression": "const { inputs, outputs, audioContext } = ScriptSandbox;\r\n\r\nconst filter = audioContext.createBiquadFilter();\r\nconst distortion = audioContext.createWaveShaper();\r\n\r\ninputs[0].connect(filter);\r\nfilter.frequency.value = 300\r\nfilter.Q.value = 2\r\n\r\n\r\n//inputs[1].connect(filter.frequency);\r\n//inputs[2].connect(filter.Q);\r\n//inputs[3].connect(distortion);\r\n\r\n\r\nfilter.type = 'lowpass';\r\n\r\nfilter.connect(outputs[0]);"
+        }
+      },
+      "position": {
+        "x": 4260,
+        "y": 1820
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 560,
+      "height": 468,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 4260,
+        "y": 1820
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "whiteNoise-1696507883819",
+      "type": "whiteNoise",
+      "data": {
+        "label": "whiteNoise",
+        "config": {}
+      },
+      "position": {
+        "x": 4580,
+        "y": 1540
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 4580,
+        "y": 1540
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1696513884481",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "!A"
+        }
+      },
+      "position": {
+        "x": 2820,
+        "y": -1060
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2820,
+        "y": -1060
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1697657952105",
+      "type": "patch",
+      "data": {
+        "label": "destroyer",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/destroyer.json"
+        }
+      },
+      "position": {
+        "x": 1700,
+        "y": -460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 105,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1700,
+        "y": -460
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1697919975028",
+      "type": "patch",
+      "data": {
+        "label": "twister",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/twister_effect.json"
+        }
+      },
+      "position": {
+        "x": 2120,
+        "y": -460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 83,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2120,
+        "y": -460
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1697923501387",
+      "type": "patch",
+      "data": {
+        "label": "master punch",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/master_punch_effect.json"
+        }
+      },
+      "position": {
+        "x": 2480,
+        "y": -440
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 191,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2480,
+        "y": -440
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1697817278331",
+      "type": "patch",
+      "data": {
+        "label": "destroyer with balancer",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/destroyer_with_balancer.json"
+        }
+      },
+      "position": {
+        "x": 1700,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 105,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1700,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1697662220967",
+      "type": "patch",
+      "data": {
+        "label": "radio/vinyl",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/radio_effect.json"
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -480
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 126,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -480
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "reverb-1696499738963",
+      "type": "reverb",
+      "data": {
+        "label": "reverb",
+        "config": {},
+        "values": {
+          "wetDry": 0.34
+        }
+      },
+      "position": {
+        "x": 460,
+        "y": -460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 460,
+        "y": -460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1697917805639",
+      "type": "patch",
+      "data": {
+        "label": "heaven lo fx",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/heaven_lo_effect.json"
+        }
+      },
+      "position": {
+        "x": 720,
+        "y": -480
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 126,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": -480
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1697667218375",
+      "type": "patch",
+      "data": {
+        "label": "heaven hi fx",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/heaven_hi_effect.json"
+        }
+      },
+      "position": {
+        "x": 1040,
+        "y": -480
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 148,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1040,
+        "y": -480
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "whiteNoise-1696507883819",
+      "sourceHandle": "out",
+      "target": "gain-1696507832043",
+      "targetHandle": "in",
+      "id": "reactflow__edge-whiteNoise-1696507883819out-gain-1696507832043in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "script-1696506769950",
+      "sourceHandle": "output0",
+      "target": "oscilloscope-1696489624030",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-script-1696506769950output0-oscilloscope-1696489624030input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "script-1696506769950",
+      "sourceHandle": "output0",
+      "target": "visualiser-1696508893789",
+      "targetHandle": "in",
+      "id": "reactflow__edge-script-1696506769950output0-visualiser-1696508893789in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1696512703029",
+      "sourceHandle": "out",
+      "target": "audioTrack-1696489610376",
+      "targetHandle": "loop",
+      "id": "reactflow__edge-parameter-1696512703029out-audioTrack-1696489610376loop",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1696489610376",
+      "sourceHandle": "out",
+      "target": "gain-1696513804840",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1696489610376out-gain-1696513804840in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gain-1696513953482",
+      "sourceHandle": "out",
+      "target": "destination-1696490914491",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gain-1696513953482out-destination-1696490914491in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gain-1696513804840",
+      "sourceHandle": "out",
+      "target": "destination-1696490914491",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gain-1696513804840out-destination-1696490914491in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697454878207",
+      "sourceHandle": "output",
+      "target": "reverb-1696499738963",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697454878207output-reverb-1696499738963dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gate-1696513839979",
+      "sourceHandle": "out",
+      "target": "gain-1696513804840",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-gate-1696513839979out-gain-1696513804840gain",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gate-1696513839979",
+      "sourceHandle": "out",
+      "target": "mathNode-1696513884481",
+      "targetHandle": "A",
+      "id": "reactflow__edge-gate-1696513839979out-mathNode-1696513884481A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697454878207",
+      "sourceHandle": "output",
+      "target": "valueMeter-1697616756074",
+      "targetHandle": "input",
+      "id": "reactflow__edge-slider-1697454878207output-valueMeter-1697616756074input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gate-1697629339523",
+      "sourceHandle": "out",
+      "target": "audioTrack-1696489610376",
+      "targetHandle": "gate",
+      "id": "reactflow__edge-gate-1697629339523out-audioTrack-1696489610376gate",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697658060805",
+      "sourceHandle": "output",
+      "target": "patch-1697657952105",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697658060805output-patch-1697657952105dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697662299160",
+      "sourceHandle": "output",
+      "target": "patch-1697662220967",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697662299160output-patch-1697662220967dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697667348326",
+      "sourceHandle": "output",
+      "target": "patch-1697667218375",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697667348326output-patch-1697667218375dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697658060805",
+      "sourceHandle": "output",
+      "target": "patch-1697817278331",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697658060805output-patch-1697817278331dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697917937791",
+      "sourceHandle": "output",
+      "target": "patch-1697917805639",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697917937791output-patch-1697917805639dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697920003618",
+      "sourceHandle": "output",
+      "target": "patch-1697919975028",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697920003618output-patch-1697919975028dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1697923692506",
+      "sourceHandle": "output",
+      "target": "patch-1697923501387",
+      "targetHandle": "dryWet",
+      "id": "reactflow__edge-slider-1697923692506output-patch-1697923501387dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "attack",
+      "target": "valueMeter-1697923762885",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697923501387attack-valueMeter-1697923762885input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "release",
+      "target": "valueMeter-1697923775833",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697923501387release-valueMeter-1697923775833input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "threshold",
+      "target": "valueMeter-1697923792714",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697923501387threshold-valueMeter-1697923792714input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "openGain",
+      "target": "valueMeter-1697923835403",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697923501387openGain-valueMeter-1697923835403input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "cutGain",
+      "target": "valueMeter-1697923855721",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697923501387cutGain-valueMeter-1697923855721input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "loEndGain",
+      "target": "valueMeter-1697923873753",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697923501387loEndGain-valueMeter-1697923873753input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gate-1696513839979",
+      "sourceHandle": "out",
+      "target": "valueMeter-1697924261975",
+      "targetHandle": "input",
+      "id": "reactflow__edge-gate-1696513839979out-valueMeter-1697924261975input"
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697917805639",
+      "sourceHandle": "filter2Freq",
+      "target": "valueMeter-1697924545686",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697917805639filter2Freq-valueMeter-1697924545686input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697917805639",
+      "sourceHandle": "filter1Freq",
+      "target": "valueMeter-1697924677912",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697917805639filter1Freq-valueMeter-1697924677912input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697917805639",
+      "sourceHandle": "reverbVal",
+      "target": "valueMeter-1697924703803",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697917805639reverbVal-valueMeter-1697924703803input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697667218375",
+      "sourceHandle": "filter1Freq",
+      "target": "valueMeter-1697925435274",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697667218375filter1Freq-valueMeter-1697925435274input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697667218375",
+      "sourceHandle": "filter2Freq",
+      "target": "valueMeter-1697925449234",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697667218375filter2Freq-valueMeter-1697925449234input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697667218375",
+      "sourceHandle": "reverbVal",
+      "target": "valueMeter-1697925459121",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697667218375reverbVal-valueMeter-1697925459121input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697667218375",
+      "sourceHandle": "filter3Freq",
+      "target": "valueMeter-1697925467374",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697667218375filter3Freq-valueMeter-1697925467374input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697662220967",
+      "sourceHandle": "highpassFreq",
+      "target": "valueMeter-1697925941907",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697662220967highpassFreq-valueMeter-1697925941907input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697662220967",
+      "sourceHandle": "lowpassFreq",
+      "target": "valueMeter-1697925954585",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697662220967lowpassFreq-valueMeter-1697925954585input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697662220967",
+      "sourceHandle": "noiseGain",
+      "target": "valueMeter-1697925974275",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697662220967noiseGain-valueMeter-1697925974275input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697657952105",
+      "sourceHandle": "freq",
+      "target": "valueMeter-1697926856232",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697657952105freq-valueMeter-1697926856232input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697657952105",
+      "sourceHandle": "lowendGain",
+      "target": "valueMeter-1697926845498",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697657952105lowendGain-valueMeter-1697926845498input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697919975028",
+      "sourceHandle": "freq",
+      "target": "valueMeter-1697927169885",
+      "targetHandle": "input",
+      "id": "reactflow__edge-patch-1697919975028freq-valueMeter-1697927169885input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "out",
+      "target": "gain-1696513953482",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697923501387out-gain-1696513953482in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1696513884481",
+      "sourceHandle": "out",
+      "target": "gain-1696513953482",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-mathNode-1696513884481out-gain-1696513953482gain"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1696489610376",
+      "sourceHandle": "out",
+      "target": "reverb-1696499738963",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1696489610376out-reverb-1696499738963input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "reverb-1696499738963",
+      "sourceHandle": "output",
+      "target": "patch-1697917805639",
+      "targetHandle": "in",
+      "id": "reactflow__edge-reverb-1696499738963output-patch-1697917805639in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697917805639",
+      "sourceHandle": "out",
+      "target": "patch-1697667218375",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697917805639out-patch-1697667218375in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697667218375",
+      "sourceHandle": "out",
+      "target": "patch-1697662220967",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697667218375out-patch-1697662220967in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697662220967",
+      "sourceHandle": "out",
+      "target": "patch-1697657952105",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697662220967out-patch-1697657952105in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697657952105",
+      "sourceHandle": "out",
+      "target": "patch-1697919975028",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697657952105out-patch-1697919975028in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697919975028",
+      "sourceHandle": "out",
+      "target": "patch-1697923501387",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697919975028out-patch-1697923501387in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697662220967",
+      "sourceHandle": "out",
+      "target": "patch-1697817278331",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697662220967out-patch-1697817278331in",
+      "selected": false
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "gate-1696513839979",
+        "width": 4,
+        "height": 6,
+        "x": 0,
+        "y": 6
+      },
+      {
+        "id": "slider-1697454878207",
+        "width": 1,
+        "height": 15,
+        "x": 0,
+        "y": 12
+      },
+      {
+        "id": "gate-1697629339523",
+        "width": 4,
+        "height": 6,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "slider-1697658060805",
+        "width": 1,
+        "height": 15,
+        "x": 0,
+        "y": 27
+      },
+      {
+        "id": "slider-1697662299160",
+        "width": 1,
+        "height": 15,
+        "x": 3,
+        "y": 12
+      },
+      {
+        "id": "slider-1697667348326",
+        "width": 1,
+        "height": 15,
+        "x": 1,
+        "y": 12
+      },
+      {
+        "id": "slider-1697917937791",
+        "width": 1,
+        "height": 15,
+        "x": 2,
+        "y": 12
+      },
+      {
+        "id": "slider-1697920003618",
+        "width": 1,
+        "height": 15,
+        "x": 1,
+        "y": 27
+      },
+      {
+        "id": "slider-1697923692506",
+        "width": 1,
+        "height": 15,
+        "x": 2,
+        "y": 27
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": -495.8604350597593,
+    "y": 546.0984630901329,
+    "zoom": 0.5791464030973223
+  }
+}
