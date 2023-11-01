@@ -2,144 +2,6 @@
   "nodes": [
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "scale-1698838607208",
-      "type": "scale",
-      "data": {
-        "label": "scale",
-        "config": {}
-      },
-      "position": {
-        "x": 380,
-        "y": 260
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 148,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 380,
-        "y": 260
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1698838613532",
-      "type": "inlet",
-      "data": {
-        "label": "in",
-        "config": {}
-      },
-      "position": {
-        "x": -60,
-        "y": 20
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -60,
-        "y": 20
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1698838617761",
-      "type": "inlet",
-      "data": {
-        "label": "dryWet",
-        "config": {}
-      },
-      "position": {
-        "x": -60,
-        "y": 140
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -60,
-        "y": 140
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "reverb-1698838623534",
-      "type": "reverb",
-      "data": {
-        "label": "reverb",
-        "config": {}
-      },
-      "position": {
-        "x": 560,
-        "y": 100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": 100
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1698838677414",
-      "type": "outlet",
-      "data": {
-        "label": "out",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": 80
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": 80
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1698838698301",
-      "type": "outlet",
-      "data": {
-        "label": "reverb",
-        "config": {}
-      },
-      "position": {
-        "x": 560,
-        "y": 280
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 64,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": 280
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "parameter-1698838736102",
       "type": "parameter",
       "data": {
@@ -178,8 +40,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -204,14 +66,152 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 176,
-      "height": 88,
+      "width": 174,
+      "height": 86,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
         "x": 140,
         "y": 520
       }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1698838698301",
+      "type": "outlet",
+      "data": {
+        "label": "reverbValue",
+        "config": {}
+      },
+      "position": {
+        "x": 600,
+        "y": 280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 600,
+        "y": 280
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1698838617761",
+      "type": "inlet",
+      "data": {
+        "label": "dryWet",
+        "config": {}
+      },
+      "position": {
+        "x": -60,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1698838613532",
+      "type": "inlet",
+      "data": {
+        "label": "in",
+        "config": {}
+      },
+      "position": {
+        "x": -60,
+        "y": 20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": 20
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1698838677414",
+      "type": "outlet",
+      "data": {
+        "label": "out",
+        "config": {}
+      },
+      "position": {
+        "x": 780,
+        "y": 80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 780,
+        "y": 80
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "scale-1698838607208",
+      "type": "scale",
+      "data": {
+        "label": "scale",
+        "config": {}
+      },
+      "position": {
+        "x": 380,
+        "y": 260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 148,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 380,
+        "y": 260
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "reverb-1698838623534",
+      "type": "reverb",
+      "data": {
+        "label": "reverb",
+        "config": {}
+      },
+      "position": {
+        "x": 560,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 560,
+        "y": 100
+      },
+      "dragging": false
     }
   ],
   "edges": [
@@ -297,8 +297,8 @@
     }
   },
   "viewport": {
-    "x": 223.11139191587392,
-    "y": 53.326707885178735,
-    "zoom": 0.8010698775896218
+    "x": 222.19956767573206,
+    "y": -9.173225033701527,
+    "zoom": 0.6506709277209666
   }
 }
