@@ -809,24 +809,6 @@
       "source": "filter-1696499561058",
       "sourceHandle": "out",
       "target": "reverb-1696499456884",
-      "targetHandle": "in",
-      "id": "reactflow__edge-filter-1696499561058out-reverb-1696499456884in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "reverb-1696499456884",
-      "sourceHandle": "out",
-      "target": "gain-1696514913966",
-      "targetHandle": "in",
-      "id": "reactflow__edge-reverb-1696499456884out-gain-1696514913966in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "filter-1696499561058",
-      "sourceHandle": "out",
-      "target": "reverb-1696499456884",
       "targetHandle": "input",
       "id": "reactflow__edge-filter-1696499561058out-reverb-1696499456884input",
       "selected": false

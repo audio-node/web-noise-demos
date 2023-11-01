@@ -669,15 +669,6 @@
   "edges": [
     {
       "type": "wire",
-      "source": "reverb-1696516455907",
-      "sourceHandle": "out",
-      "target": "gain-1696516502411",
-      "targetHandle": "in",
-      "id": "reactflow__edge-reverb-1696516455907out-gain-1696516502411in",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "filter-1696516430858",
       "sourceHandle": "out",
       "target": "reverb-1696516455907",
