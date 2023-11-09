@@ -22,17 +22,17 @@
         }
       },
       "position": {
-        "x": -60,
-        "y": -760
+        "x": -20,
+        "y": -880
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 194,
-      "height": 197,
+      "width": 196,
+      "height": 199,
       "selected": false,
       "positionAbsolute": {
-        "x": -60,
-        "y": -760
+        "x": -20,
+        "y": -880
       },
       "dragging": false
     },
@@ -58,7 +58,7 @@
         }
       },
       "position": {
-        "x": 460,
+        "x": 1400,
         "y": -800
       },
       "targetPosition": "left",
@@ -68,7 +68,7 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 460,
+        "x": 1400,
         "y": -800
       }
     },
@@ -94,7 +94,7 @@
         }
       },
       "position": {
-        "x": 800,
+        "x": 1080,
         "y": -800
       },
       "targetPosition": "left",
@@ -104,43 +104,7 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 800,
-        "y": -800
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "sticker-1697628096890",
-      "type": "sticker",
-      "data": {
-        "label": "sticker",
-        "config": {
-          "transparentBackground": false,
-          "backgroundColor": "#181c20",
-          "textColor": "#ffffff",
-          "size": {
-            "width": 129,
-            "height": 53
-          }
-        },
-        "values": {
-          "text": "heaven hi fx\n",
-          "width": 280,
-          "height": 150
-        }
-      },
-      "position": {
-        "x": 1040,
-        "y": -800
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 129,
-      "height": 53,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1040,
+        "x": 1080,
         "y": -800
       }
     },
@@ -166,8 +130,8 @@
         }
       },
       "position": {
-        "x": 1340,
-        "y": -800
+        "x": 300,
+        "y": -820
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -176,8 +140,8 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 1340,
-        "y": -800
+        "x": 300,
+        "y": -820
       }
     },
     {
@@ -202,7 +166,7 @@
         }
       },
       "position": {
-        "x": 1720,
+        "x": 680,
         "y": -800
       },
       "targetPosition": "left",
@@ -212,43 +176,7 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 1720,
-        "y": -800
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "sticker-1697628307579",
-      "type": "sticker",
-      "data": {
-        "label": "sticker",
-        "config": {
-          "transparentBackground": false,
-          "backgroundColor": "#181c20",
-          "textColor": "#ffffff",
-          "size": {
-            "width": 152,
-            "height": 59
-          }
-        },
-        "values": {
-          "text": "twister fx\n",
-          "width": 280,
-          "height": 150
-        }
-      },
-      "position": {
-        "x": 2120,
-        "y": -800
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 152,
-      "height": 59,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 2120,
+        "x": 680,
         "y": -800
       }
     },
@@ -274,8 +202,8 @@
         }
       },
       "position": {
-        "x": 2520,
-        "y": -800
+        "x": 1860,
+        "y": -820
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -284,8 +212,8 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 2520,
-        "y": -800
+        "x": 1860,
+        "y": -820
       }
     },
     {
@@ -297,8 +225,8 @@
         "config": {}
       },
       "position": {
-        "x": 3540,
-        "y": -420
+        "x": 3080,
+        "y": -620
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -306,8 +234,8 @@
       "height": 64,
       "selected": false,
       "positionAbsolute": {
-        "x": 3540,
-        "y": -420
+        "x": 3080,
+        "y": -620
       },
       "dragging": false
     },
@@ -398,8 +326,8 @@
         }
       },
       "position": {
-        "x": 3260,
-        "y": -440
+        "x": 2800,
+        "y": -640
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -407,8 +335,8 @@
       "height": 115,
       "selected": false,
       "positionAbsolute": {
-        "x": 3260,
-        "y": -440
+        "x": 2800,
+        "y": -640
       },
       "dragging": false
     },
@@ -436,7 +364,7 @@
         }
       },
       "position": {
-        "x": 460,
+        "x": 1400,
         "y": -720
       },
       "targetPosition": "left",
@@ -445,7 +373,7 @@
       "height": 212,
       "selected": false,
       "positionAbsolute": {
-        "x": 460,
+        "x": 1400,
         "y": -720
       },
       "dragging": false
@@ -504,11 +432,11 @@
           }
         },
         "values": {
-          "value": 0
+          "value": 0.71
         }
       },
       "position": {
-        "x": 1720,
+        "x": 680,
         "y": -720
       },
       "targetPosition": "left",
@@ -517,7 +445,7 @@
       "height": 215,
       "selected": false,
       "positionAbsolute": {
-        "x": 1720,
+        "x": 680,
         "y": -720
       },
       "dragging": false
@@ -542,12 +470,12 @@
           }
         },
         "values": {
-          "value": 0
+          "value": 0.3
         }
       },
       "position": {
-        "x": 1340,
-        "y": -720
+        "x": 300,
+        "y": -740
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -556,46 +484,8 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 1340,
-        "y": -720
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "slider-1697667348326",
-      "type": "slider",
-      "data": {
-        "label": "heav hi",
-        "config": {
-          "min": 0,
-          "max": 1,
-          "step": 0.01,
-          "isVertical": true,
-          "color": "#007bff",
-          "showScale": false,
-          "scaleSteps": 3,
-          "size": {
-            "width": 100,
-            "height": 150
-          }
-        },
-        "values": {
-          "value": 0
-        }
-      },
-      "position": {
-        "x": 1040,
-        "y": -720
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 212,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1040,
-        "y": -720
+        "x": 300,
+        "y": -740
       }
     },
     {
@@ -622,7 +512,7 @@
         }
       },
       "position": {
-        "x": 720,
+        "x": 1000,
         "y": -720
       },
       "targetPosition": "left",
@@ -632,45 +522,7 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 720,
-        "y": -720
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "slider-1697920003618",
-      "type": "slider",
-      "data": {
-        "label": "twister",
-        "config": {
-          "min": 0,
-          "max": 1,
-          "step": 0.01,
-          "isVertical": true,
-          "color": "#007bff",
-          "showScale": false,
-          "scaleSteps": 3,
-          "size": {
-            "width": 100,
-            "height": 155
-          }
-        },
-        "values": {
-          "value": 0
-        }
-      },
-      "position": {
-        "x": 2120,
-        "y": -720
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 217,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 2120,
+        "x": 1000,
         "y": -720
       }
     },
@@ -698,8 +550,8 @@
         }
       },
       "position": {
-        "x": 2500,
-        "y": -720
+        "x": 1840,
+        "y": -740
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -708,8 +560,8 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 2500,
-        "y": -720
+        "x": 1840,
+        "y": -740
       }
     },
     {
@@ -732,12 +584,12 @@
           }
         },
         "values": {
-          "value": 1
+          "value": 0.443
         }
       },
       "position": {
-        "x": 3000,
-        "y": -300
+        "x": 2420,
+        "y": -340
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -745,468 +597,63 @@
       "height": 142,
       "selected": false,
       "positionAbsolute": {
-        "x": 3000,
-        "y": -300
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697926856232",
-      "type": "valueMeter",
-      "data": {
-        "label": "freq",
-        "config": {}
-      },
-      "position": {
-        "x": 1700,
+        "x": 2420,
         "y": -340
       },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1700,
-        "y": -340
-      }
+      "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697925435274",
-      "type": "valueMeter",
+      "id": "audioTrack-1696489610376",
+      "type": "audioTrack",
       "data": {
-        "label": "filter1Freq",
-        "config": {}
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "start": 45.44,
+          "end": 50,
+          "src": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/7937f0e0-882c-11ec-af9c-022ed69f96e6.mp3?cb=202202071"
+        }
       },
       "position": {
-        "x": 1040,
-        "y": -300
+        "x": -380,
+        "y": -840
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
+      "width": 300,
+      "height": 375,
       "selected": false,
       "positionAbsolute": {
-        "x": 1040,
-        "y": -300
+        "x": -380,
+        "y": -840
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697923775833",
-      "type": "valueMeter",
+      "id": "whiteNoise-1696507883819",
+      "type": "whiteNoise",
       "data": {
-        "label": "release",
+        "label": "whiteNoise",
         "config": {}
       },
       "position": {
-        "x": 2480,
-        "y": -140
+        "x": 4580,
+        "y": 1540
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 153,
-      "height": 87,
+      "height": 62,
       "selected": false,
       "positionAbsolute": {
-        "x": 2480,
-        "y": -140
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697926845498",
-      "type": "valueMeter",
-      "data": {
-        "label": "lowendGain",
-        "config": {}
-      },
-      "position": {
-        "x": 1700,
-        "y": -240
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1700,
-        "y": -240
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697616756074",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 460,
-        "y": -360
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 460,
-        "y": -360
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697927169885",
-      "type": "valueMeter",
-      "data": {
-        "label": "freq",
-        "config": {}
-      },
-      "position": {
-        "x": 2120,
-        "y": -360
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2120,
-        "y": -360
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697925459121",
-      "type": "valueMeter",
-      "data": {
-        "label": "reverb",
-        "config": {}
-      },
-      "position": {
-        "x": 1040,
-        "y": -200
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1040,
-        "y": -200
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697925467374",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 1040,
-        "y": 0
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1040,
-        "y": 0
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697925941907",
-      "type": "valueMeter",
-      "data": {
-        "label": "highpassFreq",
-        "config": {}
-      },
-      "position": {
-        "x": 1340,
-        "y": -320
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1340,
-        "y": -320
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697925974275",
-      "type": "valueMeter",
-      "data": {
-        "label": "noiseGain",
-        "config": {}
-      },
-      "position": {
-        "x": 1340,
-        "y": -100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1340,
-        "y": -100
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697923762885",
-      "type": "valueMeter",
-      "data": {
-        "label": "attack",
-        "config": {}
-      },
-      "position": {
-        "x": 2480,
-        "y": -240
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2480,
-        "y": -240
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697923835403",
-      "type": "valueMeter",
-      "data": {
-        "label": "open gain",
-        "config": {}
-      },
-      "position": {
-        "x": 2480,
-        "y": 160
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2480,
-        "y": 160
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697924545686",
-      "type": "valueMeter",
-      "data": {
-        "label": "filter2Freq",
-        "config": {}
-      },
-      "position": {
-        "x": 740,
-        "y": -140
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 740,
-        "y": -140
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697925449234",
-      "type": "valueMeter",
-      "data": {
-        "label": "filter2Freq",
-        "config": {}
-      },
-      "position": {
-        "x": 1040,
-        "y": -100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1040,
-        "y": -100
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697923792714",
-      "type": "valueMeter",
-      "data": {
-        "label": "threshold",
-        "config": {}
-      },
-      "position": {
-        "x": 2480,
-        "y": -40
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2480,
-        "y": -40
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697923873753",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 2480,
-        "y": 60
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2480,
-        "y": 60
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697925954585",
-      "type": "valueMeter",
-      "data": {
-        "label": "lowpassFreq",
-        "config": {}
-      },
-      "position": {
-        "x": 1340,
-        "y": -220
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1340,
-        "y": -220
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697924677912",
-      "type": "valueMeter",
-      "data": {
-        "label": "filter1Freq",
-        "config": {}
-      },
-      "position": {
-        "x": 740,
-        "y": -340
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 740,
-        "y": -340
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697924703803",
-      "type": "valueMeter",
-      "data": {
-        "label": "reverb",
-        "config": {}
-      },
-      "position": {
-        "x": 740,
-        "y": -240
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 740,
-        "y": -240
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1697923855721",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 2480,
-        "y": 260
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2480,
-        "y": 260
+        "x": 4580,
+        "y": 1540
       },
       "dragging": false
     },
@@ -1249,24 +696,346 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "whiteNoise-1696507883819",
-      "type": "whiteNoise",
+      "id": "valueMeter-1697923792714",
+      "type": "valueMeter",
       "data": {
-        "label": "whiteNoise",
+        "label": "threshold",
         "config": {}
       },
       "position": {
-        "x": 4580,
-        "y": 1540
+        "x": 1820,
+        "y": -60
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 153,
-      "height": 62,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
-        "x": 4580,
-        "y": 1540
+        "x": 1820,
+        "y": -60
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697924545686",
+      "type": "valueMeter",
+      "data": {
+        "label": "filter2Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1020,
+        "y": -140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1020,
+        "y": -140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697924677912",
+      "type": "valueMeter",
+      "data": {
+        "label": "filter1Freq",
+        "config": {}
+      },
+      "position": {
+        "x": 1020,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1020,
+        "y": -340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925974275",
+      "type": "valueMeter",
+      "data": {
+        "label": "noiseGain",
+        "config": {}
+      },
+      "position": {
+        "x": 300,
+        "y": -120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 300,
+        "y": -120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697926856232",
+      "type": "valueMeter",
+      "data": {
+        "label": "freq",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697924703803",
+      "type": "valueMeter",
+      "data": {
+        "label": "reverb",
+        "config": {}
+      },
+      "position": {
+        "x": 1020,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1020,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923835403",
+      "type": "valueMeter",
+      "data": {
+        "label": "open gain",
+        "config": {}
+      },
+      "position": {
+        "x": 1820,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1820,
+        "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923855721",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 1820,
+        "y": 240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1820,
+        "y": 240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923762885",
+      "type": "valueMeter",
+      "data": {
+        "label": "attack",
+        "config": {}
+      },
+      "position": {
+        "x": 1820,
+        "y": -260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1820,
+        "y": -260
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925954585",
+      "type": "valueMeter",
+      "data": {
+        "label": "lowpassFreq",
+        "config": {}
+      },
+      "position": {
+        "x": 300,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 300,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697925941907",
+      "type": "valueMeter",
+      "data": {
+        "label": "highpassFreq",
+        "config": {}
+      },
+      "position": {
+        "x": 300,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 300,
+        "y": -340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923775833",
+      "type": "valueMeter",
+      "data": {
+        "label": "release",
+        "config": {}
+      },
+      "position": {
+        "x": 1820,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1820,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697926845498",
+      "type": "valueMeter",
+      "data": {
+        "label": "lowendGain",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -240
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697923873753",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 1820,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1820,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1697616756074",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 1400,
+        "y": -360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1400,
+        "y": -360
       },
       "dragging": false
     },
@@ -1303,59 +1072,27 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "audioTrack-1696489610376",
-      "type": "audioTrack",
-      "data": {
-        "label": "audioTrack",
-        "config": {
-          "waveColor": "#007bff",
-          "progressColor": "#8c92a4",
-          "rangeColor": "#14df42"
-        },
-        "values": {
-          "start": 45.44,
-          "end": 50,
-          "src": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/7937f0e0-882c-11ec-af9c-022ed69f96e6.mp3?cb=202202071"
-        }
-      },
-      "position": {
-        "x": -380,
-        "y": -840
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 300,
-      "height": 375,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -380,
-        "y": -840
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1697662220967",
+      "id": "patch-1697923501387",
       "type": "patch",
       "data": {
-        "label": "radio/vinyl",
+        "label": "master punch",
         "config": {},
         "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/radio_effect.json"
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/master_punch_effect.json"
         }
       },
       "position": {
-        "x": 1340,
-        "y": -480
+        "x": 1820,
+        "y": -460
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 201,
-      "height": 126,
+      "height": 191,
       "selected": false,
       "positionAbsolute": {
-        "x": 1340,
-        "y": -480
+        "x": 1820,
+        "y": -460
       },
       "dragging": false
     },
@@ -1371,7 +1108,7 @@
         }
       },
       "position": {
-        "x": 1700,
+        "x": 660,
         "y": -460
       },
       "targetPosition": "left",
@@ -1380,88 +1117,36 @@
       "height": 105,
       "selected": false,
       "positionAbsolute": {
-        "x": 1700,
+        "x": 660,
         "y": -460
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1697923501387",
+      "id": "patch-1697662220967",
       "type": "patch",
       "data": {
-        "label": "master punch",
+        "label": "radio/vinyl",
         "config": {},
         "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/master_punch_effect.json"
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/radio_effect.json"
         }
       },
       "position": {
-        "x": 2480,
-        "y": -440
+        "x": 300,
+        "y": -500
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 201,
-      "height": 191,
+      "height": 126,
       "selected": false,
       "positionAbsolute": {
-        "x": 2480,
-        "y": -440
+        "x": 300,
+        "y": -500
       },
       "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1697919975028",
-      "type": "patch",
-      "data": {
-        "label": "twister",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/twister_effect.json"
-        }
-      },
-      "position": {
-        "x": 2120,
-        "y": -460
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 201,
-      "height": 83,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 2120,
-        "y": -460
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1697667218375",
-      "type": "patch",
-      "data": {
-        "label": "heaven hi fx",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/prototypes/remixer/heaven_hi_effect.json"
-        }
-      },
-      "position": {
-        "x": 1040,
-        "y": -480
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 201,
-      "height": 148,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1040,
-        "y": -480
-      }
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -1475,7 +1160,7 @@
         }
       },
       "position": {
-        "x": 720,
+        "x": 1000,
         "y": -480
       },
       "targetPosition": "left",
@@ -1485,7 +1170,7 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 720,
+        "x": 1000,
         "y": -480
       }
     },
@@ -1501,7 +1186,7 @@
         }
       },
       "position": {
-        "x": 440,
+        "x": 1380,
         "y": -460
       },
       "targetPosition": "left",
@@ -1511,7 +1196,7 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 440,
+        "x": 1380,
         "y": -460
       }
     }
@@ -1582,15 +1267,6 @@
     },
     {
       "type": "wire",
-      "source": "slider-1697667348326",
-      "sourceHandle": "output",
-      "target": "patch-1697667218375",
-      "targetHandle": "dryWet",
-      "id": "reactflow__edge-slider-1697667348326output-patch-1697667218375dryWet",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "slider-1697658060805",
       "sourceHandle": "output",
       "target": "patch-1697817278331",
@@ -1605,15 +1281,6 @@
       "target": "patch-1697917805639",
       "targetHandle": "dryWet",
       "id": "reactflow__edge-slider-1697917937791output-patch-1697917805639dryWet",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "slider-1697920003618",
-      "sourceHandle": "output",
-      "target": "patch-1697919975028",
-      "targetHandle": "dryWet",
-      "id": "reactflow__edge-slider-1697920003618output-patch-1697919975028dryWet",
       "selected": false
     },
     {
@@ -1708,42 +1375,6 @@
     },
     {
       "type": "wire",
-      "source": "patch-1697667218375",
-      "sourceHandle": "filter1Freq",
-      "target": "valueMeter-1697925435274",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1697667218375filter1Freq-valueMeter-1697925435274input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697667218375",
-      "sourceHandle": "filter2Freq",
-      "target": "valueMeter-1697925449234",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1697667218375filter2Freq-valueMeter-1697925449234input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697667218375",
-      "sourceHandle": "reverbVal",
-      "target": "valueMeter-1697925459121",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1697667218375reverbVal-valueMeter-1697925459121input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697667218375",
-      "sourceHandle": "filter3Freq",
-      "target": "valueMeter-1697925467374",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1697667218375filter3Freq-valueMeter-1697925467374input",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "patch-1697662220967",
       "sourceHandle": "highpassFreq",
       "target": "valueMeter-1697925941907",
@@ -1767,69 +1398,6 @@
       "target": "valueMeter-1697925974275",
       "targetHandle": "input",
       "id": "reactflow__edge-patch-1697662220967noiseGain-valueMeter-1697925974275input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697919975028",
-      "sourceHandle": "freq",
-      "target": "valueMeter-1697927169885",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1697919975028freq-valueMeter-1697927169885input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697923501387",
-      "sourceHandle": "out",
-      "target": "gain-1696513953482",
-      "targetHandle": "in",
-      "id": "reactflow__edge-patch-1697923501387out-gain-1696513953482in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697917805639",
-      "sourceHandle": "out",
-      "target": "patch-1697667218375",
-      "targetHandle": "in",
-      "id": "reactflow__edge-patch-1697917805639out-patch-1697667218375in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697667218375",
-      "sourceHandle": "out",
-      "target": "patch-1697662220967",
-      "targetHandle": "in",
-      "id": "reactflow__edge-patch-1697667218375out-patch-1697662220967in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697919975028",
-      "sourceHandle": "out",
-      "target": "patch-1697923501387",
-      "targetHandle": "in",
-      "id": "reactflow__edge-patch-1697919975028out-patch-1697923501387in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697662220967",
-      "sourceHandle": "out",
-      "target": "patch-1697817278331",
-      "targetHandle": "in",
-      "id": "reactflow__edge-patch-1697662220967out-patch-1697817278331in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1697817278331",
-      "sourceHandle": "out",
-      "target": "patch-1697919975028",
-      "targetHandle": "in",
-      "id": "reactflow__edge-patch-1697817278331out-patch-1697919975028in",
       "selected": false
     },
     {
@@ -1865,15 +1433,8 @@
       "sourceHandle": "output",
       "target": "patch-1698839032080",
       "targetHandle": "dryWet",
-      "id": "reactflow__edge-slider-1697454878207output-patch-1698839032080dryWet"
-    },
-    {
-      "type": "wire",
-      "source": "audioTrack-1696489610376",
-      "sourceHandle": "out",
-      "target": "patch-1698839032080",
-      "targetHandle": "in",
-      "id": "reactflow__edge-audioTrack-1696489610376out-patch-1698839032080in"
+      "id": "reactflow__edge-slider-1697454878207output-patch-1698839032080dryWet",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1881,15 +1442,65 @@
       "sourceHandle": "reverb",
       "target": "valueMeter-1697616756074",
       "targetHandle": "input",
-      "id": "reactflow__edge-patch-1698839032080reverb-valueMeter-1697616756074input"
+      "id": "reactflow__edge-patch-1698839032080reverb-valueMeter-1697616756074input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1696489610376",
+      "sourceHandle": "out",
+      "target": "patch-1697662220967",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1696489610376out-patch-1697662220967in"
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697662220967",
+      "sourceHandle": "out",
+      "target": "patch-1697817278331",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697662220967out-patch-1697817278331in"
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697817278331",
+      "sourceHandle": "out",
+      "target": "patch-1697917805639",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697817278331out-patch-1697917805639in"
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697917805639",
+      "sourceHandle": "out",
+      "target": "patch-1698839032080",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697917805639out-patch-1698839032080in"
     },
     {
       "type": "wire",
       "source": "patch-1698839032080",
       "sourceHandle": "out",
-      "target": "patch-1697917805639",
+      "target": "patch-1697923501387",
       "targetHandle": "in",
-      "id": "reactflow__edge-patch-1698839032080out-patch-1697917805639in"
+      "id": "reactflow__edge-patch-1698839032080out-patch-1697923501387in"
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697917805639",
+      "sourceHandle": "out",
+      "target": "patch-1697923501387",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697917805639out-patch-1697923501387in"
+    },
+    {
+      "type": "wire",
+      "source": "patch-1697923501387",
+      "sourceHandle": "out",
+      "target": "gain-1696513953482",
+      "targetHandle": "in",
+      "id": "reactflow__edge-patch-1697923501387out-gain-1696513953482in",
+      "selected": false
     }
   ],
   "controlPanel": {
@@ -1898,7 +1509,7 @@
         "id": "slider-1697454878207",
         "width": 1,
         "height": 15,
-        "x": 0,
+        "x": 3,
         "y": 6
       },
       {
@@ -1912,42 +1523,28 @@
         "id": "slider-1697658060805",
         "width": 1,
         "height": 15,
-        "x": 0,
-        "y": 21
+        "x": 1,
+        "y": 6
       },
       {
         "id": "slider-1697662299160",
         "width": 1,
         "height": 15,
-        "x": 3,
-        "y": 6
-      },
-      {
-        "id": "slider-1697667348326",
-        "width": 1,
-        "height": 15,
-        "x": 2,
+        "x": 0,
         "y": 6
       },
       {
         "id": "slider-1697917937791",
         "width": 1,
         "height": 15,
-        "x": 1,
+        "x": 2,
         "y": 6
-      },
-      {
-        "id": "slider-1697920003618",
-        "width": 1,
-        "height": 15,
-        "x": 1,
-        "y": 21
       },
       {
         "id": "slider-1697923692506",
         "width": 1,
         "height": 15,
-        "x": 2,
+        "x": 0,
         "y": 21
       },
       {
@@ -1960,13 +1557,13 @@
     ],
     "show": true,
     "size": {
-      "width": 216,
-      "height": 100
+      "width": 218,
+      "height": 84
     }
   },
   "viewport": {
-    "x": 214.53711018896092,
-    "y": 813.1901960070676,
-    "zoom": 0.7209644357301124
+    "x": 673.5854870513824,
+    "y": 537.1998904346708,
+    "zoom": 0.5
   }
 }
