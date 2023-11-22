@@ -813,8 +813,8 @@
         }
       },
       "position": {
-        "x": 1340,
-        "y": -960
+        "x": 1280,
+        "y": -680
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -822,8 +822,8 @@
       "height": 181,
       "selected": false,
       "positionAbsolute": {
-        "x": 1340,
-        "y": -960
+        "x": 1280,
+        "y": -680
       },
       "dragging": false
     },
@@ -877,8 +877,8 @@
         }
       },
       "position": {
-        "x": 1840,
-        "y": -960
+        "x": 1820,
+        "y": -1020
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -886,8 +886,8 @@
       "height": 182,
       "selected": false,
       "positionAbsolute": {
-        "x": 1840,
-        "y": -960
+        "x": 1820,
+        "y": -1020
       },
       "dragging": false
     },
@@ -915,8 +915,8 @@
         }
       },
       "position": {
-        "x": 1620,
-        "y": -820
+        "x": 1680,
+        "y": -700
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -925,8 +925,8 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 1620,
-        "y": -820
+        "x": 1680,
+        "y": -700
       }
     },
     {
@@ -953,8 +953,8 @@
         }
       },
       "position": {
-        "x": 1340,
-        "y": -760
+        "x": 1280,
+        "y": -480
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -963,8 +963,8 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 1340,
-        "y": -760
+        "x": 1280,
+        "y": -480
       }
     },
     {
@@ -991,8 +991,8 @@
         }
       },
       "position": {
-        "x": 1620,
-        "y": -580
+        "x": 1680,
+        "y": -460
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -1001,61 +1001,8 @@
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
-        "x": 1620,
-        "y": -580
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "adsr-1693009609057",
-      "type": "adsr",
-      "data": {
-        "label": "adsr",
-        "config": {},
-        "values": {
-          "attack": 0.1,
-          "attackCurve": 0.5,
-          "decay": 0.5,
-          "sustain": 0.8,
-          "release": 0.1
-        }
-      },
-      "position": {
-        "x": 400,
-        "y": -1120
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 372,
-      "height": 177,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 400,
-        "y": -1120
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1693011115423",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 0,
-        "y": -1220
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 0,
-        "y": -1220
+        "x": 1680,
+        "y": -460
       }
     },
     {
@@ -1087,6 +1034,29 @@
         "y": -1640
       },
       "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1693011115423",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 0,
+        "y": -1220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 0,
+        "y": -1220
+      }
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -1127,6 +1097,36 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1693009609057",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {},
+        "values": {
+          "attack": 0.1,
+          "attackCurve": 0.5,
+          "decay": 0.5,
+          "sustain": 0.8,
+          "release": 0.1
+        }
+      },
+      "position": {
+        "x": 400,
+        "y": -1120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 372,
+      "height": 177,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 400,
+        "y": -1120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "midiToFrequency-1693011050164",
       "type": "midiToFrequency",
       "data": {
@@ -1147,32 +1147,6 @@
         "y": -960
       },
       "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "reverb-1693011660962",
-      "type": "reverb",
-      "data": {
-        "label": "reverb",
-        "config": {},
-        "values": {
-          "wetDry": 0.5
-        }
-      },
-      "position": {
-        "x": 1400,
-        "y": -1200
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1400,
-        "y": -1200
-      }
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -1197,6 +1171,68 @@
       "positionAbsolute": {
         "x": 580,
         "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "reverb-1693011660962",
+      "type": "reverb",
+      "data": {
+        "label": "reverb",
+        "config": {},
+        "values": {
+          "wetDry": 0.5
+        }
+      },
+      "position": {
+        "x": 1380,
+        "y": -1180
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1380,
+        "y": -1180
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1700688266768",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 75
+          }
+        },
+        "values": {
+          "text": "**Be careful when changing filter values**, always set master volume to low value before to avoid shocking your ears",
+          "width": 280,
+          "height": 75
+        }
+      },
+      "position": {
+        "x": 1440,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 282,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1440,
+        "y": -800
       },
       "dragging": false
     }
@@ -1434,33 +1470,33 @@
         "width": 2,
         "height": 7,
         "x": 0,
-        "y": 9
+        "y": 15
       },
       {
         "id": "oscillator-1693009557776",
         "width": 2,
         "height": 7,
         "x": 2,
-        "y": 9
+        "y": 15
       },
       {
         "id": "midiNote-1693011148148",
         "width": 1,
         "height": 6,
         "x": 0,
-        "y": 16
+        "y": 0
       },
       {
         "id": "slider-1697412165201",
         "width": 1,
-        "height": 19,
+        "height": 37,
         "x": 0,
         "y": 22
       },
       {
         "id": "slider-1697412428607",
         "width": 1,
-        "height": 19,
+        "height": 37,
         "x": 1,
         "y": 22
       },
@@ -1469,49 +1505,56 @@
         "width": 1,
         "height": 15,
         "x": 2,
-        "y": 16
+        "y": 32
       },
       {
         "id": "slider-1697413434425",
-        "width": 1,
+        "width": 3,
         "height": 6,
         "x": 1,
-        "y": 16
+        "y": 0
       },
       {
         "id": "slider-1697413654747",
         "width": 1,
         "height": 15,
         "x": 3,
-        "y": 16
+        "y": 32
       },
       {
         "id": "slider-1697414882319",
         "width": 1,
-        "height": 10,
+        "height": 12,
         "x": 2,
-        "y": 31
+        "y": 47
       },
       {
         "id": "slider-1697415130271",
         "width": 1,
-        "height": 10,
+        "height": 12,
         "x": 3,
-        "y": 31
+        "y": 47
       },
       {
         "id": "spectroscope-1693009906515",
         "width": 2,
         "height": 9,
         "x": 0,
-        "y": 0
+        "y": 6
       },
       {
         "id": "oscilloscope-1693009631545",
         "width": 2,
         "height": 9,
         "x": 2,
-        "y": 0
+        "y": 6
+      },
+      {
+        "id": "sticker-1700688266768",
+        "width": 2,
+        "height": 10,
+        "x": 2,
+        "y": 22
       }
     ],
     "show": true,
@@ -1521,8 +1564,8 @@
     }
   },
   "viewport": {
-    "x": 850.3898938771731,
-    "y": 823.6097331301653,
+    "x": 939.3898938771731,
+    "y": 830.6097331301653,
     "zoom": 0.6417129487814522
   }
 }
