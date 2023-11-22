@@ -74,29 +74,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "spectroscope-1686350543112",
-      "type": "spectroscope",
-      "data": {
-        "label": "spectroscope",
-        "config": {}
-      },
-      "position": {
-        "x": -180,
-        "y": -640
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 300,
-      "height": 248,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -180,
-        "y": -640
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "parameter-1690151115416",
       "type": "parameter",
       "data": {
@@ -109,7 +86,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
+      "width": 170,
       "height": 86,
       "selected": false,
       "positionAbsolute": {
@@ -192,8 +169,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
-      "height": 93,
+      "width": 170,
+      "height": 94,
       "selected": false,
       "dragging": false
     },
@@ -222,8 +199,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
-      "height": 93,
+      "width": 170,
+      "height": 94,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -256,8 +233,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
-      "height": 93,
+      "width": 170,
+      "height": 94,
       "selected": false,
       "positionAbsolute": {
         "x": -1940,
@@ -290,8 +267,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
-      "height": 93,
+      "width": 170,
+      "height": 94,
       "selected": false,
       "positionAbsolute": {
         "x": -1940,
@@ -313,7 +290,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -336,7 +313,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -359,7 +336,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -382,7 +359,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -405,7 +382,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -428,7 +405,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -451,7 +428,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -474,7 +451,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
@@ -497,12 +474,42 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 191,
       "height": 87,
       "selected": false,
       "positionAbsolute": {
         "x": 780,
         "y": -840
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "spectroscope-1686350543112",
+      "type": "spectroscope",
+      "data": {
+        "label": "spectroscope",
+        "config": {
+          "backgroundColor": "#292d39",
+          "inputColor": "#007bff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 233,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": -640
       },
       "dragging": false
     },
@@ -524,7 +531,7 @@
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 180,
-      "height": 273,
+      "height": 276,
       "selected": false,
       "positionAbsolute": {
         "x": 2920,
@@ -550,7 +557,7 @@
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 180,
-      "height": 311,
+      "height": 317,
       "selected": false,
       "positionAbsolute": {
         "x": 2100,
@@ -575,8 +582,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 206,
-      "height": 273,
+      "width": 205,
+      "height": 276,
       "selected": false,
       "positionAbsolute": {
         "x": 1800,
@@ -602,7 +609,7 @@
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 180,
-      "height": 273,
+      "height": 276,
       "selected": false,
       "positionAbsolute": {
         "x": 1580,
@@ -631,8 +638,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 300,
-      "height": 375,
+      "width": 362,
+      "height": 390,
       "selected": false,
       "positionAbsolute": {
         "x": -1260,
@@ -661,8 +668,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 300,
-      "height": 375,
+      "width": 362,
+      "height": 390,
       "selected": false,
       "positionAbsolute": {
         "x": -1260,
@@ -691,8 +698,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 300,
-      "height": 375,
+      "width": 362,
+      "height": 390,
       "selected": false,
       "dragging": false
     },
@@ -717,8 +724,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 300,
-      "height": 375,
+      "width": 362,
+      "height": 390,
       "selected": false,
       "positionAbsolute": {
         "x": -1260,
@@ -890,74 +897,12 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 160,
       "height": 165,
       "selected": false,
       "positionAbsolute": {
         "x": 540,
         "y": -1040
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965518246",
-      "type": "patch",
-      "data": {
-        "label": "String #1 tune",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
-          "nodes": {
-            "midiNote-1690922850403": {
-              "value": "A4 concert pitch"
-            }
-          }
-        }
-      },
-      "position": {
-        "x": 540,
-        "y": -1340
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 165,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 540,
-        "y": -1340
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965972900",
-      "type": "patch",
-      "data": {
-        "label": "String #4 tune",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
-          "nodes": {
-            "midiNote-1690922850403": {
-              "value": "G4"
-            }
-          }
-        }
-      },
-      "position": {
-        "x": 560,
-        "y": -500
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 165,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 560,
-        "y": -500
       },
       "dragging": false
     },
@@ -983,7 +928,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
+      "width": 160,
       "height": 165,
       "selected": false,
       "positionAbsolute": {
@@ -994,12 +939,74 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1687965972900",
+      "type": "patch",
+      "data": {
+        "label": "String #4 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
+          "nodes": {
+            "midiNote-1690922850403": {
+              "value": "G4"
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 560,
+        "y": -500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 160,
+      "height": 165,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 560,
+        "y": -500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1687965518246",
+      "type": "patch",
+      "data": {
+        "label": "String #1 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
+          "nodes": {
+            "midiNote-1690922850403": {
+              "value": "A4 concert pitch"
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -1340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 160,
+      "height": 165,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -1340
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "audioInput-1686147173142",
       "type": "audioInput",
       "data": {
         "label": "audioInput",
         "values": {
-          "currentInput": "default"
+          "currentInput": null
         },
         "config": {}
       },
@@ -1009,7 +1016,7 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 324,
+      "width": 246,
       "height": 150,
       "selected": false,
       "positionAbsolute": {
@@ -1430,6 +1437,14 @@
       "target": "patch-1687965972900",
       "targetHandle": "input",
       "id": "reactflow__edge-audioTrack-1690924699051out-patch-1687965972900input"
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "spectroscope-1686350543112",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-spectroscope-1686350543112input"
     }
   ],
   "controlPanel": {
@@ -1498,8 +1513,8 @@
     }
   },
   "viewport": {
-    "x": -1046.388286165537,
-    "y": 847.1163892094376,
-    "zoom": 0.5055760404256523
+    "x": 970.6218617239728,
+    "y": 1962.52499792017,
+    "zoom": 2
   }
 }
