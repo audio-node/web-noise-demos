@@ -2,6 +2,42 @@
   "nodes": [
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1700688266768",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 75
+          }
+        },
+        "values": {
+          "text": "**Be careful when changing filter values**, always set master volume to low value before to avoid shocking your ears",
+          "width": 280,
+          "height": 75
+        }
+      },
+      "position": {
+        "x": 1440,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 75,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1440,
+        "y": -800
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "virtualKeyboard-1693009293851",
       "type": "virtualKeyboard",
       "data": {
@@ -847,7 +883,7 @@
           }
         },
         "values": {
-          "value": 0.6
+          "value": 0.1
         }
       },
       "position": {
@@ -1127,29 +1163,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "midiToFrequency-1693011050164",
-      "type": "midiToFrequency",
-      "data": {
-        "label": "midiToFrequency",
-        "config": {}
-      },
-      "position": {
-        "x": 200,
-        "y": -960
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 200,
-        "y": -960
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "mathNode-1700687215979",
       "type": "mathNode",
       "data": {
@@ -1171,6 +1184,29 @@
       "positionAbsolute": {
         "x": 580,
         "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1693011050164",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "midiToFrequency",
+        "config": {}
+      },
+      "position": {
+        "x": 200,
+        "y": -960
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 200,
+        "y": -960
       },
       "dragging": false
     },
@@ -1199,42 +1235,6 @@
         "x": 1380,
         "y": -1180
       }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "sticker-1700688266768",
-      "type": "sticker",
-      "data": {
-        "label": "sticker",
-        "config": {
-          "transparentBackground": false,
-          "backgroundColor": "#181c20",
-          "textColor": "#ffffff",
-          "size": {
-            "width": 280,
-            "height": 75
-          }
-        },
-        "values": {
-          "text": "**Be careful when changing filter values**, always set master volume to low value before to avoid shocking your ears",
-          "width": 280,
-          "height": 75
-        }
-      },
-      "position": {
-        "x": 1440,
-        "y": -800
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 282,
-      "height": 77,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1440,
-        "y": -800
-      },
-      "dragging": false
     }
   ],
   "edges": [
@@ -1466,6 +1466,13 @@
   "controlPanel": {
     "nodes": [
       {
+        "id": "sticker-1700688266768",
+        "width": 2,
+        "height": 10,
+        "x": 2,
+        "y": 22
+      },
+      {
         "id": "oscillator-1693009554264",
         "width": 2,
         "height": 7,
@@ -1548,13 +1555,6 @@
         "height": 9,
         "x": 2,
         "y": 6
-      },
-      {
-        "id": "sticker-1700688266768",
-        "width": 2,
-        "height": 10,
-        "x": 2,
-        "y": 22
       }
     ],
     "show": true,
