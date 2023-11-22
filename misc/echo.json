@@ -1,0 +1,376 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1669582691026",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "values": {
+          "gain": 0
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 1220,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1220,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1669582710074",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1600,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1600,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "delay-1700689056546",
+      "type": "delay",
+      "data": {
+        "label": "delay",
+        "config": {}
+      },
+      "position": {
+        "x": 1140,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1140,
+        "y": -320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1700689060472",
+      "type": "parameter",
+      "data": {
+        "label": "delay time (sec)",
+        "config": {},
+        "values": {
+          "value": 0.3
+        }
+      },
+      "position": {
+        "x": 800,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 800,
+        "y": -340
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioInput-1700689177730",
+      "type": "audioInput",
+      "data": {
+        "label": "audioInput",
+        "config": {},
+        "values": {
+          "currentInput": null
+        }
+      },
+      "position": {
+        "x": 500,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 323,
+      "height": 180,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 500,
+        "y": 40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1700689241610",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 1600,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1600,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1700689482589",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 1320,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1320,
+        "y": -320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1700689793646",
+      "type": "slider",
+      "data": {
+        "label": "echo gain",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "height": 80,
+            "width": 100
+          }
+        },
+        "values": {
+          "value": 0.1
+        }
+      },
+      "position": {
+        "x": 800,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 142,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 800,
+        "y": -240
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1700689854399",
+      "type": "slider",
+      "data": {
+        "label": "master gain",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "height": 80,
+            "width": 100
+          }
+        },
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 1000,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 142,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1000,
+        "y": 140
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "gain-1669582691026",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1669582710074",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gain-1669582691026out-oscilloscope-1669582710074input1"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1700689060472",
+      "sourceHandle": "out",
+      "target": "delay-1700689056546",
+      "targetHandle": "time",
+      "id": "reactflow__edge-parameter-1700689060472out-delay-1700689056546time"
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1700689177730",
+      "sourceHandle": "output",
+      "target": "gain-1669582691026",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioInput-1700689177730output-gain-1669582691026in"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1669582691026",
+      "sourceHandle": "out",
+      "target": "delay-1700689056546",
+      "targetHandle": "input",
+      "id": "reactflow__edge-gain-1669582691026out-delay-1700689056546input"
+    },
+    {
+      "type": "wire",
+      "source": "delay-1700689056546",
+      "sourceHandle": "output",
+      "target": "gain-1700689482589",
+      "targetHandle": "in",
+      "id": "reactflow__edge-delay-1700689056546output-gain-1700689482589in"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1700689482589",
+      "sourceHandle": "out",
+      "target": "gain-1669582691026",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gain-1700689482589out-gain-1669582691026in"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1669582691026",
+      "sourceHandle": "out",
+      "target": "destination-1700689241610",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gain-1669582691026out-destination-1700689241610in"
+    },
+    {
+      "type": "wire",
+      "source": "slider-1700689793646",
+      "sourceHandle": "output",
+      "target": "gain-1700689482589",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-slider-1700689793646output-gain-1700689482589gain"
+    },
+    {
+      "type": "wire",
+      "source": "slider-1700689854399",
+      "sourceHandle": "output",
+      "target": "gain-1669582691026",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-slider-1700689854399output-gain-1669582691026gain"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "parameter-1700689060472",
+        "width": 4,
+        "height": 6,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "slider-1700689793646",
+        "width": 4,
+        "height": 8,
+        "x": 0,
+        "y": 6
+      },
+      {
+        "id": "slider-1700689854399",
+        "width": 4,
+        "height": 8,
+        "x": 0,
+        "y": 14
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": -107.710765415698,
+    "y": 314.9527049712213,
+    "zoom": 0.6708211124411313
+  }
+}
