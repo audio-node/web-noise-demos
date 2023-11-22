@@ -419,7 +419,7 @@
       },
       "position": {
         "x": 60,
-        "y": 1040
+        "y": 760
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -428,7 +428,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 60,
-        "y": 1040
+        "y": 760
       },
       "dragging": false
     },
@@ -527,7 +527,7 @@
       },
       "position": {
         "x": 520,
-        "y": 1120
+        "y": 840
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -536,7 +536,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 520,
-        "y": 1120
+        "y": 840
       },
       "dragging": false
     },
@@ -584,11 +584,11 @@
         "label": "sticker",
         "values": {
           "text": "# Audio buffers",
-          "width": 199,
-          "height": 65
+          "width": 231,
+          "height": 70
         },
         "config": {
-          "transparentBackground": false,
+          "transparentBackground": true,
           "backgroundColor": "#181c20",
           "textColor": "#ffffff",
           "size": {
@@ -599,16 +599,16 @@
       },
       "position": {
         "x": 300,
-        "y": 840
+        "y": 660
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 231,
-      "height": 70,
+      "width": 233,
+      "height": 72,
       "selected": false,
       "positionAbsolute": {
         "x": 300,
-        "y": 840
+        "y": 660
       },
       "dragging": false
     },
@@ -698,7 +698,7 @@
       },
       "position": {
         "x": 540,
-        "y": 1360
+        "y": 1080
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -707,7 +707,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 540,
-        "y": 1360
+        "y": 1080
       },
       "dragging": false
     },
@@ -829,85 +829,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "audioTrack-1674488365324",
-      "type": "audioTrack",
-      "data": {
-        "label": "audioTrack",
-        "config": {
-          "waveColor": "#007bff",
-          "progressColor": "#8c92a4",
-          "rangeColor": "#14df42"
-        },
-        "values": {
-          "src": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/d5a64af3-881b-11ec-af9c-022ed69f96e6.wav?cb=20220207144247"
-        }
-      },
-      "position": {
-        "x": 60,
-        "y": 1280
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 300,
-      "height": 375,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 60,
-        "y": 1280
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1674491945887",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 1900,
-        "y": -640
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1900,
-        "y": -640
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1674486536428",
-      "type": "mathNode",
-      "data": {
-        "label": "abstract node",
-        "values": {
-          "expression": "/* processing/generation */"
-        },
-        "config": {}
-      },
-      "position": {
-        "x": 1100,
-        "y": -720
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 219,
-      "height": 275,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1100,
-        "y": -720
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "oscilloscope-1674488407768",
       "type": "oscilloscope",
       "data": {
@@ -930,7 +851,7 @@
       },
       "position": {
         "x": 540,
-        "y": 1440
+        "y": 1160
       },
       "targetPosition": "left",
       "sourcePosition": "right",
@@ -939,7 +860,7 @@
       "selected": false,
       "positionAbsolute": {
         "x": 540,
-        "y": 1440
+        "y": 1160
       },
       "dragging": false
     },
@@ -977,6 +898,121 @@
       "positionAbsolute": {
         "x": 1360,
         "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1674486536428",
+      "type": "mathNode",
+      "data": {
+        "label": "abstract node",
+        "values": {
+          "expression": "/* processing/generation */"
+        },
+        "config": {}
+      },
+      "position": {
+        "x": 1100,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 219,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1100,
+        "y": -720
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1674488365324",
+      "type": "audioTrack",
+      "data": {
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sleep%2C_Baby%2C_Sleep_%28Watson%29.ogg"
+        }
+      },
+      "position": {
+        "x": 60,
+        "y": 1000
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 342,
+      "height": 385,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 1000
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1674491945887",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 1900,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1900,
+        "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1700684160432",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 176,
+            "height": 50
+          }
+        },
+        "values": {
+          "text": "# base nodes",
+          "width": 100,
+          "height": 50
+        }
+      },
+      "position": {
+        "x": 140,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 178,
+      "height": 52,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 140,
+        "y": -320
       },
       "dragging": false
     }
@@ -1085,8 +1121,8 @@
     }
   },
   "viewport": {
-    "x": 237.74576004613527,
-    "y": 466.5314241147131,
+    "x": 317.68086647993414,
+    "y": 475.6270261674466,
     "zoom": 0.5
   }
 }
