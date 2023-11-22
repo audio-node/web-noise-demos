@@ -31,7 +31,7 @@
         "label": "oscillator",
         "config": {},
         "values": {
-          "type": "sawtooth"
+          "type": "triangle"
         }
       },
       "position": {
@@ -181,7 +181,7 @@
       "id": "midiNote-1693011148148",
       "type": "midiNote",
       "data": {
-        "label": "midiNote",
+        "label": "first note",
         "config": {
           "placeholder": "Select note",
           "options": [
@@ -629,8 +629,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
-      "height": 96,
+      "width": 176,
+      "height": 98,
       "selected": false,
       "positionAbsolute": {
         "x": 0,
@@ -710,7 +710,7 @@
           }
         },
         "values": {
-          "value": 0.59
+          "value": 0.24
         }
       },
       "position": {
@@ -777,7 +777,7 @@
           }
         },
         "values": {
-          "value": 10.362
+          "value": 0
         }
       },
       "position": {
@@ -823,7 +823,7 @@
       "id": "slider-1697413263405",
       "type": "slider",
       "data": {
-        "label": "lowpass",
+        "label": "lowpass freq",
         "config": {
           "min": 0,
           "max": 2000,
@@ -838,7 +838,7 @@
           }
         },
         "values": {
-          "value": 112.7
+          "value": 0
         }
       },
       "position": {
@@ -866,7 +866,7 @@
           "min": 0,
           "max": 1,
           "step": 0.1,
-          "isVertical": true,
+          "isVertical": false,
           "color": "#007bff",
           "showScale": false,
           "scaleSteps": 3,
@@ -885,8 +885,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 180,
-      "height": 115,
+      "width": 182,
+      "height": 117,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -925,7 +925,7 @@
       "id": "slider-1697413654747",
       "type": "slider",
       "data": {
-        "label": "highpass",
+        "label": "highpass freq",
         "config": {
           "min": 0,
           "max": 2000,
@@ -940,7 +940,7 @@
           }
         },
         "values": {
-          "value": 788.6
+          "value": 0
         }
       },
       "position": {
@@ -963,7 +963,7 @@
       "id": "slider-1697414882319",
       "type": "slider",
       "data": {
-        "label": "Q",
+        "label": "lowpass Q",
         "config": {
           "min": 0,
           "max": 1000,
@@ -978,7 +978,7 @@
           }
         },
         "values": {
-          "value": 70.7
+          "value": 0
         }
       },
       "position": {
@@ -1001,7 +1001,7 @@
       "id": "slider-1697415130271",
       "type": "slider",
       "data": {
-        "label": "Q",
+        "label": "highpass Q",
         "config": {
           "min": 0,
           "max": 1000,
@@ -1016,7 +1016,7 @@
           }
         },
         "values": {
-          "value": 35.4
+          "value": 0
         }
       },
       "position": {
@@ -1032,6 +1032,55 @@
       "positionAbsolute": {
         "x": 1620,
         "y": -580
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "reverb-1693011660962",
+      "type": "reverb",
+      "data": {
+        "label": "reverb",
+        "config": {},
+        "values": {
+          "wetDry": 0.5
+        }
+      },
+      "position": {
+        "x": 1400,
+        "y": -1200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1400,
+        "y": -1200
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1693011115423",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 0,
+        "y": -1220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 0,
+        "y": -1220
       }
     },
     {
@@ -1066,26 +1115,33 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1693011115423",
-      "type": "valueMeter",
+      "id": "spectroscope-1693009906515",
+      "type": "spectroscope",
       "data": {
-        "label": "valueMeter",
-        "config": {}
+        "label": "spectroscope",
+        "config": {
+          "backgroundColor": "#292d39",
+          "inputColor": "#007bff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
       },
       "position": {
-        "x": 0,
-        "y": -1220
+        "x": 2240,
+        "y": -1640
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 87,
+      "width": 280,
+      "height": 233,
       "selected": false,
-      "dragging": false,
       "positionAbsolute": {
-        "x": 0,
-        "y": -1220
-      }
+        "x": 2240,
+        "y": -1640
+      },
+      "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -1126,36 +1182,6 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "spectroscope-1693009906515",
-      "type": "spectroscope",
-      "data": {
-        "label": "spectroscope",
-        "config": {
-          "backgroundColor": "#292d39",
-          "inputColor": "#007bff",
-          "size": {
-            "width": 280,
-            "height": 150
-          }
-        }
-      },
-      "position": {
-        "x": 2240,
-        "y": -1640
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 280,
-      "height": 233,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2240,
-        "y": -1640
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "midiToFrequency-1693011050164",
       "type": "midiToFrequency",
       "data": {
@@ -1176,32 +1202,6 @@
         "y": -960
       },
       "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "reverb-1693011660962",
-      "type": "reverb",
-      "data": {
-        "label": "reverb",
-        "config": {},
-        "values": {
-          "wetDry": 0.5
-        }
-      },
-      "position": {
-        "x": 1400,
-        "y": -1200
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 1400,
-        "y": -1200
-      }
     }
   ],
   "edges": [
@@ -1441,23 +1441,23 @@
       {
         "id": "midiNote-1693011148148",
         "width": 1,
-        "height": 8,
+        "height": 6,
         "x": 0,
         "y": 16
       },
       {
         "id": "slider-1697412165201",
         "width": 1,
-        "height": 17,
+        "height": 19,
         "x": 0,
-        "y": 24
+        "y": 22
       },
       {
         "id": "slider-1697412428607",
         "width": 1,
-        "height": 17,
+        "height": 19,
         "x": 1,
-        "y": 24
+        "y": 22
       },
       {
         "id": "slider-1697413263405",
@@ -1469,7 +1469,7 @@
       {
         "id": "slider-1697413434425",
         "width": 1,
-        "height": 8,
+        "height": 6,
         "x": 1,
         "y": 16
       },
@@ -1495,17 +1495,17 @@
         "y": 31
       },
       {
-        "id": "oscilloscope-1693009631545",
-        "width": 2,
-        "height": 9,
-        "x": 2,
-        "y": 0
-      },
-      {
         "id": "spectroscope-1693009906515",
         "width": 2,
         "height": 9,
         "x": 0,
+        "y": 0
+      },
+      {
+        "id": "oscilloscope-1693009631545",
+        "width": 2,
+        "height": 9,
+        "x": 2,
         "y": 0
       }
     ],
@@ -1516,8 +1516,8 @@
     }
   },
   "viewport": {
-    "x": 727.2878164944632,
-    "y": 766.262601299771,
-    "zoom": 0.5
+    "x": 744.8332596199436,
+    "y": 763.9916233630145,
+    "zoom": 0.5388665725218356
   }
 }
