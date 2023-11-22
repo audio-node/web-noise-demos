@@ -25,6 +25,40 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1696795469652",
+      "type": "gate",
+      "data": {
+        "label": "gate",
+        "config": {
+          "label": "open",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": 60,
+        "y": -200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": -200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "oscilloscope-1683142049474",
       "type": "oscilloscope",
       "data": {
@@ -67,7 +101,7 @@
       "data": {
         "label": "script",
         "values": {
-          "expression": "const Tone = await import('https://cdn.jsdelivr.net/npm/tone@14.7.77/+esm');\nTone.setContext(ScriptSandbox.audioContext);\nconst synth = new Tone.Synth();\n\nconst { onTriggered, outputs } = ScriptSandbox;\n\nsynth.connect(outputs[0]);\n\nonTriggered(() => {\n    const now = Tone.now();\n    synth.triggerAttackRelease(\"C4\", \"8n\", now)\n    synth.triggerAttackRelease(\"E4\", \"8n\", now + 0.5)\n    synth.triggerAttackRelease(\"G4\", \"8n\", now + 1)\n})\n"
+          "expression": "(async () => {\n    const Tone = await import('https://cdn.jsdelivr.net/npm/tone@14.7.77/+esm');\n    Tone.setContext(ScriptSandbox.audioContext);\n    const synth = new Tone.Synth();\n\n    const { onTriggered, outputs } = ScriptSandbox;\n\n    synth.connect(outputs[0]);\n\n    onTriggered(() => {\n        const now = Tone.now();\n        synth.triggerAttackRelease(\"C4\", \"8n\", now)\n        synth.triggerAttackRelease(\"E4\", \"8n\", now + 0.5)\n        synth.triggerAttackRelease(\"G4\", \"8n\", now + 1)\n    })\n})()\n"
         },
         "config": {}
       },
@@ -83,40 +117,6 @@
       "positionAbsolute": {
         "x": 340,
         "y": -140
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "gate-1696795469652",
-      "type": "gate",
-      "data": {
-        "label": "gate",
-        "config": {
-          "label": "open",
-          "color": "#007bff",
-          "textColor": "#fefefe",
-          "labelOpened": "close",
-          "colorOpened": "#3c93ff",
-          "textColorOpened": "#fefefe",
-          "isToggle": false
-        },
-        "values": {
-          "isOpened": false
-        }
-      },
-      "position": {
-        "x": 60,
-        "y": -200
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 174,
-      "height": 93,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 60,
-        "y": -200
       },
       "dragging": false
     }
