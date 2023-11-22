@@ -30,7 +30,7 @@
       "data": {
         "label": "gate",
         "config": {
-          "label": "open",
+          "label": "trigger",
           "color": "#007bff",
           "textColor": "#fefefe",
           "labelOpened": "close",
@@ -48,8 +48,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 174,
-      "height": 93,
+      "width": 176,
+      "height": 95,
       "selected": false,
       "positionAbsolute": {
         "x": 60,
