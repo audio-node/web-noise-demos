@@ -1438,15 +1438,6 @@
     },
     {
       "type": "wire",
-      "source": "patch-1698839032080",
-      "sourceHandle": "reverb",
-      "target": "valueMeter-1697616756074",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1698839032080reverb-valueMeter-1697616756074input",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "audioTrack-1696489610376",
       "sourceHandle": "out",
       "target": "patch-1697662220967",
