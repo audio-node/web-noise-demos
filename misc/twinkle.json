@@ -104,6 +104,44 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1700684885710",
+      "type": "slider",
+      "data": {
+        "label": "reverb value",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": false,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 32
+          }
+        },
+        "values": {
+          "value": 0.1
+        }
+      },
+      "position": {
+        "x": 1340,
+        "y": -240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 94,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1340,
+        "y": -240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "clock-1684240539640",
       "type": "clock",
       "data": {
@@ -142,7 +180,19 @@
           "sustain": 0.8,
           "release": 0.1
         },
-        "config": {}
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
       },
       "position": {
         "x": 660,
@@ -150,8 +200,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 372,
-      "height": 177,
+      "width": 280,
+      "height": 319,
       "selected": false,
       "positionAbsolute": {
         "x": 660,
@@ -292,6 +342,29 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1700684862213",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "midiToFrequency",
+        "config": {}
+      },
+      "position": {
+        "x": 420,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 420,
+        "y": -340
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "reverb-1684251410105",
       "type": "reverb",
       "data": {
@@ -318,64 +391,103 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "midiToFrequency-1700684862213",
-      "type": "midiToFrequency",
+      "id": "parameter-1704285036403",
+      "type": "parameter",
       "data": {
-        "label": "midiToFrequency",
-        "config": {}
+        "label": "attack",
+        "config": {},
+        "values": {
+          "value": 0.05
+        }
       },
       "position": {
-        "x": 420,
-        "y": -340
+        "x": 360,
+        "y": 140
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 153,
-      "height": 83,
+      "width": 176,
+      "height": 88,
       "selected": false,
-      "positionAbsolute": {
-        "x": 420,
-        "y": -340
-      },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "slider-1700684885710",
-      "type": "slider",
+      "id": "parameter-1704285112130",
+      "type": "parameter",
       "data": {
-        "label": "reverb value",
-        "config": {
-          "min": 0,
-          "max": 1,
-          "step": 0.1,
-          "isVertical": false,
-          "color": "#007bff",
-          "showScale": false,
-          "scaleSteps": 3,
-          "size": {
-            "width": 100,
-            "height": 32
-          }
-        },
+        "label": "decay",
+        "config": {},
+        "values": {
+          "value": 0.01
+        }
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 360,
+        "y": 240
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704285151671",
+      "type": "parameter",
+      "data": {
+        "label": "sustain",
+        "config": {},
+        "values": {
+          "value": 0.8
+        }
+      },
+      "position": {
+        "x": 360,
+        "y": 340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 360,
+        "y": 340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704285171213",
+      "type": "parameter",
+      "data": {
+        "label": "release",
+        "config": {},
         "values": {
           "value": 0.1
         }
       },
       "position": {
-        "x": 1340,
-        "y": -240
+        "x": 360,
+        "y": 440
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 182,
-      "height": 96,
+      "width": 176,
+      "height": 88,
       "selected": false,
+      "dragging": false,
       "positionAbsolute": {
-        "x": 1340,
-        "y": -240
-      },
-      "dragging": false
+        "x": 360,
+        "y": 440
+      }
     }
   ],
   "edges": [
@@ -385,7 +497,8 @@
       "sourceHandle": "trigger",
       "target": "stepSequencer-1684240293978",
       "targetHandle": "trigger",
-      "id": "reactflow__edge-clock-1684240539640trigger-stepSequencer-1684240293978trigger"
+      "id": "reactflow__edge-clock-1684240539640trigger-stepSequencer-1684240293978trigger",
+      "selected": false
     },
     {
       "type": "wire",
@@ -393,7 +506,8 @@
       "sourceHandle": "out",
       "target": "gain-1684240565479",
       "targetHandle": "in",
-      "id": "reactflow__edge-oscillator-1684240469572out-gain-1684240565479in"
+      "id": "reactflow__edge-oscillator-1684240469572out-gain-1684240565479in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -401,7 +515,8 @@
       "sourceHandle": "gate",
       "target": "gain-1684352863180",
       "targetHandle": "gain",
-      "id": "reactflow__edge-stepSequencer-1684240293978gate-gain-1684352863180gain"
+      "id": "reactflow__edge-stepSequencer-1684240293978gate-gain-1684352863180gain",
+      "selected": false
     },
     {
       "type": "wire",
@@ -409,7 +524,8 @@
       "sourceHandle": "trigger",
       "target": "gain-1684352863180",
       "targetHandle": "in",
-      "id": "reactflow__edge-clock-1684240539640trigger-gain-1684352863180in"
+      "id": "reactflow__edge-clock-1684240539640trigger-gain-1684352863180in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -417,7 +533,8 @@
       "sourceHandle": "out",
       "target": "adsr-1684240633265",
       "targetHandle": "trigger",
-      "id": "reactflow__edge-gain-1684352863180out-adsr-1684240633265trigger"
+      "id": "reactflow__edge-gain-1684352863180out-adsr-1684240633265trigger",
+      "selected": false
     },
     {
       "type": "wire",
@@ -425,7 +542,8 @@
       "sourceHandle": "gain",
       "target": "oscilloscope-1684240484678",
       "targetHandle": "input2",
-      "id": "reactflow__edge-adsr-1684240633265gain-oscilloscope-1684240484678input2"
+      "id": "reactflow__edge-adsr-1684240633265gain-oscilloscope-1684240484678input2",
+      "selected": false
     },
     {
       "type": "wire",
@@ -433,7 +551,8 @@
       "sourceHandle": "gain",
       "target": "gain-1684240565479",
       "targetHandle": "gain",
-      "id": "reactflow__edge-adsr-1684240633265gain-gain-1684240565479gain"
+      "id": "reactflow__edge-adsr-1684240633265gain-gain-1684240565479gain",
+      "selected": false
     },
     {
       "type": "wire",
@@ -441,7 +560,8 @@
       "sourceHandle": "midi",
       "target": "midiToFrequency-1700684862213",
       "targetHandle": "midi",
-      "id": "reactflow__edge-stepSequencer-1684240293978midi-midiToFrequency-1700684862213midi"
+      "id": "reactflow__edge-stepSequencer-1684240293978midi-midiToFrequency-1700684862213midi",
+      "selected": false
     },
     {
       "type": "wire",
@@ -449,7 +569,8 @@
       "sourceHandle": "out",
       "target": "oscillator-1684240469572",
       "targetHandle": "frequency",
-      "id": "reactflow__edge-midiToFrequency-1700684862213out-oscillator-1684240469572frequency"
+      "id": "reactflow__edge-midiToFrequency-1700684862213out-oscillator-1684240469572frequency",
+      "selected": false
     },
     {
       "type": "wire",
@@ -457,7 +578,8 @@
       "sourceHandle": "out",
       "target": "reverb-1684251410105",
       "targetHandle": "input",
-      "id": "reactflow__edge-gain-1684240565479out-reverb-1684251410105input"
+      "id": "reactflow__edge-gain-1684240565479out-reverb-1684251410105input",
+      "selected": false
     },
     {
       "type": "wire",
@@ -465,7 +587,8 @@
       "sourceHandle": "output",
       "target": "destination-1684240531226",
       "targetHandle": "in",
-      "id": "reactflow__edge-reverb-1684251410105output-destination-1684240531226in"
+      "id": "reactflow__edge-reverb-1684251410105output-destination-1684240531226in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -473,7 +596,8 @@
       "sourceHandle": "output",
       "target": "oscilloscope-1684240484678",
       "targetHandle": "input1",
-      "id": "reactflow__edge-reverb-1684251410105output-oscilloscope-1684240484678input1"
+      "id": "reactflow__edge-reverb-1684251410105output-oscilloscope-1684240484678input1",
+      "selected": false
     },
     {
       "type": "wire",
@@ -481,7 +605,42 @@
       "sourceHandle": "output",
       "target": "reverb-1684251410105",
       "targetHandle": "dryWet",
-      "id": "reactflow__edge-slider-1700684885710output-reverb-1684251410105dryWet"
+      "id": "reactflow__edge-slider-1700684885710output-reverb-1684251410105dryWet",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704285036403",
+      "sourceHandle": "out",
+      "target": "adsr-1684240633265",
+      "targetHandle": "A",
+      "id": "reactflow__edge-parameter-1704285036403out-adsr-1684240633265A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704285112130",
+      "sourceHandle": "out",
+      "target": "adsr-1684240633265",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704285112130out-adsr-1684240633265D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704285151671",
+      "sourceHandle": "out",
+      "target": "adsr-1684240633265",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704285151671out-adsr-1684240633265S"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704285171213",
+      "sourceHandle": "out",
+      "target": "adsr-1684240633265",
+      "targetHandle": "R",
+      "id": "reactflow__edge-parameter-1704285171213out-adsr-1684240633265R"
     }
   ],
   "controlPanel": {
@@ -493,8 +652,8 @@
     }
   },
   "viewport": {
-    "x": 154.69430915134967,
-    "y": 433.2394313492845,
-    "zoom": 0.7494141209516283
+    "x": 392.15990291823493,
+    "y": 207.64422369085457,
+    "zoom": 0.5
   }
 }
