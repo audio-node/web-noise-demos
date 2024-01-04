@@ -1,0 +1,1162 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704330249042",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 6
+        }
+      },
+      "position": {
+        "x": 720,
+        "y": -380
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": -380
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704363655394",
+      "type": "parameter",
+      "data": {
+        "label": "toFixed",
+        "config": {},
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 940,
+        "y": -440
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 940,
+        "y": -440
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704368140375",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 1900,
+        "y": -800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1900,
+        "y": -800
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704368146233",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 1900,
+        "y": -600
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1900,
+        "y": -600
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704368152396",
+      "type": "parameter",
+      "data": {
+        "label": "1",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 2720,
+        "y": -440
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2720,
+        "y": -440
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704368152009",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 1900,
+        "y": -500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1900,
+        "y": -500
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704368272562",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 1600,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1600,
+        "y": 100
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704372002216",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 1900,
+        "y": -700
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1900,
+        "y": -700
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704372100485",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0.1
+        }
+      },
+      "position": {
+        "x": 2720,
+        "y": -760
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2720,
+        "y": -760
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704372100464",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0.3
+        }
+      },
+      "position": {
+        "x": 2720,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2720,
+        "y": -640
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704372100311",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0.3
+        }
+      },
+      "position": {
+        "x": 2720,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2720,
+        "y": -320
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704372100336",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 2720,
+        "y": -540
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2720,
+        "y": -540
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704373017539",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 512
+        }
+      },
+      "position": {
+        "x": 720,
+        "y": -260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": -260
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704372300079",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "INPUT > 0.5 ? 1 : 0"
+        }
+      },
+      "position": {
+        "x": 2700,
+        "y": -1080
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2700,
+        "y": -1080
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704368252702",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "INPUT > (A - B) && INPUT < (A + B)\n? 1\n: 0"
+        }
+      },
+      "position": {
+        "x": 1840,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 265,
+      "height": 300,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1840,
+        "y": -80
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1704377798144",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "midiToFrequency",
+        "config": {}
+      },
+      "position": {
+        "x": 3240,
+        "y": -220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3240,
+        "y": -220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704380520598",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "X ? Math.log2(INPUT / A) * 1731.24 : 0"
+        }
+      },
+      "position": {
+        "x": 3460,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 292,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3460,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704368244966",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "Math.round(69 + 12 * Math.log2(A / 440))"
+        }
+      },
+      "position": {
+        "x": 1480,
+        "y": -360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 305,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1480,
+        "y": -360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704363283408",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "+(INPUT || 0).toFixed(A)"
+        }
+      },
+      "position": {
+        "x": 1160,
+        "y": -420
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 199,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1160,
+        "y": -420
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704377770748",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "X ? +(A - INPUT).toFixed(2) : 0"
+        }
+      },
+      "position": {
+        "x": 3460,
+        "y": -300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 245,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3460,
+        "y": -300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1704380767259",
+      "type": "valueMeter",
+      "data": {
+        "label": "Δ Cents",
+        "config": {}
+      },
+      "position": {
+        "x": 3820,
+        "y": 220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 89,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3820,
+        "y": 220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1704377917636",
+      "type": "valueMeter",
+      "data": {
+        "label": "Δ Hz",
+        "config": {}
+      },
+      "position": {
+        "x": 3860,
+        "y": -180
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 155,
+      "height": 89,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3860,
+        "y": -180
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1704368189456",
+      "type": "oscilloscope",
+      "data": {
+        "label": "gate",
+        "config": {
+          "minValue": 0,
+          "maxValue": 1.2,
+          "backgroundColor": "#292d39",
+          "input1Color": "#ff4000",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 3600,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3600,
+        "y": -640
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1704372099945",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 3080,
+        "y": -680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 319,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3080,
+        "y": -680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1704368135370",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 2280,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 319,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2280,
+        "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1704377880892",
+      "type": "outlet",
+      "data": {
+        "label": "diff",
+        "config": {}
+      },
+      "position": {
+        "x": 3860,
+        "y": -300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3860,
+        "y": -300
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1704373114155",
+      "type": "inlet",
+      "data": {
+        "label": "input",
+        "config": {}
+      },
+      "position": {
+        "x": 140,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 140,
+        "y": -40
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1704376034740",
+      "type": "inlet",
+      "data": {
+        "label": "noteMargin",
+        "config": {}
+      },
+      "position": {
+        "x": 140,
+        "y": 120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 140,
+        "y": 120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1704376320185",
+      "type": "outlet",
+      "data": {
+        "label": "gate",
+        "config": {}
+      },
+      "position": {
+        "x": 3920,
+        "y": -780
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3920,
+        "y": -780
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1704376020350",
+      "type": "inlet",
+      "data": {
+        "label": "tuningNote",
+        "config": {}
+      },
+      "position": {
+        "x": 140,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 140,
+        "y": 40
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1704380756940",
+      "type": "outlet",
+      "data": {
+        "label": "diffCents",
+        "config": {}
+      },
+      "position": {
+        "x": 3940,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "frequencyMeter-1703953577413",
+      "type": "frequencyMeter",
+      "data": {
+        "label": "frequencyMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 960,
+        "y": -280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 126,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 960,
+        "y": -280
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "parameter-1704330249042",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1703953577413",
+      "targetHandle": "method",
+      "id": "reactflow__edge-parameter-1704330249042out-frequencyMeter-1703953577413method",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1703953577413",
+      "sourceHandle": "frequency",
+      "target": "mathNode-1704363283408",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-frequencyMeter-1703953577413frequency-mathNode-1704363283408INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704363655394",
+      "sourceHandle": "out",
+      "target": "mathNode-1704363283408",
+      "targetHandle": "A",
+      "id": "reactflow__edge-parameter-1704363655394out-mathNode-1704363283408A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704368152009",
+      "sourceHandle": "out",
+      "target": "adsr-1704368135370",
+      "targetHandle": "R",
+      "id": "reactflow__edge-parameter-1704368152009out-adsr-1704368135370R",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704368146233",
+      "sourceHandle": "out",
+      "target": "adsr-1704368135370",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704368146233out-adsr-1704368135370D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704368140375",
+      "sourceHandle": "out",
+      "target": "adsr-1704368135370",
+      "targetHandle": "A",
+      "id": "reactflow__edge-parameter-1704368140375out-adsr-1704368135370A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704363283408",
+      "sourceHandle": "out",
+      "target": "mathNode-1704368244966",
+      "targetHandle": "A",
+      "id": "reactflow__edge-mathNode-1704363283408out-mathNode-1704368244966A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704368244966",
+      "sourceHandle": "out",
+      "target": "mathNode-1704368252702",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-mathNode-1704368244966out-mathNode-1704368252702INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704368252702",
+      "sourceHandle": "out",
+      "target": "adsr-1704368135370",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-mathNode-1704368252702out-adsr-1704368135370trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704372002216",
+      "sourceHandle": "out",
+      "target": "adsr-1704368135370",
+      "targetHandle": "attackCurve",
+      "id": "reactflow__edge-parameter-1704372002216out-adsr-1704368135370attackCurve",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704372100311",
+      "sourceHandle": "out",
+      "target": "adsr-1704372099945",
+      "targetHandle": "R",
+      "id": "reactflow__edge-parameter-1704372100311out-adsr-1704372099945R",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704372100464",
+      "sourceHandle": "out",
+      "target": "adsr-1704372099945",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704372100464out-adsr-1704372099945D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704372100485",
+      "sourceHandle": "out",
+      "target": "adsr-1704372099945",
+      "targetHandle": "A",
+      "id": "reactflow__edge-parameter-1704372100485out-adsr-1704372099945A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704368152396",
+      "sourceHandle": "out",
+      "target": "adsr-1704372099945",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704368152396out-adsr-1704372099945S"
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704368135370",
+      "sourceHandle": "gain",
+      "target": "mathNode-1704372300079",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-adsr-1704368135370gain-mathNode-1704372300079INPUT"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704372300079",
+      "sourceHandle": "out",
+      "target": "adsr-1704372099945",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-mathNode-1704372300079out-adsr-1704372099945trigger"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704373017539",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1703953577413",
+      "targetHandle": "fftSize",
+      "id": "reactflow__edge-parameter-1704373017539out-frequencyMeter-1703953577413fftSize"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704373017539",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1703953577413",
+      "targetHandle": "hopSize",
+      "id": "reactflow__edge-parameter-1704373017539out-frequencyMeter-1703953577413hopSize"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1704373114155",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1703953577413",
+      "targetHandle": "input",
+      "id": "reactflow__edge-inlet-1704373114155out-frequencyMeter-1703953577413input"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1704376020350",
+      "sourceHandle": "out",
+      "target": "mathNode-1704368252702",
+      "targetHandle": "A",
+      "id": "reactflow__edge-inlet-1704376020350out-mathNode-1704368252702A"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1704376034740",
+      "sourceHandle": "out",
+      "target": "mathNode-1704368252702",
+      "targetHandle": "B",
+      "id": "reactflow__edge-inlet-1704376034740out-mathNode-1704368252702B",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704372099945",
+      "sourceHandle": "gain",
+      "target": "outlet-1704376320185",
+      "targetHandle": "in",
+      "id": "reactflow__edge-adsr-1704372099945gain-outlet-1704376320185in"
+    },
+    {
+      "type": "wire",
+      "source": "inlet-1704376020350",
+      "sourceHandle": "out",
+      "target": "midiToFrequency-1704377798144",
+      "targetHandle": "midi",
+      "id": "reactflow__edge-inlet-1704376020350out-midiToFrequency-1704377798144midi"
+    },
+    {
+      "type": "wire",
+      "source": "midiToFrequency-1704377798144",
+      "sourceHandle": "out",
+      "target": "mathNode-1704377770748",
+      "targetHandle": "A",
+      "id": "reactflow__edge-midiToFrequency-1704377798144out-mathNode-1704377770748A"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704363283408",
+      "sourceHandle": "out",
+      "target": "mathNode-1704377770748",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-mathNode-1704363283408out-mathNode-1704377770748INPUT"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704377770748",
+      "sourceHandle": "out",
+      "target": "outlet-1704377880892",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1704377770748out-outlet-1704377880892in"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704368252702",
+      "sourceHandle": "out",
+      "target": "mathNode-1704377770748",
+      "targetHandle": "X",
+      "id": "reactflow__edge-mathNode-1704368252702out-mathNode-1704377770748X"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704368252702",
+      "sourceHandle": "out",
+      "target": "mathNode-1704380520598",
+      "targetHandle": "X",
+      "id": "reactflow__edge-mathNode-1704368252702out-mathNode-1704380520598X"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704363283408",
+      "sourceHandle": "out",
+      "target": "mathNode-1704380520598",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-mathNode-1704363283408out-mathNode-1704380520598INPUT"
+    },
+    {
+      "type": "wire",
+      "source": "midiToFrequency-1704377798144",
+      "sourceHandle": "out",
+      "target": "mathNode-1704380520598",
+      "targetHandle": "A",
+      "id": "reactflow__edge-midiToFrequency-1704377798144out-mathNode-1704380520598A"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704380520598",
+      "sourceHandle": "out",
+      "target": "outlet-1704380756940",
+      "targetHandle": "in",
+      "id": "reactflow__edge-mathNode-1704380520598out-outlet-1704380756940in"
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704372099945",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704368189456",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704372099945gain-oscilloscope-1704368189456input1"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704377770748",
+      "sourceHandle": "out",
+      "target": "valueMeter-1704377917636",
+      "targetHandle": "input",
+      "id": "reactflow__edge-mathNode-1704377770748out-valueMeter-1704377917636input"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1704380520598",
+      "sourceHandle": "out",
+      "target": "valueMeter-1704380767259",
+      "targetHandle": "input",
+      "id": "reactflow__edge-mathNode-1704380520598out-valueMeter-1704380767259input"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704368272562",
+      "sourceHandle": "out",
+      "target": "mathNode-1704368252702",
+      "targetHandle": "B",
+      "id": "reactflow__edge-parameter-1704368272562out-mathNode-1704368252702B"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "valueMeter-1704380767259",
+        "width": 1,
+        "height": 6,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "id": "valueMeter-1704377917636",
+        "width": 1,
+        "height": 6,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "id": "oscilloscope-1704368189456",
+        "width": 2,
+        "height": 6,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": -1247.095835815976,
+    "y": 452.4056394764213,
+    "zoom": 0.5062774036752467
+  }
+}
