@@ -340,180 +340,24 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1704372300079",
-      "type": "mathNode",
+      "id": "valueMeter-1704377917636",
+      "type": "valueMeter",
       "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "INPUT > 0.5 ? 1 : 0"
-        }
-      },
-      "position": {
-        "x": 2700,
-        "y": -1080
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 275,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2700,
-        "y": -1080
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1704368252702",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "INPUT > (A - B) && INPUT < (A + B)\n? 1\n: 0"
-        }
-      },
-      "position": {
-        "x": 1840,
-        "y": -80
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 265,
-      "height": 300,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1840,
-        "y": -80
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "midiToFrequency-1704377798144",
-      "type": "midiToFrequency",
-      "data": {
-        "label": "midiToFrequency",
+        "label": "Δ Hz",
         "config": {}
       },
       "position": {
-        "x": 3240,
-        "y": -220
+        "x": 3860,
+        "y": -180
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 153,
-      "height": 83,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
-        "x": 3240,
-        "y": -220
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1704380520598",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "X ? Math.log2(INPUT / A) * 1731.24 : 0"
-        }
-      },
-      "position": {
-        "x": 3460,
-        "y": 100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 292,
-      "height": 275,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 3460,
-        "y": 100
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1704368244966",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "Math.round(69 + 12 * Math.log2(A / 440))"
-        }
-      },
-      "position": {
-        "x": 1480,
-        "y": -360
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 305,
-      "height": 275,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1480,
-        "y": -360
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1704363283408",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "+(INPUT || 0).toFixed(A)"
-        }
-      },
-      "position": {
-        "x": 1160,
-        "y": -420
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 199,
-      "height": 275,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1160,
-        "y": -420
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1704377770748",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "X ? +(A - INPUT).toFixed(2) : 0"
-        }
-      },
-      "position": {
-        "x": 3460,
-        "y": -300
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 245,
-      "height": 275,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 3460,
-        "y": -300
+        "x": 3860,
+        "y": -180
       },
       "dragging": false
     },
@@ -531,35 +375,12 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 155,
-      "height": 89,
+      "width": 153,
+      "height": 87,
       "selected": false,
       "positionAbsolute": {
         "x": 3820,
         "y": 220
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1704377917636",
-      "type": "valueMeter",
-      "data": {
-        "label": "Δ Hz",
-        "config": {}
-      },
-      "position": {
-        "x": 3860,
-        "y": -180
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 155,
-      "height": 89,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 3860,
-        "y": -180
       },
       "dragging": false
     },
@@ -672,6 +493,208 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704363283408",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "+(INPUT || 0).toFixed(A)"
+        }
+      },
+      "position": {
+        "x": 1160,
+        "y": -420
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 199,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1160,
+        "y": -420
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704380520598",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "X ? Math.log2(INPUT / A) * 1731.24 : 0"
+        }
+      },
+      "position": {
+        "x": 3460,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 292,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3460,
+        "y": 100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1704377798144",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "midiToFrequency",
+        "config": {}
+      },
+      "position": {
+        "x": 3240,
+        "y": -220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3240,
+        "y": -220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704372300079",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "INPUT > 0.5 ? 1 : 0"
+        }
+      },
+      "position": {
+        "x": 2700,
+        "y": -1080
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2700,
+        "y": -1080
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704368244966",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "Math.round(69 + 12 * Math.log2(A / 440))"
+        }
+      },
+      "position": {
+        "x": 1480,
+        "y": -360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 305,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1480,
+        "y": -360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704377770748",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "X ? +(A - INPUT).toFixed(2) : 0"
+        }
+      },
+      "position": {
+        "x": 3460,
+        "y": -300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 245,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3460,
+        "y": -300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1704368252702",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "INPUT > (A - B) && INPUT < (A + B)\n? 1\n: 0"
+        }
+      },
+      "position": {
+        "x": 1840,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 265,
+      "height": 300,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1840,
+        "y": -80
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "frequencyMeter-1703953577413",
+      "type": "frequencyMeter",
+      "data": {
+        "label": "frequencyMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 960,
+        "y": -280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 126,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 960,
+        "y": -280
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "outlet-1704377880892",
       "type": "outlet",
       "data": {
@@ -691,29 +714,6 @@
       "positionAbsolute": {
         "x": 3860,
         "y": -300
-      }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "inlet-1704373114155",
-      "type": "inlet",
-      "data": {
-        "label": "input",
-        "config": {}
-      },
-      "position": {
-        "x": 140,
-        "y": -40
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 140,
-        "y": -40
       }
     },
     {
@@ -738,6 +738,48 @@
         "y": 120
       },
       "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "outlet-1704380756940",
+      "type": "outlet",
+      "data": {
+        "label": "diffCents",
+        "config": {}
+      },
+      "position": {
+        "x": 3940,
+        "y": 100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "inlet-1704373114155",
+      "type": "inlet",
+      "data": {
+        "label": "input",
+        "config": {}
+      },
+      "position": {
+        "x": 140,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 62,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 140,
+        "y": -40
+      }
     },
     {
       "dragHandle": ".web-noise-drag-handle",
@@ -784,48 +826,6 @@
         "x": 140,
         "y": 40
       }
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "outlet-1704380756940",
-      "type": "outlet",
-      "data": {
-        "label": "diffCents",
-        "config": {}
-      },
-      "position": {
-        "x": 3940,
-        "y": 100
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 62,
-      "selected": false,
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "frequencyMeter-1703953577413",
-      "type": "frequencyMeter",
-      "data": {
-        "label": "frequencyMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 960,
-        "y": -280
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 153,
-      "height": 126,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 960,
-        "y": -280
-      },
-      "dragging": false
     }
   ],
   "edges": [
@@ -1127,22 +1127,22 @@
   "controlPanel": {
     "nodes": [
       {
-        "id": "valueMeter-1704380767259",
-        "width": 1,
+        "id": "valueMeter-1704377917636",
+        "width": 2,
         "height": 6,
         "x": 2,
-        "y": 0
+        "y": 6
       },
       {
-        "id": "valueMeter-1704377917636",
-        "width": 1,
+        "id": "valueMeter-1704380767259",
+        "width": 2,
         "height": 6,
-        "x": 3,
-        "y": 0
+        "x": 0,
+        "y": 6
       },
       {
         "id": "oscilloscope-1704368189456",
-        "width": 2,
+        "width": 4,
         "height": 6,
         "x": 0,
         "y": 0
