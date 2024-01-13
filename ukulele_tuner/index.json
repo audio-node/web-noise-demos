@@ -2,42 +2,6 @@
   "nodes": [
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "sticker-1689696340759",
-      "type": "sticker",
-      "data": {
-        "label": "sticker",
-        "config": {
-          "transparentBackground": false,
-          "backgroundColor": "#181c20",
-          "textColor": "#ffffff",
-          "size": {
-            "width": 280,
-            "height": 150
-          }
-        },
-        "values": {
-          "text": "<- 4th string\n<br/><br/><br/>\n<- 3rd string\n<br/><br/><br/>\n<- 2nd string\n<br/><br/><br/>\n<- 1st string",
-          "width": 230,
-          "height": 151
-        }
-      },
-      "position": {
-        "x": 3380,
-        "y": -1420
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 280,
-      "height": 150,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 3380,
-        "y": -1420
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "sticker-1689760882199",
       "type": "sticker",
       "data": {
@@ -74,6 +38,114 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1704408531359",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 95
+          }
+        },
+        "values": {
+          "text": "# Emulate",
+          "width": 280,
+          "height": 150
+        }
+      },
+      "position": {
+        "x": -1860,
+        "y": -1460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 95,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1860,
+        "y": -1460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1704410429268",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 95
+          }
+        },
+        "values": {
+          "text": "# Visualise",
+          "width": 280,
+          "height": 95
+        }
+      },
+      "position": {
+        "x": 1020,
+        "y": -3500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 95,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1020,
+        "y": -3500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1704410448767",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 95
+          }
+        },
+        "values": {
+          "text": "# Input source",
+          "width": 280,
+          "height": 95
+        }
+      },
+      "position": {
+        "x": -140,
+        "y": -1020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 95,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -140,
+        "y": -1020
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
       "id": "parameter-1690151115416",
       "type": "parameter",
       "data": {
@@ -86,38 +158,12 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 170,
+      "width": 174,
       "height": 86,
       "selected": false,
       "positionAbsolute": {
         "x": 2560,
-        "y": -1320
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "gain-1690151415637",
-      "type": "gain",
-      "data": {
-        "label": "gain",
-        "config": {},
-        "values": {
-          "gain": 0
-        }
-      },
-      "position": {
-        "x": 2100,
-        "y": -1220
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 217,
-      "height": 115,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2100,
-        "y": -1220
+        "y": -1340
       },
       "dragging": false
     },
@@ -169,8 +215,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 170,
-      "height": 94,
+      "width": 174,
+      "height": 93,
       "selected": false,
       "dragging": false
     },
@@ -199,8 +245,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 170,
-      "height": 94,
+      "width": 174,
+      "height": 93,
       "selected": false,
       "dragging": false,
       "positionAbsolute": {
@@ -233,8 +279,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 170,
-      "height": 94,
+      "width": 174,
+      "height": 93,
       "selected": false,
       "positionAbsolute": {
         "x": -1940,
@@ -267,8 +313,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 170,
-      "height": 94,
+      "width": 174,
+      "height": 93,
       "selected": false,
       "positionAbsolute": {
         "x": -1940,
@@ -278,458 +324,2325 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687966009704",
-      "type": "valueMeter",
+      "id": "midiNote-1704384364924",
+      "type": "midiNote",
       "data": {
-        "label": "valueMeter",
-        "config": {}
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "A4 concert pitch"
+        }
       },
       "position": {
-        "x": 780,
-        "y": -460
+        "x": 540,
+        "y": -1680
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
+      "width": 174,
+      "height": 96,
       "selected": false,
       "positionAbsolute": {
-        "x": 780,
-        "y": -460
+        "x": 540,
+        "y": -1680
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965722033",
-      "type": "valueMeter",
+      "id": "midiNote-1704384610224",
+      "type": "midiNote",
       "data": {
-        "label": "valueMeter",
-        "config": {}
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "E4"
+        }
       },
       "position": {
-        "x": 780,
-        "y": -1000
+        "x": 540,
+        "y": -1300
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
+      "width": 174,
+      "height": 96,
       "selected": false,
       "positionAbsolute": {
-        "x": 780,
-        "y": -1000
+        "x": 540,
+        "y": -1300
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687966005704",
-      "type": "valueMeter",
+      "id": "midiNote-1704385047565",
+      "type": "midiNote",
       "data": {
-        "label": "valueMeter",
-        "config": {}
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "C4 (middle C)"
+        }
       },
       "position": {
-        "x": 780,
-        "y": -560
+        "x": 540,
+        "y": -860
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
+      "width": 174,
+      "height": 96,
       "selected": false,
       "positionAbsolute": {
-        "x": 780,
-        "y": -560
+        "x": 540,
+        "y": -860
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965718277",
-      "type": "valueMeter",
+      "id": "midiNote-1704385181783",
+      "type": "midiNote",
       "data": {
-        "label": "valueMeter",
-        "config": {}
+        "label": "String #4 tune",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "G4"
+        }
       },
       "position": {
-        "x": 780,
-        "y": -1100
+        "x": 540,
+        "y": -440
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
+      "width": 174,
+      "height": 96,
       "selected": false,
       "positionAbsolute": {
-        "x": 780,
-        "y": -1100
+        "x": 540,
+        "y": -440
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1689759578943",
-      "type": "valueMeter",
+      "id": "parameter-1704387021483",
+      "type": "parameter",
       "data": {
-        "label": "cents",
-        "config": {}
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0.1
+        }
       },
       "position": {
-        "x": 3380,
-        "y": -920
+        "x": 2200,
+        "y": -2340
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2200,
+        "y": -2340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704387023998",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 2200,
+        "y": -2220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2200,
+        "y": -2220
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1704408992086",
+      "type": "select",
+      "data": {
+        "label": "zoom",
+        "config": {
+          "placeholder": "zoom",
+          "options": [
+            {
+              "key": "1x",
+              "value": 1
+            },
+            {
+              "key": "2x",
+              "value": 2
+            },
+            {
+              "key": "4x",
+              "value": 4
+            }
+          ]
+        },
+        "values": {
+          "value": "1x"
+        }
+      },
+      "position": {
+        "x": 1000,
+        "y": -3020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1000,
+        "y": -3020
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704409235634",
+      "type": "parameter",
+      "data": {
+        "label": "0",
+        "config": {},
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": 1740,
+        "y": -2680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1740,
+        "y": -2680
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "width": 174,
+      "height": 86,
+      "id": "parameter-1704409246742",
+      "type": "parameter",
+      "data": {
+        "label": "1",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 1740,
+        "y": -2580
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1740,
+        "y": -2580
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1704409277484",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 1240,
+        "y": -3180
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
       "selected": false,
       "positionAbsolute": {
-        "x": 3380,
-        "y": -920
+        "x": 1240,
+        "y": -3180
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965869455",
-      "type": "valueMeter",
+      "id": "parameter-1704409295408",
+      "type": "parameter",
       "data": {
-        "label": "valueMeter",
-        "config": {}
+        "label": "-1",
+        "config": {},
+        "values": {
+          "value": -1
+        }
       },
       "position": {
-        "x": 780,
-        "y": -740
+        "x": 1740,
+        "y": -2460
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1740,
+        "y": -2460
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1705104025324",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 1240,
+        "y": -2920
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
       "selected": false,
       "positionAbsolute": {
-        "x": 780,
-        "y": -740
+        "x": 1240,
+        "y": -2920
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965565116",
-      "type": "valueMeter",
+      "id": "select-1705104401880",
+      "type": "select",
       "data": {
-        "label": "valueMeter",
-        "config": {}
+        "label": "select",
+        "config": {
+          "placeholder": "Select value",
+          "options": [
+            {
+              "key": "1024",
+              "value": 1024
+            },
+            {
+              "key": "2048",
+              "value": 2048
+            },
+            {
+              "key": "4096",
+              "value": 4096
+            }
+          ]
+        },
+        "values": {
+          "value": "1024"
+        }
       },
       "position": {
-        "x": 800,
-        "y": -1380
+        "x": 1600,
+        "y": -3420
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
+      "width": 174,
+      "height": 96,
       "selected": false,
-      "positionAbsolute": {
-        "x": 800,
-        "y": -1380
-      },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965569864",
-      "type": "valueMeter",
+      "id": "adsr-1704387015436",
+      "type": "adsr",
       "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 800,
-        "y": -1280
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 800,
-        "y": -1280
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "valueMeter-1687965857304",
-      "type": "valueMeter",
-      "data": {
-        "label": "valueMeter",
-        "config": {}
-      },
-      "position": {
-        "x": 780,
-        "y": -840
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 191,
-      "height": 87,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 780,
-        "y": -840
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "spectroscope-1686350543112",
-      "type": "spectroscope",
-      "data": {
-        "label": "spectroscope",
+        "label": "adsr",
         "config": {
           "backgroundColor": "#292d39",
-          "inputColor": "#007bff",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
           "size": {
             "width": 280,
-            "height": 150
+            "height": 30
           }
         }
       },
       "position": {
-        "x": -180,
-        "y": -640
+        "x": 2700,
+        "y": -2680
       },
       "targetPosition": "left",
       "sourcePosition": "right",
       "width": 280,
-      "height": 233,
+      "height": 199,
       "selected": false,
       "positionAbsolute": {
-        "x": -180,
-        "y": -640
+        "x": 2700,
+        "y": -2680
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689759585220",
-      "type": "mathNode",
+      "id": "adsr-1704387240185",
+      "type": "adsr",
       "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "Math.round(INPUT)"
-        }
-      },
-      "position": {
-        "x": 2920,
-        "y": -520
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 276,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2920,
-        "y": -520
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1686574789402",
-      "type": "mathNode",
-      "data": {
-        "label": "string detector",
-        "values": {
-          "expression": "A ? 1 :\nB ? 2 :\nC ? 3 :\nX ? 4 : 0 "
-        },
-        "config": {}
-      },
-      "position": {
-        "x": 2100,
-        "y": -1740
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 317,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2100,
-        "y": -1740
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689716878149",
-      "type": "mathNode",
-      "data": {
-        "label": "mathNode",
-        "config": {},
-        "values": {
-          "expression": "A * INPUT /* gain node */"
-        }
-      },
-      "position": {
-        "x": 1800,
-        "y": -660
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 205,
-      "height": 276,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1800,
-        "y": -660
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "mathNode-1689705007116",
-      "type": "mathNode",
-      "data": {
-        "label": "common gate",
-        "config": {},
-        "values": {
-          "expression": "A && 1"
-        }
-      },
-      "position": {
-        "x": 1580,
-        "y": -1080
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 180,
-      "height": 276,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 1580,
-        "y": -1080
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "audioTrack-1690924699051",
-      "type": "audioTrack",
-      "data": {
-        "label": "G4",
+        "label": "adsr",
         "config": {
-          "waveColor": "#007bff",
-          "progressColor": "#8c92a4",
-          "rangeColor": "#14df42"
-        },
-        "values": {
-          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/G4.mp3?_=2"
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
         }
       },
       "position": {
-        "x": -1260,
-        "y": -320
+        "x": 2700,
+        "y": -2460
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 362,
-      "height": 390,
+      "width": 280,
+      "height": 199,
       "selected": false,
       "positionAbsolute": {
-        "x": -1260,
-        "y": -320
+        "x": 2700,
+        "y": -2460
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "audioTrack-1690924620288",
-      "type": "audioTrack",
+      "id": "adsr-1704387351550",
+      "type": "adsr",
       "data": {
-        "label": "A4",
+        "label": "adsr",
         "config": {
-          "waveColor": "#007bff",
-          "progressColor": "#8c92a4",
-          "rangeColor": "#14df42"
-        },
-        "values": {
-          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/A4.mp3?_=4"
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
         }
       },
       "position": {
-        "x": -1260,
-        "y": -1520
+        "x": 2700,
+        "y": -2020
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 362,
-      "height": 390,
+      "width": 280,
+      "height": 199,
       "selected": false,
       "positionAbsolute": {
-        "x": -1260,
-        "y": -1520
+        "x": 2700,
+        "y": -2020
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "audioTrack-1690924644298",
-      "type": "audioTrack",
+      "id": "adsr-1704387341007",
+      "type": "adsr",
       "data": {
-        "label": "E4",
+        "label": "adsr",
         "config": {
-          "waveColor": "#007bff",
-          "progressColor": "#8c92a4",
-          "rangeColor": "#14df42"
-        },
-        "values": {
-          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/E4.mp3?_=3"
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
         }
       },
       "position": {
-        "x": -1260,
-        "y": -1120
+        "x": 2700,
+        "y": -2240
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 362,
-      "height": 390,
+      "width": 280,
+      "height": 199,
       "selected": false,
+      "positionAbsolute": {
+        "x": 2700,
+        "y": -2240
+      },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "audioTrack-1690924670509",
-      "type": "audioTrack",
+      "id": "oscilloscope-1704386996648",
+      "type": "oscilloscope",
       "data": {
-        "label": "C4",
+        "label": "I string",
         "config": {
-          "waveColor": "#007bff",
-          "progressColor": "#8c92a4",
-          "rangeColor": "#14df42"
-        },
-        "values": {
-          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/C4.mp3?_=1"
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
         }
       },
       "position": {
-        "x": -1260,
-        "y": -720
+        "x": 3020,
+        "y": -2680
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 362,
-      "height": 390,
+      "width": 303,
+      "height": 168,
       "selected": false,
       "positionAbsolute": {
-        "x": -1260,
-        "y": -720
+        "x": 3020,
+        "y": -2680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1686153958683",
+      "type": "oscilloscope",
+      "data": {
+        "label": "input",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#eeff00",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 279,
+            "height": 145
+          }
+        }
+      },
+      "position": {
+        "x": 1880,
+        "y": -3160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 279,
+      "height": 250,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1880,
+        "y": -3160
       },
       "dragging": false
     },
@@ -772,75 +2685,408 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1689688330745",
+      "id": "oscilloscope-1704387239603",
       "type": "oscilloscope",
       "data": {
-        "label": "current string",
+        "label": "II string",
         "config": {
-          "minValue": 0.5,
-          "maxValue": 4.5,
+          "minValue": 0,
+          "maxValue": 2,
           "backgroundColor": "#351717",
           "input1Color": "#f6f7f9",
-          "input2Color": "#14df42",
-          "showGrid": true,
-          "gridColor": "#ffffff",
-          "gridRows": 4,
-          "gridColumns": 8,
-          "size": {
-            "width": 451,
-            "height": 147
-          }
-        }
-      },
-      "position": {
-        "x": 2920,
-        "y": -1500
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 451,
-      "height": 252,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 2920,
-        "y": -1500
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "oscilloscope-1686153958683",
-      "type": "oscilloscope",
-      "data": {
-        "label": "input",
-        "config": {
-          "minValue": -1,
-          "maxValue": 1,
-          "backgroundColor": "#292d39",
-          "input1Color": "#eeff00",
           "input2Color": "#14df42",
           "showGrid": false,
           "gridColor": "#ffffff",
           "gridRows": 4,
           "gridColumns": 8,
           "size": {
-            "width": 279,
-            "height": 145
+            "width": 303,
+            "height": 63
           }
         }
       },
       "position": {
-        "x": 2460,
-        "y": -1220
+        "x": 3020,
+        "y": -2460
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 279,
-      "height": 250,
+      "width": 303,
+      "height": 168,
       "selected": false,
       "positionAbsolute": {
-        "x": 2460,
-        "y": -1220
+        "x": 3020,
+        "y": -2460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1704387351281",
+      "type": "oscilloscope",
+      "data": {
+        "label": "IV string",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3020,
+        "y": -2020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3020,
+        "y": -2020
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1704387341412",
+      "type": "oscilloscope",
+      "data": {
+        "label": "III string",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3020,
+        "y": -2240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3020,
+        "y": -2240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "spectroscope-1686350543112",
+      "type": "spectroscope",
+      "data": {
+        "label": "spectroscope",
+        "config": {
+          "backgroundColor": "#292d39",
+          "inputColor": "#007bff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 233,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924644298",
+      "type": "audioTrack",
+      "data": {
+        "label": "E4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/E4.mp3?_=3"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -1120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 342,
+      "height": 385,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924699051",
+      "type": "audioTrack",
+      "data": {
+        "label": "G4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/G4.mp3?_=2"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 342,
+      "height": 385,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1260,
+        "y": -320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924670509",
+      "type": "audioTrack",
+      "data": {
+        "label": "C4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/C4.mp3?_=1"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -720
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 342,
+      "height": 385,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1260,
+        "y": -720
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1690924620288",
+      "type": "audioTrack",
+      "data": {
+        "label": "A4",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://mahaloukuleles.com/wp-content/uploads/2018/10/A4.mp3?_=4"
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -1520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 342,
+      "height": 385,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1260,
+        "y": -1520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1704409501817",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 1540,
+        "y": -2680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1540,
+        "y": -2680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1689759578943",
+      "type": "valueMeter",
+      "data": {
+        "label": "cents",
+        "config": {}
+      },
+      "position": {
+        "x": 3380,
+        "y": -920
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3380,
+        "y": -920
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689705007116",
+      "type": "mathNode",
+      "data": {
+        "label": "common gate",
+        "config": {},
+        "values": {
+          "expression": "A && 1"
+        }
+      },
+      "position": {
+        "x": 1420,
+        "y": -1080
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1420,
+        "y": -1080
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689716878149",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A * INPUT /* gain node */"
+        }
+      },
+      "position": {
+        "x": 1800,
+        "y": -660
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 206,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1800,
+        "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689759585220",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "Math.round(INPUT)"
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1704385181420",
+      "type": "patch",
+      "data": {
+        "label": "String #4 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -340
       },
       "dragging": false
     },
@@ -877,125 +3123,79 @@
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965696792",
-      "type": "patch",
-      "data": {
-        "label": "String #2 tune",
-        "config": {},
-        "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
-          "nodes": {
-            "midiNote-1690922850403": {
-              "value": "E4"
-            }
-          }
-        }
-      },
-      "position": {
-        "x": 540,
-        "y": -1040
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 160,
-      "height": 165,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 540,
-        "y": -1040
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965810011",
+      "id": "patch-1704385047869",
       "type": "patch",
       "data": {
         "label": "String #3 tune",
         "config": {},
         "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
-          "nodes": {
-            "midiNote-1690922850403": {
-              "value": "C4 (middle C)"
-            }
-          }
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
         }
       },
       "position": {
-        "x": 560,
-        "y": -780
+        "x": 540,
+        "y": -760
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 160,
-      "height": 165,
+      "width": 201,
+      "height": 225,
       "selected": false,
       "positionAbsolute": {
-        "x": 560,
-        "y": -780
+        "x": 540,
+        "y": -760
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965972900",
+      "id": "patch-1704384609567",
       "type": "patch",
       "data": {
-        "label": "String #4 tune",
+        "label": "String #2 tune",
         "config": {},
         "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
-          "nodes": {
-            "midiNote-1690922850403": {
-              "value": "G4"
-            }
-          }
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
         }
       },
       "position": {
-        "x": 560,
-        "y": -500
+        "x": 540,
+        "y": -1200
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 160,
-      "height": 165,
+      "width": 201,
+      "height": 225,
       "selected": false,
       "positionAbsolute": {
-        "x": 560,
-        "y": -500
+        "x": 540,
+        "y": -1200
       },
       "dragging": false
     },
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "patch-1687965518246",
+      "id": "patch-1704384334993",
       "type": "patch",
       "data": {
         "label": "String #1 tune",
         "config": {},
         "values": {
-          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/ukulele_tuner/note_analyser.json",
-          "nodes": {
-            "midiNote-1690922850403": {
-              "value": "A4 concert pitch"
-            }
-          }
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
         }
       },
       "position": {
         "x": 540,
-        "y": -1340
+        "y": -1580
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 160,
-      "height": 165,
+      "width": 201,
+      "height": 225,
       "selected": false,
       "positionAbsolute": {
         "x": 540,
-        "y": -1340
+        "y": -1580
       },
       "dragging": false
     },
@@ -1016,8 +3216,8 @@
       },
       "targetPosition": "left",
       "sourcePosition": "right",
-      "width": 246,
-      "height": 150,
+      "width": 323,
+      "height": 180,
       "selected": false,
       "positionAbsolute": {
         "x": -200,
@@ -1034,186 +3234,6 @@
       "target": "spectroscope-1686350543112",
       "targetHandle": "in",
       "id": "reactflow__edge-audioInput-1686147173142output-spectroscope-1686350543112in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "audioInput-1686147173142",
-      "sourceHandle": "output",
-      "target": "patch-1687965518246",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioInput-1686147173142output-patch-1687965518246input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965518246",
-      "sourceHandle": "gate",
-      "target": "valueMeter-1687965565116",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965518246gate-valueMeter-1687965565116input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965518246",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687965569864",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965518246diff-valueMeter-1687965569864input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965696792",
-      "sourceHandle": "gate",
-      "target": "valueMeter-1687965718277",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965696792gate-valueMeter-1687965718277input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965696792",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687965722033",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965696792diff-valueMeter-1687965722033input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "audioInput-1686147173142",
-      "sourceHandle": "output",
-      "target": "patch-1687965696792",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioInput-1686147173142output-patch-1687965696792input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "audioInput-1686147173142",
-      "sourceHandle": "output",
-      "target": "patch-1687965810011",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioInput-1686147173142output-patch-1687965810011input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965810011",
-      "sourceHandle": "gate",
-      "target": "valueMeter-1687965857304",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965810011gate-valueMeter-1687965857304input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965810011",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687965869455",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965810011diff-valueMeter-1687965869455input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "audioInput-1686147173142",
-      "sourceHandle": "output",
-      "target": "patch-1687965972900",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioInput-1686147173142output-patch-1687965972900input",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965972900",
-      "sourceHandle": "gate",
-      "target": "valueMeter-1687966005704",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965972900gate-valueMeter-1687966005704input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965972900",
-      "sourceHandle": "diff",
-      "target": "valueMeter-1687966009704",
-      "targetHandle": "input",
-      "id": "reactflow__edge-patch-1687965972900diff-valueMeter-1687966009704input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965518246",
-      "sourceHandle": "gate",
-      "target": "mathNode-1686574789402",
-      "targetHandle": "A",
-      "id": "reactflow__edge-patch-1687965518246gate-mathNode-1686574789402A",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965696792",
-      "sourceHandle": "gate",
-      "target": "mathNode-1686574789402",
-      "targetHandle": "B",
-      "id": "reactflow__edge-patch-1687965696792gate-mathNode-1686574789402B",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965810011",
-      "sourceHandle": "gate",
-      "target": "mathNode-1686574789402",
-      "targetHandle": "C",
-      "id": "reactflow__edge-patch-1687965810011gate-mathNode-1686574789402C",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965972900",
-      "sourceHandle": "gate",
-      "target": "mathNode-1686574789402",
-      "targetHandle": "X",
-      "id": "reactflow__edge-patch-1687965972900gate-mathNode-1686574789402X",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965518246",
-      "sourceHandle": "gate",
-      "target": "mathNode-1689705007116",
-      "targetHandle": "A",
-      "id": "reactflow__edge-patch-1687965518246gate-mathNode-1689705007116A",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965696792",
-      "sourceHandle": "gate",
-      "target": "mathNode-1689705007116",
-      "targetHandle": "A",
-      "id": "reactflow__edge-patch-1687965696792gate-mathNode-1689705007116A",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965810011",
-      "sourceHandle": "gate",
-      "target": "mathNode-1689705007116",
-      "targetHandle": "A",
-      "id": "reactflow__edge-patch-1687965810011gate-mathNode-1689705007116A",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965972900",
-      "sourceHandle": "gate",
-      "target": "mathNode-1689705007116",
-      "targetHandle": "A",
-      "id": "reactflow__edge-patch-1687965972900gate-mathNode-1689705007116A",
       "selected": false
     },
     {
@@ -1236,42 +3256,6 @@
     },
     {
       "type": "wire",
-      "source": "patch-1687965972900",
-      "sourceHandle": "diff cents",
-      "target": "mathNode-1689716878149",
-      "targetHandle": "INPUT",
-      "id": "reactflow__edge-patch-1687965972900diff cents-mathNode-1689716878149INPUT",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965810011",
-      "sourceHandle": "diff cents",
-      "target": "mathNode-1689716878149",
-      "targetHandle": "INPUT",
-      "id": "reactflow__edge-patch-1687965810011diff cents-mathNode-1689716878149INPUT",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965696792",
-      "sourceHandle": "diff cents",
-      "target": "mathNode-1689716878149",
-      "targetHandle": "INPUT",
-      "id": "reactflow__edge-patch-1687965696792diff cents-mathNode-1689716878149INPUT",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "patch-1687965518246",
-      "sourceHandle": "diff cents",
-      "target": "mathNode-1689716878149",
-      "targetHandle": "INPUT",
-      "id": "reactflow__edge-patch-1687965518246diff cents-mathNode-1689716878149INPUT",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "mathNode-1689759585220",
       "sourceHandle": "out",
       "target": "valueMeter-1689759578943",
@@ -1290,47 +3274,11 @@
     },
     {
       "type": "wire",
-      "source": "mathNode-1686574789402",
-      "sourceHandle": "out",
-      "target": "oscilloscope-1689688330745",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-mathNode-1686574789402out-oscilloscope-1689688330745input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
       "source": "parameter-1690151115416",
       "sourceHandle": "out",
       "target": "oscilloscope-1689717454891",
       "targetHandle": "input1",
       "id": "reactflow__edge-parameter-1690151115416out-oscilloscope-1689717454891input1",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "audioInput-1686147173142",
-      "sourceHandle": "output",
-      "target": "gain-1690151415637",
-      "targetHandle": "in",
-      "id": "reactflow__edge-audioInput-1686147173142output-gain-1690151415637in",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "mathNode-1689705007116",
-      "sourceHandle": "out",
-      "target": "gain-1690151415637",
-      "targetHandle": "gain",
-      "id": "reactflow__edge-mathNode-1689705007116out-gain-1690151415637gain",
-      "selected": false
-    },
-    {
-      "type": "wire",
-      "source": "gain-1690151415637",
-      "sourceHandle": "out",
-      "target": "oscilloscope-1686153958683",
-      "targetHandle": "input1",
-      "id": "reactflow__edge-gain-1690151415637out-oscilloscope-1686153958683input1",
       "selected": false
     },
     {
@@ -1348,7 +3296,8 @@
       "sourceHandle": "out",
       "target": "destination-1690924736113",
       "targetHandle": "in",
-      "id": "reactflow__edge-audioTrack-1690924620288out-destination-1690924736113in"
+      "id": "reactflow__edge-audioTrack-1690924620288out-destination-1690924736113in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1356,7 +3305,8 @@
       "sourceHandle": "out",
       "target": "destination-1690924736113",
       "targetHandle": "in",
-      "id": "reactflow__edge-audioTrack-1690924644298out-destination-1690924736113in"
+      "id": "reactflow__edge-audioTrack-1690924644298out-destination-1690924736113in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1364,7 +3314,8 @@
       "sourceHandle": "out",
       "target": "destination-1690924736113",
       "targetHandle": "in",
-      "id": "reactflow__edge-audioTrack-1690924670509out-destination-1690924736113in"
+      "id": "reactflow__edge-audioTrack-1690924670509out-destination-1690924736113in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1372,7 +3323,8 @@
       "sourceHandle": "out",
       "target": "destination-1690924736113",
       "targetHandle": "in",
-      "id": "reactflow__edge-audioTrack-1690924699051out-destination-1690924736113in"
+      "id": "reactflow__edge-audioTrack-1690924699051out-destination-1690924736113in",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1380,7 +3332,8 @@
       "sourceHandle": "out",
       "target": "audioTrack-1690924620288",
       "targetHandle": "gate",
-      "id": "reactflow__edge-gate-1690924756033out-audioTrack-1690924620288gate"
+      "id": "reactflow__edge-gate-1690924756033out-audioTrack-1690924620288gate",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1388,7 +3341,8 @@
       "sourceHandle": "out",
       "target": "audioTrack-1690924644298",
       "targetHandle": "gate",
-      "id": "reactflow__edge-gate-1690924762606out-audioTrack-1690924644298gate"
+      "id": "reactflow__edge-gate-1690924762606out-audioTrack-1690924644298gate",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1396,7 +3350,8 @@
       "sourceHandle": "out",
       "target": "audioTrack-1690924670509",
       "targetHandle": "gate",
-      "id": "reactflow__edge-gate-1690924774135out-audioTrack-1690924670509gate"
+      "id": "reactflow__edge-gate-1690924774135out-audioTrack-1690924670509gate",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1404,39 +3359,8 @@
       "sourceHandle": "out",
       "target": "audioTrack-1690924699051",
       "targetHandle": "gate",
-      "id": "reactflow__edge-gate-1690924784835out-audioTrack-1690924699051gate"
-    },
-    {
-      "type": "wire",
-      "source": "audioTrack-1690924620288",
-      "sourceHandle": "out",
-      "target": "patch-1687965518246",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioTrack-1690924620288out-patch-1687965518246input"
-    },
-    {
-      "type": "wire",
-      "source": "audioTrack-1690924644298",
-      "sourceHandle": "out",
-      "target": "patch-1687965696792",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioTrack-1690924644298out-patch-1687965696792input"
-    },
-    {
-      "type": "wire",
-      "source": "audioTrack-1690924670509",
-      "sourceHandle": "out",
-      "target": "patch-1687965810011",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioTrack-1690924670509out-patch-1687965810011input"
-    },
-    {
-      "type": "wire",
-      "source": "audioTrack-1690924699051",
-      "sourceHandle": "out",
-      "target": "patch-1687965972900",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioTrack-1690924699051out-patch-1687965972900input"
+      "id": "reactflow__edge-gate-1690924784835out-audioTrack-1690924699051gate",
+      "selected": false
     },
     {
       "type": "wire",
@@ -1444,66 +3368,506 @@
       "sourceHandle": "output",
       "target": "spectroscope-1686350543112",
       "targetHandle": "input",
-      "id": "reactflow__edge-audioInput-1686147173142output-spectroscope-1686350543112input"
+      "id": "reactflow__edge-audioInput-1686147173142output-spectroscope-1686350543112input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924620288",
+      "sourceHandle": "out",
+      "target": "patch-1704384334993",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924620288out-patch-1704384334993input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1704384364924",
+      "sourceHandle": "out",
+      "target": "patch-1704384334993",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1704384364924out-patch-1704384334993tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1704384334993",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1704384334993input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384334993",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1704384334993diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384334993",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1704384334993gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1704384610224",
+      "sourceHandle": "out",
+      "target": "patch-1704384609567",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1704384610224out-patch-1704384609567tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1704384609567",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1704384609567input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384609567",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1704384609567diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384609567",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1704384609567gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1704385047565",
+      "sourceHandle": "out",
+      "target": "patch-1704385047869",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1704385047565out-patch-1704385047869tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1704385047869",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1704385047869input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385047869",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1704385047869diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385047869",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1704385047869gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924644298",
+      "sourceHandle": "out",
+      "target": "patch-1704384609567",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924644298out-patch-1704384609567input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924670509",
+      "sourceHandle": "out",
+      "target": "patch-1704385047869",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924670509out-patch-1704385047869input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1704385181783",
+      "sourceHandle": "out",
+      "target": "patch-1704385181420",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1704385181783out-patch-1704385181420tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1704385181420",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1704385181420input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385181420",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1704385181420diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385181420",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1704385181420gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924699051",
+      "sourceHandle": "out",
+      "target": "patch-1704385181420",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1690924699051out-patch-1704385181420input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1704387015436",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1704387015436S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1704387015436",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1704387015436D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384334993",
+      "sourceHandle": "gate",
+      "target": "adsr-1704387015436",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1704384334993gate-adsr-1704387015436trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704387015436",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704386996648",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704387015436gain-oscilloscope-1704386996648input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1704387240185",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1704387240185S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1704387240185",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1704387240185D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704387240185",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704387239603",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704387240185gain-oscilloscope-1704387239603input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384609567",
+      "sourceHandle": "gate",
+      "target": "adsr-1704387240185",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1704384609567gate-adsr-1704387240185trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1704387341007",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1704387341007S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1704387341007",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1704387341007D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704387341007",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704387341412",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704387341007gain-oscilloscope-1704387341412input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1704387351550",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1704387351550S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1704387351550",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1704387351550D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704387351550",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704387351281",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704387351550gain-oscilloscope-1704387351281input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385047869",
+      "sourceHandle": "gate",
+      "target": "adsr-1704387341007",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1704385047869gate-adsr-1704387341007trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385181420",
+      "sourceHandle": "gate",
+      "target": "adsr-1704387351550",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1704385181420gate-adsr-1704387351550trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gain-1705104025324",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-gain-1705104025324out-oscilloscope-1686153958683input2"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924620288",
+      "sourceHandle": "out",
+      "target": "gain-1704409277484",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924620288out-gain-1704409277484in"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924644298",
+      "sourceHandle": "out",
+      "target": "gain-1704409277484",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924644298out-gain-1704409277484in"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924670509",
+      "sourceHandle": "out",
+      "target": "gain-1704409277484",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924670509out-gain-1704409277484in"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1690924699051",
+      "sourceHandle": "out",
+      "target": "gain-1704409277484",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioTrack-1690924699051out-gain-1704409277484in"
+    },
+    {
+      "type": "wire",
+      "source": "select-1704408992086",
+      "sourceHandle": "out",
+      "target": "gain-1704409277484",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-select-1704408992086out-gain-1704409277484gain"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1704409277484",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gain-1704409277484out-oscilloscope-1686153958683input1"
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "gain-1705104025324",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioInput-1686147173142output-gain-1705104025324in"
+    },
+    {
+      "type": "wire",
+      "source": "select-1704408992086",
+      "sourceHandle": "out",
+      "target": "gain-1705104025324",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-select-1704408992086out-gain-1705104025324gain"
+    },
+    {
+      "type": "wire",
+      "source": "select-1705104401880",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "fftSize",
+      "id": "reactflow__edge-select-1705104401880out-oscilloscope-1686153958683fftSize"
     }
   ],
   "controlPanel": {
     "nodes": [
       {
-        "id": "gate-1690924756033",
-        "width": 1,
-        "height": 10,
+        "id": "sticker-1704408531359",
+        "width": 4,
+        "height": 6,
         "x": 0,
         "y": 0
+      },
+      {
+        "id": "gate-1690924756033",
+        "width": 1,
+        "height": 8,
+        "x": 0,
+        "y": 6
       },
       {
         "id": "gate-1690924762606",
         "width": 1,
-        "height": 10,
+        "height": 8,
         "x": 1,
-        "y": 0
+        "y": 6
       },
       {
         "id": "gate-1690924774135",
         "width": 1,
-        "height": 10,
+        "height": 8,
         "x": 2,
-        "y": 0
+        "y": 6
       },
       {
         "id": "gate-1690924784835",
         "width": 1,
-        "height": 10,
+        "height": 8,
         "x": 3,
-        "y": 0
+        "y": 6
       },
       {
-        "id": "valueMeter-1689759578943",
+        "id": "select-1704408992086",
         "width": 1,
-        "height": 9,
+        "height": 6,
         "x": 3,
-        "y": 16
+        "y": 14
+      },
+      {
+        "id": "oscilloscope-1704386996648",
+        "width": 3,
+        "height": 4,
+        "x": 0,
+        "y": 20
+      },
+      {
+        "id": "oscilloscope-1686153958683",
+        "width": 3,
+        "height": 6,
+        "x": 0,
+        "y": 14
       },
       {
         "id": "oscilloscope-1689717454891",
         "width": 4,
-        "height": 35,
+        "height": 18,
         "x": 0,
-        "y": 25
+        "y": 36
       },
       {
-        "id": "oscilloscope-1689688330745",
+        "id": "oscilloscope-1704387239603",
         "width": 3,
-        "height": 9,
+        "height": 4,
         "x": 0,
-        "y": 16
+        "y": 24
       },
       {
-        "id": "oscilloscope-1686153958683",
-        "width": 4,
-        "height": 6,
+        "id": "oscilloscope-1704387351281",
+        "width": 3,
+        "height": 4,
         "x": 0,
-        "y": 10
+        "y": 32
+      },
+      {
+        "id": "oscilloscope-1704387341412",
+        "width": 3,
+        "height": 4,
+        "x": 0,
+        "y": 28
+      },
+      {
+        "id": "valueMeter-1689759578943",
+        "width": 1,
+        "height": 16,
+        "x": 3,
+        "y": 20
       }
     ],
     "show": true,
@@ -1513,8 +3877,8 @@
     }
   },
   "viewport": {
-    "x": 970.6218617239728,
-    "y": 1962.52499792017,
-    "zoom": 2
+    "x": 695.2271161918325,
+    "y": 624.9195398262721,
+    "zoom": 0.5
   }
 }
