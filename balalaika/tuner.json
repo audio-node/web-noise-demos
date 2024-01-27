@@ -1,0 +1,5391 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1689760882199",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": false,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 224
+          }
+        },
+        "values": {
+          "text": "Tune down\n- 1,2 strings - ↺\n- 3,4 strings - ↻\n\n<br/><br/>\n<hr/>\n\nTune up\n- 1,2 strings - ↻\n- 3,4 strings - ↺",
+          "width": 279,
+          "height": 208
+        }
+      },
+      "position": {
+        "x": 3380,
+        "y": -1160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 224,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 3380,
+        "y": -1160
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1704410429268",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 95
+          }
+        },
+        "values": {
+          "text": "# Visualise",
+          "width": 280,
+          "height": 95
+        }
+      },
+      "position": {
+        "x": 1020,
+        "y": -3500
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 95,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1020,
+        "y": -3500
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "sticker-1704410448767",
+      "type": "sticker",
+      "data": {
+        "label": "sticker",
+        "config": {
+          "transparentBackground": true,
+          "backgroundColor": "#181c20",
+          "textColor": "#ffffff",
+          "size": {
+            "width": 280,
+            "height": 95
+          }
+        },
+        "values": {
+          "text": "# Input source",
+          "width": 280,
+          "height": 95
+        }
+      },
+      "position": {
+        "x": -140,
+        "y": -1020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 95,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -140,
+        "y": -1020
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1690151115416",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {}
+      },
+      "position": {
+        "x": 2560,
+        "y": -1320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2560,
+        "y": -1340
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1690924736113",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": -580,
+        "y": -820
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -580,
+        "y": -820
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1704384364924",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "G4"
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -1680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -1680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1704384610224",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "E4"
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -1300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1704385047565",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "C4 (middle C)"
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -860
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -860
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704387021483",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0.1
+        }
+      },
+      "position": {
+        "x": 2200,
+        "y": -2340
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2200,
+        "y": -2340
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1704387023998",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 2200,
+        "y": -2220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 2200,
+        "y": -2220
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1704408992086",
+      "type": "select",
+      "data": {
+        "label": "zoom",
+        "config": {
+          "placeholder": "zoom",
+          "options": [
+            {
+              "key": "1x",
+              "value": 1
+            },
+            {
+              "key": "2x",
+              "value": 2
+            },
+            {
+              "key": "4x",
+              "value": 4
+            }
+          ]
+        },
+        "values": {
+          "value": "1x"
+        }
+      },
+      "position": {
+        "x": 1000,
+        "y": -3020
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1000,
+        "y": -3020
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1704409277484",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 1240,
+        "y": -3180
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1240,
+        "y": -3180
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1705104025324",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 1240,
+        "y": -2920
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1240,
+        "y": -2920
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1705104401880",
+      "type": "select",
+      "data": {
+        "label": "select",
+        "config": {
+          "placeholder": "Select value",
+          "options": [
+            {
+              "key": "1024",
+              "value": 1024
+            },
+            {
+              "key": "2048",
+              "value": 2048
+            },
+            {
+              "key": "4096",
+              "value": 4096
+            }
+          ]
+        },
+        "values": {
+          "value": "1024"
+        }
+      },
+      "position": {
+        "x": 1600,
+        "y": -3420
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1705582793042",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "G5"
+        }
+      },
+      "position": {
+        "x": 760,
+        "y": -1680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 760,
+        "y": -1680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1705584224236",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "E5"
+        }
+      },
+      "position": {
+        "x": 760,
+        "y": -1300
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 760,
+        "y": -1300
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1705584361266",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "C5"
+        }
+      },
+      "position": {
+        "x": 760,
+        "y": -860
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 760,
+        "y": -860
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1686153958683",
+      "type": "oscilloscope",
+      "data": {
+        "label": "input",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#eeff00",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 279,
+            "height": 145
+          }
+        }
+      },
+      "position": {
+        "x": 1880,
+        "y": -3160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 279,
+      "height": 250,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1880,
+        "y": -3160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1705582793424",
+      "type": "oscilloscope",
+      "data": {
+        "label": "I (XII fret)",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3660,
+        "y": -2680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3660,
+        "y": -2680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1704387341412",
+      "type": "oscilloscope",
+      "data": {
+        "label": "III string",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3020,
+        "y": -2240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3020,
+        "y": -2240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1705584224169",
+      "type": "oscilloscope",
+      "data": {
+        "label": "II (XII fret)",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3660,
+        "y": -2460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3660,
+        "y": -2460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1704387239603",
+      "type": "oscilloscope",
+      "data": {
+        "label": "II string",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3020,
+        "y": -2460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3020,
+        "y": -2460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1705584361786",
+      "type": "oscilloscope",
+      "data": {
+        "label": "III (XII fret)",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3660,
+        "y": -2240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3660,
+        "y": -2240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1704386996648",
+      "type": "oscilloscope",
+      "data": {
+        "label": "I string",
+        "config": {
+          "minValue": 0,
+          "maxValue": 2,
+          "backgroundColor": "#351717",
+          "input1Color": "#f6f7f9",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 303,
+            "height": 63
+          }
+        }
+      },
+      "position": {
+        "x": 3020,
+        "y": -2680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 303,
+      "height": 168,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3020,
+        "y": -2680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1689717454891",
+      "type": "oscilloscope",
+      "data": {
+        "label": "tuner",
+        "config": {
+          "minValue": -50,
+          "maxValue": 50,
+          "backgroundColor": "#292d39",
+          "input1Color": "#6d86a2",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 10,
+          "gridColumns": 0,
+          "size": {
+            "width": 452,
+            "height": 207
+          }
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -1240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 452,
+      "height": 312,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -1240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1689759578943",
+      "type": "valueMeter",
+      "data": {
+        "label": "cents",
+        "config": {}
+      },
+      "position": {
+        "x": 3380,
+        "y": -920
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3380,
+        "y": -920
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gauge-1706206596626",
+      "type": "gauge",
+      "data": {
+        "label": "gauge",
+        "config": {
+          "backgroundColor": "#292d39",
+          "min": 48,
+          "max": 83,
+          "majorTicks": 0,
+          "minorTicks": 35,
+          "labelsInterval": 1,
+          "arcColor": "#ffffff",
+          "arrowColor": "#14df42",
+          "ticksColor": "#161718",
+          "labelsColor": "#d6d9dc",
+          "labels": [
+            {
+              "value": 67,
+              "label": "G4",
+              "color": "#018317"
+            },
+            {
+              "value": 64,
+              "label": "E4",
+              "color": "#018317"
+            },
+            {
+              "value": 60,
+              "label": "C4",
+              "color": "#018317"
+            },
+            {
+              "value": 79,
+              "label": "G5",
+              "color": "#84b922"
+            },
+            {
+              "value": 76,
+              "label": "E5",
+              "color": "#84b922"
+            },
+            {
+              "value": 72,
+              "label": "C5",
+              "color": "#84b922"
+            }
+          ],
+          "size": {
+            "width": 239,
+            "height": 120
+          }
+        }
+      },
+      "position": {
+        "x": -160,
+        "y": -2120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 241,
+      "height": 184,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -160,
+        "y": -2120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689759585220",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "Math.round(INPUT)"
+        }
+      },
+      "position": {
+        "x": 2920,
+        "y": -520
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2920,
+        "y": -520
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689716878149",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "A * INPUT /* gain node */"
+        }
+      },
+      "position": {
+        "x": 1800,
+        "y": -660
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 206,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1800,
+        "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1689705007116",
+      "type": "mathNode",
+      "data": {
+        "label": "common gate",
+        "config": {},
+        "values": {
+          "expression": "A && 1"
+        }
+      },
+      "position": {
+        "x": 1420,
+        "y": -1080
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1420,
+        "y": -1080
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1704387341007",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
+        }
+      },
+      "position": {
+        "x": 2700,
+        "y": -2240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 199,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2700,
+        "y": -2240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1705584223549",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
+        }
+      },
+      "position": {
+        "x": 3360,
+        "y": -2460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 199,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3360,
+        "y": -2460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1705584361343",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
+        }
+      },
+      "position": {
+        "x": 3360,
+        "y": -2240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 199,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3360,
+        "y": -2240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1705582793829",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
+        }
+      },
+      "position": {
+        "x": 3360,
+        "y": -2680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 199,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3360,
+        "y": -2680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1704387240185",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
+        }
+      },
+      "position": {
+        "x": 2700,
+        "y": -2460
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 199,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2700,
+        "y": -2460
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1704387015436",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {
+          "backgroundColor": "#292d39",
+          "colors": {
+            "attack": "#007bff",
+            "decay": "#007bff",
+            "sustain": "#007bff",
+            "release": "#007bff"
+          },
+          "size": {
+            "width": 280,
+            "height": 30
+          }
+        }
+      },
+      "position": {
+        "x": 2700,
+        "y": -2680
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 199,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2700,
+        "y": -2680
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "spectroscope-1686350543112",
+      "type": "spectroscope",
+      "data": {
+        "label": "spectroscope",
+        "config": {
+          "backgroundColor": "#292d39",
+          "inputColor": "#007bff",
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": -180,
+        "y": -640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 233,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -180,
+        "y": -640
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "workletScript-1689716734566",
+      "type": "workletScript",
+      "data": {
+        "label": "workletScript",
+        "config": {
+          "size": {
+            "width": 560,
+            "height": 543
+          }
+        },
+        "values": {
+          "expression": "const createUseBuffer = (size: number) => {\n  let buffer = new Float32Array(size);\n  return (slice: Float32Array) => {\n    const sliceLength = slice.length;\n    const start = buffer.length - sliceLength;\n    for (let i = 0; i < start; i++) {\n      buffer[i] = buffer[sliceLength + i];\n    }\n    for (let i = 0; i < sliceLength; i++) {\n      buffer[start + i] = slice[i];\n    }\n    return buffer;\n  };\n};\n\nconst BUFFER_SIZE = 1024 * 16;\nthis.useBuffer = this.useBuffer || createUseBuffer(BUFFER_SIZE);\n//---------------------\n\nconst { inputs, outputs, parameters } = ProcessSandbox;\n\nconst output = outputs[0];\nconst input = inputs[0];\n\nconst buffer = this.useBuffer(input[0]);\n\nconst mm = buffer.reduce((acc, item) => acc + item, 0);\nconst ff = mm / buffer.length;\n\n\noutput.forEach((outputChannel, channelIndex) => {\n  for (\n    let sampleIndex = 0;\n    sampleIndex < outputChannel.length;\n    sampleIndex++\n  ) {\n    outputChannel[sampleIndex] = ff;\n  }\n});\n"
+        }
+      },
+      "position": {
+        "x": 2060,
+        "y": -740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 560,
+      "height": 755,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2060,
+        "y": -740
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioInput-1686147173142",
+      "type": "audioInput",
+      "data": {
+        "label": "audioInput",
+        "values": {
+          "currentInput": "6e030ae6a9c6e5e3528f2aac4918c6bdd2b8ff913cc9e1ebec4d0fca0ee210b4"
+        },
+        "config": {}
+      },
+      "position": {
+        "x": -200,
+        "y": -900
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 323,
+      "height": 180,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -200,
+        "y": -900
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1705584361477",
+      "type": "patch",
+      "data": {
+        "label": "String #3 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
+        }
+      },
+      "position": {
+        "x": 760,
+        "y": -760
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 760,
+        "y": -760
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1704385047869",
+      "type": "patch",
+      "data": {
+        "label": "String #3 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -760
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -760
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1704384609567",
+      "type": "patch",
+      "data": {
+        "label": "String #2 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -1200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -1200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1704384334993",
+      "type": "patch",
+      "data": {
+        "label": "String #1 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
+        }
+      },
+      "position": {
+        "x": 540,
+        "y": -1580
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 540,
+        "y": -1580
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1705582792936",
+      "type": "patch",
+      "data": {
+        "label": "String #1 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
+        }
+      },
+      "position": {
+        "x": 760,
+        "y": -1580
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 760,
+        "y": -1580
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "patch-1705584223392",
+      "type": "patch",
+      "data": {
+        "label": "String #2 tune",
+        "config": {},
+        "values": {
+          "url": "https://raw.githubusercontent.com/audio-node/web-noise-demos/main/misc/noteTuner.json"
+        }
+      },
+      "position": {
+        "x": 760,
+        "y": -1200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 201,
+      "height": 225,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 760,
+        "y": -1200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "frequencyMeter-1706284797163",
+      "type": "frequencyMeter",
+      "data": {
+        "label": "frequencyMeter",
+        "config": {}
+      },
+      "position": {
+        "x": -1020,
+        "y": -1700
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 126,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -1020,
+        "y": -1700
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1706284820044",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 512
+        }
+      },
+      "position": {
+        "x": -1260,
+        "y": -1640
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -1260,
+        "y": -1640
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1706284824463",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 6
+        }
+      },
+      "position": {
+        "x": -1280,
+        "y": -1760
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 176,
+      "height": 88,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -1280,
+        "y": -1760
+      }
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "mathNode-1706284861678",
+      "type": "mathNode",
+      "data": {
+        "label": "mathNode",
+        "config": {},
+        "values": {
+          "expression": "Math.round(69 + 12 * Math.log2(A / 440))"
+        }
+      },
+      "position": {
+        "x": -740,
+        "y": -1800
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 305,
+      "height": 275,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -740,
+        "y": -1800
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1706284891674",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": -340,
+        "y": -2120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -340,
+        "y": -2120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1706285032550",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "C5"
+        }
+      },
+      "position": {
+        "x": -660,
+        "y": -2160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1706285948215",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 220,
+        "y": -1740
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "spectroscope-1686350543112",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioInput-1686147173142output-spectroscope-1686350543112in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689716878149",
+      "sourceHandle": "out",
+      "target": "workletScript-1689716734566",
+      "targetHandle": "input0",
+      "id": "reactflow__edge-mathNode-1689716878149out-workletScript-1689716734566input0",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689705007116",
+      "sourceHandle": "out",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "A",
+      "id": "reactflow__edge-mathNode-1689705007116out-mathNode-1689716878149A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1689759585220",
+      "sourceHandle": "out",
+      "target": "valueMeter-1689759578943",
+      "targetHandle": "input",
+      "id": "reactflow__edge-mathNode-1689759585220out-valueMeter-1689759578943input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "workletScript-1689716734566",
+      "sourceHandle": "output0",
+      "target": "mathNode-1689759585220",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-workletScript-1689716734566output0-mathNode-1689759585220INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1690151115416",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1689717454891",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-parameter-1690151115416out-oscilloscope-1689717454891input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "workletScript-1689716734566",
+      "sourceHandle": "output0",
+      "target": "oscilloscope-1689717454891",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-workletScript-1689716734566output0-oscilloscope-1689717454891input2",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "spectroscope-1686350543112",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-spectroscope-1686350543112input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1704384364924",
+      "sourceHandle": "out",
+      "target": "patch-1704384334993",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1704384364924out-patch-1704384334993tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1704384334993",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1704384334993input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384334993",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1704384334993diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384334993",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1704384334993gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1704384610224",
+      "sourceHandle": "out",
+      "target": "patch-1704384609567",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1704384610224out-patch-1704384609567tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1704384609567",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1704384609567input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384609567",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1704384609567diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384609567",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1704384609567gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1704385047565",
+      "sourceHandle": "out",
+      "target": "patch-1704385047869",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1704385047565out-patch-1704385047869tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1704385047869",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1704385047869input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385047869",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1704385047869diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385047869",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1704385047869gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1704387015436",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1704387015436S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1704387015436",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1704387015436D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384334993",
+      "sourceHandle": "gate",
+      "target": "adsr-1704387015436",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1704384334993gate-adsr-1704387015436trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704387015436",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704386996648",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704387015436gain-oscilloscope-1704386996648input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1704387240185",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1704387240185S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1704387240185",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1704387240185D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704387240185",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704387239603",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704387240185gain-oscilloscope-1704387239603input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704384609567",
+      "sourceHandle": "gate",
+      "target": "adsr-1704387240185",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1704384609567gate-adsr-1704387240185trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1704387341007",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1704387341007S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1704387341007",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1704387341007D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1704387341007",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1704387341412",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1704387341007gain-oscilloscope-1704387341412input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1704385047869",
+      "sourceHandle": "gate",
+      "target": "adsr-1704387341007",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1704385047869gate-adsr-1704387341007trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gain-1705104025324",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-gain-1705104025324out-oscilloscope-1686153958683input2",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "select-1704408992086",
+      "sourceHandle": "out",
+      "target": "gain-1704409277484",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-select-1704408992086out-gain-1704409277484gain",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "gain-1704409277484",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gain-1704409277484out-oscilloscope-1686153958683input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "gain-1705104025324",
+      "targetHandle": "in",
+      "id": "reactflow__edge-audioInput-1686147173142output-gain-1705104025324in",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "select-1704408992086",
+      "sourceHandle": "out",
+      "target": "gain-1705104025324",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-select-1704408992086out-gain-1705104025324gain",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "select-1705104401880",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1686153958683",
+      "targetHandle": "fftSize",
+      "id": "reactflow__edge-select-1705104401880out-oscilloscope-1686153958683fftSize",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1705582792936",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1705582792936input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705582792936",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1705582792936diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705582792936",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1705582792936gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705582792936",
+      "sourceHandle": "gate",
+      "target": "adsr-1705582793829",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1705582792936gate-adsr-1705582793829trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1705582793829",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1705582793424",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1705582793829gain-oscilloscope-1705582793424input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1705582793042",
+      "sourceHandle": "out",
+      "target": "patch-1705582792936",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1705582793042out-patch-1705582792936tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1705582793829",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1705582793829D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1705582793829",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1705582793829S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1705584224236",
+      "sourceHandle": "out",
+      "target": "patch-1705584223392",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1705584224236out-patch-1705584223392tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1705584223392",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1705584223392input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705584223392",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1705584223392diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705584223392",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1705584223392gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1705584223549",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1705584223549S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1705584223549",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1705584223549D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1705584223549",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1705584224169",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1705584223549gain-oscilloscope-1705584224169input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705584223392",
+      "sourceHandle": "gate",
+      "target": "adsr-1705584223549",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1705584223392gate-adsr-1705584223549trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1705584361266",
+      "sourceHandle": "out",
+      "target": "patch-1705584361477",
+      "targetHandle": "tuningNote",
+      "id": "reactflow__edge-midiNote-1705584361266out-patch-1705584361477tuningNote",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "patch-1705584361477",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-patch-1705584361477input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705584361477",
+      "sourceHandle": "diffCents",
+      "target": "mathNode-1689716878149",
+      "targetHandle": "INPUT",
+      "id": "reactflow__edge-patch-1705584361477diffCents-mathNode-1689716878149INPUT",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705584361477",
+      "sourceHandle": "gate",
+      "target": "mathNode-1689705007116",
+      "targetHandle": "A",
+      "id": "reactflow__edge-patch-1705584361477gate-mathNode-1689705007116A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387023998",
+      "sourceHandle": "out",
+      "target": "adsr-1705584361343",
+      "targetHandle": "S",
+      "id": "reactflow__edge-parameter-1704387023998out-adsr-1705584361343S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1704387021483",
+      "sourceHandle": "out",
+      "target": "adsr-1705584361343",
+      "targetHandle": "D",
+      "id": "reactflow__edge-parameter-1704387021483out-adsr-1705584361343D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1705584361343",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1705584361786",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1705584361343gain-oscilloscope-1705584361786input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "patch-1705584361477",
+      "sourceHandle": "gate",
+      "target": "adsr-1705584361343",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-patch-1705584361477gate-adsr-1705584361343trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706284824463",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1706284797163",
+      "targetHandle": "method",
+      "id": "reactflow__edge-parameter-1706284824463out-frequencyMeter-1706284797163method"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706284820044",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1706284797163",
+      "targetHandle": "fftSize",
+      "id": "reactflow__edge-parameter-1706284820044out-frequencyMeter-1706284797163fftSize"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706284820044",
+      "sourceHandle": "out",
+      "target": "frequencyMeter-1706284797163",
+      "targetHandle": "hopSize",
+      "id": "reactflow__edge-parameter-1706284820044out-frequencyMeter-1706284797163hopSize"
+    },
+    {
+      "type": "wire",
+      "source": "audioInput-1686147173142",
+      "sourceHandle": "output",
+      "target": "frequencyMeter-1706284797163",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioInput-1686147173142output-frequencyMeter-1706284797163input"
+    },
+    {
+      "type": "wire",
+      "source": "frequencyMeter-1706284797163",
+      "sourceHandle": "frequency",
+      "target": "mathNode-1706284861678",
+      "targetHandle": "A",
+      "id": "reactflow__edge-frequencyMeter-1706284797163frequency-mathNode-1706284861678A"
+    },
+    {
+      "type": "wire",
+      "source": "mathNode-1706284861678",
+      "sourceHandle": "out",
+      "target": "gauge-1706206596626",
+      "targetHandle": "input",
+      "id": "reactflow__edge-mathNode-1706284861678out-gauge-1706206596626input"
+    },
+    {
+      "type": "wire",
+      "source": "midiNote-1706285032550",
+      "sourceHandle": "out",
+      "target": "valueMeter-1706284891674",
+      "targetHandle": "input",
+      "id": "reactflow__edge-midiNote-1706285032550out-valueMeter-1706284891674input"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706285948215",
+      "sourceHandle": "out",
+      "target": "patch-1704384334993",
+      "targetHandle": "noteMargin",
+      "id": "reactflow__edge-parameter-1706285948215out-patch-1704384334993noteMargin"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706285948215",
+      "sourceHandle": "out",
+      "target": "patch-1704384609567",
+      "targetHandle": "noteMargin",
+      "id": "reactflow__edge-parameter-1706285948215out-patch-1704384609567noteMargin"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706285948215",
+      "sourceHandle": "out",
+      "target": "patch-1704385047869",
+      "targetHandle": "noteMargin",
+      "id": "reactflow__edge-parameter-1706285948215out-patch-1704385047869noteMargin"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706285948215",
+      "sourceHandle": "out",
+      "target": "patch-1705582792936",
+      "targetHandle": "noteMargin",
+      "id": "reactflow__edge-parameter-1706285948215out-patch-1705582792936noteMargin"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706285948215",
+      "sourceHandle": "out",
+      "target": "patch-1705584223392",
+      "targetHandle": "noteMargin",
+      "id": "reactflow__edge-parameter-1706285948215out-patch-1705584223392noteMargin"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1706285948215",
+      "sourceHandle": "out",
+      "target": "patch-1705584361477",
+      "targetHandle": "noteMargin",
+      "id": "reactflow__edge-parameter-1706285948215out-patch-1705584361477noteMargin"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "select-1704408992086",
+        "width": 1,
+        "height": 6,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "id": "oscilloscope-1686153958683",
+        "width": 3,
+        "height": 6,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "oscilloscope-1705582793424",
+        "width": 1,
+        "height": 4,
+        "x": 2,
+        "y": 6
+      },
+      {
+        "id": "oscilloscope-1704387341412",
+        "width": 2,
+        "height": 4,
+        "x": 0,
+        "y": 14
+      },
+      {
+        "id": "oscilloscope-1705584224169",
+        "width": 1,
+        "height": 4,
+        "x": 2,
+        "y": 10
+      },
+      {
+        "id": "oscilloscope-1704387239603",
+        "width": 2,
+        "height": 4,
+        "x": 0,
+        "y": 10
+      },
+      {
+        "id": "oscilloscope-1705584361786",
+        "width": 1,
+        "height": 4,
+        "x": 2,
+        "y": 14
+      },
+      {
+        "id": "oscilloscope-1704386996648",
+        "width": 2,
+        "height": 4,
+        "x": 0,
+        "y": 6
+      },
+      {
+        "id": "oscilloscope-1689717454891",
+        "width": 4,
+        "height": 18,
+        "x": 0,
+        "y": 22
+      },
+      {
+        "id": "valueMeter-1689759578943",
+        "width": 1,
+        "height": 16,
+        "x": 3,
+        "y": 6
+      },
+      {
+        "id": "gauge-1706206596626",
+        "width": 4,
+        "height": 12,
+        "x": 0,
+        "y": 40
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 375,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 344.40936861592434,
+    "y": 1204.0158245235584,
+    "zoom": 0.6320015492264036
+  }
+}
