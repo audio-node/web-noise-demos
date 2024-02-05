@@ -2,32 +2,6 @@
   "nodes": [
     {
       "dragHandle": ".web-noise-drag-handle",
-      "id": "convolver-1706650484148",
-      "type": "convolver",
-      "data": {
-        "label": "convolver",
-        "config": {},
-        "values": {
-          "url": "http://localhost:8000/impulse.wav"
-        }
-      },
-      "position": {
-        "x": 60,
-        "y": -20
-      },
-      "targetPosition": "left",
-      "sourcePosition": "right",
-      "width": 300,
-      "height": 136,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 60,
-        "y": -20
-      },
-      "dragging": false
-    },
-    {
-      "dragHandle": ".web-noise-drag-handle",
       "id": "gate-1706794145950",
       "type": "gate",
       "data": {
@@ -129,7 +103,7 @@
           }
         },
         "values": {
-          "value": 0
+          "value": 0.1
         }
       },
       "position": {
@@ -422,18 +396,40 @@
         "y": -460
       },
       "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "convolver-1707139644859",
+      "type": "convolver",
+      "data": {
+        "label": "convolver",
+        "config": {
+          "size": {
+            "width": 150,
+            "height": 40
+          }
+        },
+        "values": {
+          "url": "https://mdn.github.io/voice-change-o-matic/audio/concert-crowd.ogg"
+        }
+      },
+      "position": {
+        "x": 80,
+        "y": -20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 102,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 80,
+        "y": -20
+      },
+      "dragging": false
     }
   ],
   "edges": [
-    {
-      "type": "wire",
-      "source": "audioTrack-1706794094284",
-      "sourceHandle": "out",
-      "target": "convolver-1706650484148",
-      "targetHandle": "input",
-      "id": "reactflow__edge-audioTrack-1706794094284out-convolver-1706650484148input",
-      "selected": false
-    },
     {
       "type": "wire",
       "source": "gate-1706794145950",
@@ -589,11 +585,19 @@
     },
     {
       "type": "wire",
-      "source": "convolver-1706650484148",
+      "source": "audioTrack-1706794094284",
+      "sourceHandle": "out",
+      "target": "convolver-1707139644859",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1706794094284out-convolver-1707139644859input"
+    },
+    {
+      "type": "wire",
+      "source": "convolver-1707139644859",
       "sourceHandle": "output",
       "target": "gain-1706794649889",
       "targetHandle": "in",
-      "id": "reactflow__edge-convolver-1706650484148output-gain-1706794649889in"
+      "id": "reactflow__edge-convolver-1707139644859output-gain-1706794649889in"
     }
   ],
   "controlPanel": {
@@ -627,8 +631,8 @@
     }
   },
   "viewport": {
-    "x": 556.3531253796173,
-    "y": 386.01293064270715,
+    "x": 505.5220238214358,
+    "y": 430.37750882816783,
     "zoom": 0.5
   }
 }
