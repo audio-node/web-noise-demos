@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1707002784128",
+      "type": "gate",
+      "data": {
+        "label": "gate",
+        "config": {
+          "label": "open",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": true
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": -540,
+        "y": -100
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -540,
+        "y": -100
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1707002874195",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 660,
+        "y": 260
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "waveShaper-1707081626449",
+      "type": "waveShaper",
+      "data": {
+        "label": "waveShaper",
+        "config": {
+          "size": {
+            "width": 300,
+            "height": 300
+          },
+          "curveColor": "#007bff",
+          "gridColor": "#181c20",
+          "controlPointColor": "#14df42",
+          "textColor": "#cf1616"
+        },
+        "values": {
+          "points": [
+            {
+              "x": 0.001384908918393765,
+              "y": 0.01146149473748892
+            },
+            {
+              "x": 0.12441611413614244,
+              "y": 0.5252057265823752
+            },
+            {
+              "x": 0.29494752807512875,
+              "y": 0.2963138024829223
+            },
+            {
+              "x": 0.40408763299607997,
+              "y": 0.6015030346155261
+            },
+            {
+              "x": 0.5154389909684082,
+              "y": 0.26150467193272375
+            },
+            {
+              "x": 0.6564741256257797,
+              "y": 0.7998760355017186
+            },
+            {
+              "x": 0.8247177768761004,
+              "y": 0.09779182692307697
+            },
+            {
+              "x": 0.9953180199157531,
+              "y": 0.9656143175981363
+            }
+          ]
+        }
+      },
+      "position": {
+        "x": 240,
+        "y": -660
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 362
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1707081630818",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "config": {},
+        "values": {
+          "type": "sine"
+        }
+      },
+      "position": {
+        "x": -120,
+        "y": -660
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 128
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1707081635566",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 43.1
+        }
+      },
+      "position": {
+        "x": -320,
+        "y": -660
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -320,
+        "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "waveShaper-1707139083679",
+      "type": "waveShaper",
+      "data": {
+        "label": "waveShaper",
+        "config": {
+          "size": {
+            "width": 300,
+            "height": 340
+          },
+          "curveColor": "#007bff",
+          "gridColor": "#181c20",
+          "controlPointColor": "#14df42",
+          "textColor": "#cf1616"
+        },
+        "values": {
+          "points": [
+            {
+              "x": 0.4523906279620396,
+              "y": 0.3789893055411677
+            },
+            {
+              "x": 0.5525115040887854,
+              "y": 0.6313708832572176
+            }
+          ],
+          "splineType": "monotonic"
+        }
+      },
+      "position": {
+        "x": 200,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 402,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 200,
+        "y": -80
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1707002770779",
+      "type": "audioTrack",
+      "data": {
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "start": 83.76,
+          "end": 200,
+          "src": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/7937f0e0-882c-11ec-af9c-022ed69f96e6.mp3?cb=202202071"
+        }
+      },
+      "position": {
+        "x": -240,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 375
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1707002805987",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 640,
+        "y": -120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 640,
+        "y": -120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1707081653535",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 680,
+        "y": -660
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 680,
+        "y": -660
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "gate-1707002784128",
+      "sourceHandle": "out",
+      "target": "audioTrack-1707002770779",
+      "targetHandle": "gate",
+      "id": "reactflow__edge-gate-1707002784128out-audioTrack-1707002770779gate"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1707081635566",
+      "sourceHandle": "out",
+      "target": "oscillator-1707081630818",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-parameter-1707081635566out-oscillator-1707081630818frequency"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1707081630818",
+      "sourceHandle": "out",
+      "target": "waveShaper-1707081626449",
+      "targetHandle": "input",
+      "id": "reactflow__edge-oscillator-1707081630818out-waveShaper-1707081626449input"
+    },
+    {
+      "type": "wire",
+      "source": "waveShaper-1707081626449",
+      "sourceHandle": "output",
+      "target": "oscilloscope-1707081653535",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-waveShaper-1707081626449output-oscilloscope-1707081653535input1"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1707081630818",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1707081653535",
+      "targetHandle": "input2",
+      "id": "reactflow__edge-oscillator-1707081630818out-oscilloscope-1707081653535input2"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1707002770779",
+      "sourceHandle": "out",
+      "target": "waveShaper-1707139083679",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1707002770779out-waveShaper-1707139083679input"
+    },
+    {
+      "type": "wire",
+      "source": "waveShaper-1707139083679",
+      "sourceHandle": "output",
+      "target": "oscilloscope-1707002805987",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-waveShaper-1707139083679output-oscilloscope-1707002805987input1"
+    },
+    {
+      "type": "wire",
+      "source": "waveShaper-1707139083679",
+      "sourceHandle": "output",
+      "target": "destination-1707002874195",
+      "targetHandle": "in",
+      "id": "reactflow__edge-waveShaper-1707139083679output-destination-1707002874195in"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": false,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 462.89008941137604,
+    "y": 423.66496575098324,
+    "zoom": 0.5
+  }
+}
