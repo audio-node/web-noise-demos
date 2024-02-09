@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1705187734548",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "config": {}
+      },
+      "position": {
+        "x": -160,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 128,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -160,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1705187741611",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0.2
+        }
+      },
+      "position": {
+        "x": -380,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -380,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gauge-1705178442498",
+      "type": "gauge",
+      "data": {
+        "label": "gauge",
+        "config": {
+          "backgroundColor": "#292d39",
+          "min": -1,
+          "max": 1,
+          "majorTicks": 10,
+          "minorTicks": 50,
+          "colors": {},
+          "size": {
+            "width": 90,
+            "height": 79.49998474121094
+          }
+        }
+      },
+      "position": {
+        "x": 40,
+        "y": -20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 141,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 40,
+        "y": -20
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "parameter-1705187741611",
+      "sourceHandle": "out",
+      "target": "oscillator-1705187734548",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-parameter-1705187741611out-oscillator-1705187734548frequency"
+    },
+    {
+      "type": "wire",
+      "source": "oscillator-1705187734548",
+      "sourceHandle": "out",
+      "target": "gauge-1705178442498",
+      "targetHandle": "input",
+      "id": "reactflow__edge-oscillator-1705187734548out-gauge-1705178442498input"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "gauge-1705178442498",
+        "width": 4,
+        "height": 12,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 438.33605937053636,
+    "y": 127.05705230279932,
+    "zoom": 0.541112322262857
+  }
+}

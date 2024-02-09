@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "audioTrack-1707515261763",
+      "type": "audioTrack",
+      "data": {
+        "label": "audioTrack",
+        "config": {
+          "waveColor": "#007bff",
+          "progressColor": "#8c92a4",
+          "rangeColor": "#14df42"
+        },
+        "values": {
+          "src": "https://d28l47h1uhvbhl.cloudfront.net/assets/music_file/9ff47003-c797-11ee-8b3d-064f3e9f608e.mp3?cb=20240209230733"
+        }
+      },
+      "position": {
+        "x": -140,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 342,
+      "height": 385,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -140,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "phaseVocoder-1707515199296",
+      "type": "phaseVocoder",
+      "data": {
+        "label": "phaseVocoder",
+        "config": {}
+      },
+      "position": {
+        "x": 360,
+        "y": 40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1707515442343",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 680,
+        "y": 60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1707516327929",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 680,
+        "y": -20
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 680,
+        "y": -20
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1707516342596",
+      "type": "slider",
+      "data": {
+        "label": "slider",
+        "config": {
+          "min": -1,
+          "max": 1,
+          "step": 0.01,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "height": 80,
+            "width": 100
+          }
+        },
+        "values": {
+          "value": -0.01
+        }
+      },
+      "position": {
+        "x": 120,
+        "y": 280
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 182,
+      "height": 144,
+      "selected": true,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 120,
+        "y": 280
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "phaseVocoder-1707515199296",
+      "sourceHandle": "output",
+      "target": "oscilloscope-1707515442343",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-phaseVocoder-1707515199296output-oscilloscope-1707515442343input1"
+    },
+    {
+      "type": "wire",
+      "source": "audioTrack-1707515261763",
+      "sourceHandle": "out",
+      "target": "phaseVocoder-1707515199296",
+      "targetHandle": "input",
+      "id": "reactflow__edge-audioTrack-1707515261763out-phaseVocoder-1707515199296input"
+    },
+    {
+      "type": "wire",
+      "source": "phaseVocoder-1707515199296",
+      "sourceHandle": "output",
+      "target": "destination-1707516327929",
+      "targetHandle": "in",
+      "id": "reactflow__edge-phaseVocoder-1707515199296output-destination-1707516327929in"
+    },
+    {
+      "type": "wire",
+      "source": "slider-1707516342596",
+      "sourceHandle": "output",
+      "target": "phaseVocoder-1707515199296",
+      "targetHandle": "pitch",
+      "id": "reactflow__edge-slider-1707516342596output-phaseVocoder-1707515199296pitch"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [],
+    "show": false,
+    "size": {
+      "width": 200,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 256.83832986132114,
+    "y": 60.16430064581431,
+    "zoom": 0.6561056272959805
+  }
+}

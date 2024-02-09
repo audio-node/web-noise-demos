@@ -1,0 +1,1206 @@
+{
+  "nodes": [
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gate-1702859545418",
+      "type": "gate",
+      "data": {
+        "label": "gate",
+        "config": {
+          "label": "open",
+          "color": "#007bff",
+          "textColor": "#fefefe",
+          "labelOpened": "close",
+          "colorOpened": "#3c93ff",
+          "textColorOpened": "#fefefe",
+          "isToggle": false
+        },
+        "values": {
+          "isOpened": false
+        }
+      },
+      "position": {
+        "x": 40,
+        "y": -60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 93,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 40,
+        "y": -60
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1702903443620",
+      "type": "slider",
+      "data": {
+        "label": "slider",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 51
+          }
+        },
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": -340,
+        "y": -120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 113,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -340,
+        "y": -120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1702903457755",
+      "type": "slider",
+      "data": {
+        "label": "slider",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 49
+          }
+        },
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": 200
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": 200
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1702903496938",
+      "type": "slider",
+      "data": {
+        "label": "slider",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 49
+          }
+        },
+        "values": {
+          "value": 0.4
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": 320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": 320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1702903506760",
+      "type": "slider",
+      "data": {
+        "label": "slider",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 49
+          }
+        },
+        "values": {
+          "value": 0.2
+        }
+      },
+      "position": {
+        "x": -60,
+        "y": 440
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": 440
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "slider-1702909392009",
+      "type": "slider",
+      "data": {
+        "label": "slider",
+        "config": {
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "isVertical": false,
+          "color": "#007bff",
+          "showScale": true,
+          "scaleSteps": 3,
+          "size": {
+            "width": 100,
+            "height": 51
+          }
+        },
+        "values": {
+          "value": 0
+        }
+      },
+      "position": {
+        "x": -340,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 180,
+      "height": 113,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -340,
+        "y": 140
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1702988065755",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 0.001
+        }
+      },
+      "position": {
+        "x": -340,
+        "y": 0
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -340,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "select-1703371535886",
+      "type": "select",
+      "data": {
+        "label": "select",
+        "config": {
+          "placeholder": "Select value",
+          "options": [
+            {
+              "key": "slow",
+              "value": 4086
+            },
+            {
+              "key": "realtime",
+              "value": 1024
+            }
+          ]
+        },
+        "values": {
+          "value": "realtime"
+        }
+      },
+      "position": {
+        "x": 860,
+        "y": 240
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 860,
+        "y": 240
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscillator-1703371857671",
+      "type": "oscillator",
+      "data": {
+        "label": "oscillator",
+        "config": {},
+        "values": {
+          "type": "sine"
+        }
+      },
+      "position": {
+        "x": 720,
+        "y": -120
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 128,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": -120
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiNote-1703371863453",
+      "type": "midiNote",
+      "data": {
+        "label": "midiNote",
+        "config": {
+          "placeholder": "Select note",
+          "options": [
+            {
+              "key": "G#9/Ab9",
+              "value": 128
+            },
+            {
+              "key": "G9",
+              "value": 127
+            },
+            {
+              "key": "F#9/Gb9",
+              "value": 126
+            },
+            {
+              "key": "F9",
+              "value": 125
+            },
+            {
+              "key": "E9",
+              "value": 124
+            },
+            {
+              "key": "D#9/Eb9",
+              "value": 123
+            },
+            {
+              "key": "D9",
+              "value": 122
+            },
+            {
+              "key": "C#9/Db9",
+              "value": 121
+            },
+            {
+              "key": "C9",
+              "value": 120
+            },
+            {
+              "key": "B8",
+              "value": 119
+            },
+            {
+              "key": "A#8/Bb8",
+              "value": 118
+            },
+            {
+              "key": "A8",
+              "value": 117
+            },
+            {
+              "key": "G#8/Ab8",
+              "value": 116
+            },
+            {
+              "key": "G8",
+              "value": 115
+            },
+            {
+              "key": "F#8/Gb8",
+              "value": 114
+            },
+            {
+              "key": "F8",
+              "value": 113
+            },
+            {
+              "key": "E8",
+              "value": 112
+            },
+            {
+              "key": "D#8/Eb8",
+              "value": 111
+            },
+            {
+              "key": "D8",
+              "value": 110
+            },
+            {
+              "key": "C#8/Db8",
+              "value": 109
+            },
+            {
+              "key": "C8",
+              "value": 108
+            },
+            {
+              "key": "B7",
+              "value": 107
+            },
+            {
+              "key": "A#7/Bb7",
+              "value": 106
+            },
+            {
+              "key": "A7",
+              "value": 105
+            },
+            {
+              "key": "G#7/Ab7",
+              "value": 104
+            },
+            {
+              "key": "G7",
+              "value": 103
+            },
+            {
+              "key": "F#7/Gb7",
+              "value": 102
+            },
+            {
+              "key": "F7",
+              "value": 101
+            },
+            {
+              "key": "E7",
+              "value": 100
+            },
+            {
+              "key": "D#7/Eb7",
+              "value": 99
+            },
+            {
+              "key": "D7",
+              "value": 98
+            },
+            {
+              "key": "C#7/Db7",
+              "value": 97
+            },
+            {
+              "key": "C7",
+              "value": 96
+            },
+            {
+              "key": "B6",
+              "value": 95
+            },
+            {
+              "key": "A#6/Bb6",
+              "value": 94
+            },
+            {
+              "key": "A6",
+              "value": 93
+            },
+            {
+              "key": "G#6/Ab6",
+              "value": 92
+            },
+            {
+              "key": "G6",
+              "value": 91
+            },
+            {
+              "key": "F#6/Gb6",
+              "value": 90
+            },
+            {
+              "key": "F6",
+              "value": 89
+            },
+            {
+              "key": "E6",
+              "value": 88
+            },
+            {
+              "key": "D#6/Eb6",
+              "value": 87
+            },
+            {
+              "key": "D6",
+              "value": 86
+            },
+            {
+              "key": "C#6/Db6",
+              "value": 85
+            },
+            {
+              "key": "C6",
+              "value": 84
+            },
+            {
+              "key": "B5",
+              "value": 83
+            },
+            {
+              "key": "A#5/Bb5",
+              "value": 82
+            },
+            {
+              "key": "A5",
+              "value": 81
+            },
+            {
+              "key": "G#5/Ab5",
+              "value": 80
+            },
+            {
+              "key": "G5",
+              "value": 79
+            },
+            {
+              "key": "F#5/Gb5",
+              "value": 78
+            },
+            {
+              "key": "F5",
+              "value": 77
+            },
+            {
+              "key": "E5",
+              "value": 76
+            },
+            {
+              "key": "D#5/Eb5",
+              "value": 75
+            },
+            {
+              "key": "D5",
+              "value": 74
+            },
+            {
+              "key": "C#5/Db5",
+              "value": 73
+            },
+            {
+              "key": "C5",
+              "value": 72
+            },
+            {
+              "key": "B4",
+              "value": 71
+            },
+            {
+              "key": "A#4/Bb4",
+              "value": 70
+            },
+            {
+              "key": "A4 concert pitch",
+              "value": 69
+            },
+            {
+              "key": "G#4/Ab4",
+              "value": 68
+            },
+            {
+              "key": "G4",
+              "value": 67
+            },
+            {
+              "key": "F#4/Gb4",
+              "value": 66
+            },
+            {
+              "key": "F4",
+              "value": 65
+            },
+            {
+              "key": "E4",
+              "value": 64
+            },
+            {
+              "key": "D#4/Eb4",
+              "value": 63
+            },
+            {
+              "key": "D4",
+              "value": 62
+            },
+            {
+              "key": "C#4/Db4",
+              "value": 61
+            },
+            {
+              "key": "C4 (middle C)",
+              "value": 60
+            },
+            {
+              "key": "B3",
+              "value": 59
+            },
+            {
+              "key": "A#3/Bb3",
+              "value": 58
+            },
+            {
+              "key": "A3",
+              "value": 57
+            },
+            {
+              "key": "G#3/Ab3",
+              "value": 56
+            },
+            {
+              "key": "G3",
+              "value": 55
+            },
+            {
+              "key": "F#3/Gb3",
+              "value": 54
+            },
+            {
+              "key": "F3",
+              "value": 53
+            },
+            {
+              "key": "E3",
+              "value": 52
+            },
+            {
+              "key": "D#3/Eb3",
+              "value": 51
+            },
+            {
+              "key": "D3",
+              "value": 50
+            },
+            {
+              "key": "C#3/Db3",
+              "value": 49
+            },
+            {
+              "key": "C3",
+              "value": 48
+            },
+            {
+              "key": "B2",
+              "value": 47
+            },
+            {
+              "key": "A#2/Bb2",
+              "value": 46
+            },
+            {
+              "key": "A2",
+              "value": 45
+            },
+            {
+              "key": "G#2/Ab2",
+              "value": 44
+            },
+            {
+              "key": "G2",
+              "value": 43
+            },
+            {
+              "key": "F#2/Gb2",
+              "value": 42
+            },
+            {
+              "key": "F2",
+              "value": 41
+            },
+            {
+              "key": "E2",
+              "value": 40
+            },
+            {
+              "key": "D#2/Eb2",
+              "value": 39
+            },
+            {
+              "key": "D2",
+              "value": 38
+            },
+            {
+              "key": "C#2/Db2",
+              "value": 37
+            },
+            {
+              "key": "C2",
+              "value": 36
+            },
+            {
+              "key": "B1",
+              "value": 35
+            },
+            {
+              "key": "A#1/Bb1",
+              "value": 34
+            },
+            {
+              "key": "A1",
+              "value": 33
+            },
+            {
+              "key": "G#1/Ab1",
+              "value": 32
+            },
+            {
+              "key": "G1",
+              "value": 31
+            },
+            {
+              "key": "F#1/Gb1",
+              "value": 30
+            },
+            {
+              "key": "F1",
+              "value": 29
+            },
+            {
+              "key": "E1",
+              "value": 28
+            },
+            {
+              "key": "D#1/Eb1",
+              "value": 27
+            },
+            {
+              "key": "D1",
+              "value": 26
+            },
+            {
+              "key": "C#1/Db1",
+              "value": 25
+            },
+            {
+              "key": "C1",
+              "value": 24
+            },
+            {
+              "key": "B0",
+              "value": 23
+            },
+            {
+              "key": "A#0/Bb0",
+              "value": 22
+            },
+            {
+              "key": "A0",
+              "value": 21
+            }
+          ]
+        },
+        "values": {
+          "value": "C4 (middle C)"
+        }
+      },
+      "position": {
+        "x": 720,
+        "y": -320
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 96,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": -320
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "gain-1703371880774",
+      "type": "gain",
+      "data": {
+        "label": "gain",
+        "config": {},
+        "values": {
+          "gain": 0
+        }
+      },
+      "position": {
+        "x": 1020,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 217,
+      "height": 115,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1020,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "destination-1703371901334",
+      "type": "destination",
+      "data": {
+        "label": "destination",
+        "config": {}
+      },
+      "position": {
+        "x": 1420,
+        "y": -80
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "virtualKeyboard-1703372127130",
+      "type": "virtualKeyboard",
+      "data": {
+        "label": "virtualKeyboard",
+        "config": {}
+      },
+      "position": {
+        "x": 180,
+        "y": -480
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 400,
+      "height": 310,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 180,
+        "y": -480
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "adsr-1702850600811",
+      "type": "adsr",
+      "data": {
+        "label": "adsr",
+        "config": {}
+      },
+      "position": {
+        "x": 320,
+        "y": 60
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 300,
+      "height": 323,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1702988273847",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": -120,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -120,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "valueMeter-1702903395248",
+      "type": "valueMeter",
+      "data": {
+        "label": "valueMeter",
+        "config": {}
+      },
+      "position": {
+        "x": 340,
+        "y": -40
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 87,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 340,
+        "y": -40
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1702903390874",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": 0,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": true,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 860,
+        "y": 360
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 860,
+        "y": 360
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "oscilloscope-1703371987360",
+      "type": "oscilloscope",
+      "data": {
+        "label": "oscilloscope",
+        "config": {
+          "minValue": -1,
+          "maxValue": 1,
+          "backgroundColor": "#292d39",
+          "input1Color": "#007bff",
+          "input2Color": "#14df42",
+          "showGrid": false,
+          "gridColor": "#ffffff",
+          "gridRows": 4,
+          "gridColumns": 8,
+          "size": {
+            "width": 280,
+            "height": 150
+          }
+        }
+      },
+      "position": {
+        "x": 1380,
+        "y": 140
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 280,
+      "height": 255,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "midiToFrequency-1703371956481",
+      "type": "midiToFrequency",
+      "data": {
+        "label": "midiToFrequency",
+        "config": {}
+      },
+      "position": {
+        "x": 720,
+        "y": -220
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 153,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 720,
+        "y": -220
+      },
+      "dragging": false
+    },
+    {
+      "dragHandle": ".web-noise-drag-handle",
+      "id": "parameter-1703373246894",
+      "type": "parameter",
+      "data": {
+        "label": "parameter",
+        "config": {},
+        "values": {
+          "value": 1
+        }
+      },
+      "position": {
+        "x": 980,
+        "y": -160
+      },
+      "targetPosition": "left",
+      "sourcePosition": "right",
+      "width": 174,
+      "height": 86,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 980,
+        "y": -160
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "wire",
+      "source": "gate-1702859545418",
+      "sourceHandle": "out",
+      "target": "adsr-1702850600811",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-gate-1702859545418out-adsr-1702850600811trigger",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1702850600811",
+      "sourceHandle": "gain",
+      "target": "valueMeter-1702903395248",
+      "targetHandle": "input",
+      "id": "reactflow__edge-adsr-1702850600811gain-valueMeter-1702903395248input",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1702850600811",
+      "sourceHandle": "gain",
+      "target": "oscilloscope-1702903390874",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-adsr-1702850600811gain-oscilloscope-1702903390874input1",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1702903457755",
+      "sourceHandle": "output",
+      "target": "adsr-1702850600811",
+      "targetHandle": "D",
+      "id": "reactflow__edge-slider-1702903457755output-adsr-1702850600811D",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1702903496938",
+      "sourceHandle": "output",
+      "target": "adsr-1702850600811",
+      "targetHandle": "S",
+      "id": "reactflow__edge-slider-1702903496938output-adsr-1702850600811S",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1702903506760",
+      "sourceHandle": "output",
+      "target": "adsr-1702850600811",
+      "targetHandle": "R",
+      "id": "reactflow__edge-slider-1702903506760output-adsr-1702850600811R",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1702909392009",
+      "sourceHandle": "output",
+      "target": "adsr-1702850600811",
+      "targetHandle": "attackCurve",
+      "id": "reactflow__edge-slider-1702909392009output-adsr-1702850600811attackCurve",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1702988065755",
+      "sourceHandle": "out",
+      "target": "adsr-1702850600811",
+      "targetHandle": "A",
+      "id": "reactflow__edge-parameter-1702988065755out-adsr-1702850600811A",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "slider-1702903443620",
+      "sourceHandle": "output",
+      "target": "parameter-1702988065755",
+      "targetHandle": "offset",
+      "id": "reactflow__edge-slider-1702903443620output-parameter-1702988065755offset",
+      "selected": false
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1702988065755",
+      "sourceHandle": "out",
+      "target": "valueMeter-1702988273847",
+      "targetHandle": "input",
+      "id": "reactflow__edge-parameter-1702988065755out-valueMeter-1702988273847input"
+    },
+    {
+      "type": "wire",
+      "source": "select-1703371535886",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1702903390874",
+      "targetHandle": "fftSize",
+      "id": "reactflow__edge-select-1703371535886out-oscilloscope-1702903390874fftSize"
+    },
+    {
+      "type": "wire",
+      "source": "adsr-1702850600811",
+      "sourceHandle": "gain",
+      "target": "gain-1703371880774",
+      "targetHandle": "gain",
+      "id": "reactflow__edge-adsr-1702850600811gain-gain-1703371880774gain"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1703371880774",
+      "sourceHandle": "out",
+      "target": "destination-1703371901334",
+      "targetHandle": "in",
+      "id": "reactflow__edge-gain-1703371880774out-destination-1703371901334in"
+    },
+    {
+      "type": "wire",
+      "source": "gain-1703371880774",
+      "sourceHandle": "out",
+      "target": "oscilloscope-1703371987360",
+      "targetHandle": "input1",
+      "id": "reactflow__edge-gain-1703371880774out-oscilloscope-1703371987360input1"
+    },
+    {
+      "type": "wire",
+      "source": "midiToFrequency-1703371956481",
+      "sourceHandle": "out",
+      "target": "oscillator-1703371857671",
+      "targetHandle": "frequency",
+      "id": "reactflow__edge-midiToFrequency-1703371956481out-oscillator-1703371857671frequency"
+    },
+    {
+      "type": "wire",
+      "source": "virtualKeyboard-1703372127130",
+      "sourceHandle": "midi",
+      "target": "midiToFrequency-1703371956481",
+      "targetHandle": "midi",
+      "id": "reactflow__edge-virtualKeyboard-1703372127130midi-midiToFrequency-1703371956481midi"
+    },
+    {
+      "type": "wire",
+      "source": "virtualKeyboard-1703372127130",
+      "sourceHandle": "gate",
+      "target": "adsr-1702850600811",
+      "targetHandle": "trigger",
+      "id": "reactflow__edge-virtualKeyboard-1703372127130gate-adsr-1702850600811trigger"
+    },
+    {
+      "type": "wire",
+      "source": "parameter-1703373246894",
+      "sourceHandle": "out",
+      "target": "gain-1703371880774",
+      "targetHandle": "in",
+      "id": "reactflow__edge-parameter-1703373246894out-gain-1703371880774in"
+    }
+  ],
+  "controlPanel": {
+    "nodes": [
+      {
+        "id": "gate-1702859545418",
+        "width": 4,
+        "height": 6,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "show": true,
+    "size": {
+      "width": 247,
+      "height": 100
+    }
+  },
+  "viewport": {
+    "x": 435.9637845589333,
+    "y": 148.8822224033799,
+    "zoom": 0.5
+  }
+}
